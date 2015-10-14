@@ -8,15 +8,17 @@
     font-family: $font-primary;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6, a, p, span, li {
     font-family: $font-primary !important;
   }
-
-
 
   .full-width-row {
     margin: 0px;
     width: 100%;
     max-width: 100%;
+  }
+
+  .homepage-wrapper {
+
   }
 

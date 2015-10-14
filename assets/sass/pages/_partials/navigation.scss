@@ -272,6 +272,56 @@ input::-webkit-input-placeholder {
   }
 }
 
+.zip-code-input {
+  width: 200px !important;
+}
+
+input#checkbox1,
+input#checkbox2 {
+  margin: 0 10px !important;
+  border: 2px solid purple;
+}
+
+input[type=checkbox] {
+  margin: 0 !important;
+}
+
+.jetmenu li > .megamenu form input[type="text"], .jetmenu li > .megamenu form textarea {
+  background: #e9ecf1 !important;
+}
+
+.jetmenu li > .megamenu form input[type="text"] {
+  padding-right: 50px !important;
+}
+
+.locate-dealer-wrapper,
+.international-dealer-wrapper {
+  display: flex;
+  // justify-content: space-around;
+  align-items: center;
+  // border: 2px solid purple;
+}
+
+.country-code-input {
+  width: 50% !important;
+}
+
+.zip-code-btn {
+  margin-top: 20px;
+  background: #00acec;
+  color: #fff !important;
+  border-radius: 3px;
+}
+
+.international-code-btn {
+  margin-left: 20px !important;
+  margin-top: 20px;
+  background: #fff;
+  color: #00acec !important;
+  border: 2px solid #00acec;
+  border-radius: 3px;
+}
+
 
 .locations-flex-div-wrapper {
   display: flex;

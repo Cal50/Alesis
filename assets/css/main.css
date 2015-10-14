@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700,500);
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -398,11 +397,11 @@ th {
             GENERAL & OVERRIDES
 ******************************************************************************/
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Nexa", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, a, p, span, li {
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Nexa", sans-serif !important;
 }
 
 .full-width-row {
@@ -751,9 +750,9 @@ section#quote-strip .quote-strip-text {
 }
 section#quote-strip .quote-strip-text h4 {
   color: #fff;
-  font-weight: 100;
   font-size: 2em;
   letter-spacing: 5px;
+  font-family: "NexaLight", sans-serif !important;
 }
 
 /* section#quote-strip */
@@ -810,6 +809,10 @@ section#side-by-side .side-left-content-wrapper .button.side-left-buy {
 }
 
 /* section#side-by-side */
+/****************************************
+ CATEGORIES GRID   CATEGORIES GRID
+*****************************************/
+/* section#categories-grid */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /***************************************************
     NAVIGATION   NAVIGATION   NAVIGATION   NAVIGATION 

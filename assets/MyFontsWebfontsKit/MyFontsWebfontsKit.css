@@ -1,0 +1,133 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3103307, 2015-10-06T12:04:21-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: NexaThin by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/nexa/thin/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: NexaBlackItalic by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/nexa/black-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: NexaBlack by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/nexa/black/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: NexaBoldItalic by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/nexa/bold-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: NexaBold by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/nexa/bold/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: NexaBookItalic by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/nexa/book-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: NexaBook by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/nexa/book/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: NexaHeavyItalic by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/nexa/heavy-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: NexaHeavy by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/nexa/heavy/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: NexaLightItalic by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/nexa/light-italic/
+ * Copyright: Copyright (c) 2012 by Svetoslav Simov. All rights reserved.
+ * 
+ * Webfont: NexaLight by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/nexa/light/
+ * Copyright: Copyright (c) 2010 by Svetoslav Simov. All rights reserved.
+ * 
+ * Webfont: Nexa-RegularItalic by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/nexa/italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: Nexa by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/nexa/regular/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: NexaThinItalic by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/nexa/thin-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: NexaXBoldItalic by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/nexa/xbold-italic/
+ * Copyright: Copyright (c) 2012 by Svetoslav Simov. All rights reserved.
+ * 
+ * Webfont: NexaXBold by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/nexa/xbold/
+ * Copyright: Copyright (c) 2010 by Svetoslav Simov. All rights reserved.
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3103307
+ * Licensed pageviews: 20,000
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2f5a4b");
+
+  
+@font-face {font-family: 'NexaThin';src: url('webfonts/2F5A4B_0_0.eot');src: url('webfonts/2F5A4B_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2F5A4B_0_0.woff2') format('woff2'),url('webfonts/2F5A4B_0_0.woff') format('woff'),url('webfonts/2F5A4B_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NexaBlackItalic';src: url('webfonts/2F5A4B_1_0.eot');src: url('webfonts/2F5A4B_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2F5A4B_1_0.woff2') format('woff2'),url('webfonts/2F5A4B_1_0.woff') format('woff'),url('webfonts/2F5A4B_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NexaBlack';src: url('webfonts/2F5A4B_2_0.eot');src: url('webfonts/2F5A4B_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2F5A4B_2_0.woff2') format('woff2'),url('webfonts/2F5A4B_2_0.woff') format('woff'),url('webfonts/2F5A4B_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NexaBoldItalic';src: url('webfonts/2F5A4B_3_0.eot');src: url('webfonts/2F5A4B_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2F5A4B_3_0.woff2') format('woff2'),url('webfonts/2F5A4B_3_0.woff') format('woff'),url('webfonts/2F5A4B_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NexaBold';src: url('webfonts/2F5A4B_4_0.eot');src: url('webfonts/2F5A4B_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2F5A4B_4_0.woff2') format('woff2'),url('webfonts/2F5A4B_4_0.woff') format('woff'),url('webfonts/2F5A4B_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NexaBookItalic';src: url('webfonts/2F5A4B_5_0.eot');src: url('webfonts/2F5A4B_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2F5A4B_5_0.woff2') format('woff2'),url('webfonts/2F5A4B_5_0.woff') format('woff'),url('webfonts/2F5A4B_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NexaBook';src: url('webfonts/2F5A4B_6_0.eot');src: url('webfonts/2F5A4B_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2F5A4B_6_0.woff2') format('woff2'),url('webfonts/2F5A4B_6_0.woff') format('woff'),url('webfonts/2F5A4B_6_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NexaHeavyItalic';src: url('webfonts/2F5A4B_7_0.eot');src: url('webfonts/2F5A4B_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2F5A4B_7_0.woff2') format('woff2'),url('webfonts/2F5A4B_7_0.woff') format('woff'),url('webfonts/2F5A4B_7_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NexaHeavy';src: url('webfonts/2F5A4B_8_0.eot');src: url('webfonts/2F5A4B_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2F5A4B_8_0.woff2') format('woff2'),url('webfonts/2F5A4B_8_0.woff') format('woff'),url('webfonts/2F5A4B_8_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NexaLightItalic';src: url('webfonts/2F5A4B_9_0.eot');src: url('webfonts/2F5A4B_9_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2F5A4B_9_0.woff2') format('woff2'),url('webfonts/2F5A4B_9_0.woff') format('woff'),url('webfonts/2F5A4B_9_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NexaLight';src: url('webfonts/2F5A4B_A_0.eot');src: url('webfonts/2F5A4B_A_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2F5A4B_A_0.woff2') format('woff2'),url('webfonts/2F5A4B_A_0.woff') format('woff'),url('webfonts/2F5A4B_A_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Nexa-RegularItalic';src: url('webfonts/2F5A4B_B_0.eot');src: url('webfonts/2F5A4B_B_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2F5A4B_B_0.woff2') format('woff2'),url('webfonts/2F5A4B_B_0.woff') format('woff'),url('webfonts/2F5A4B_B_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Nexa';src: url('webfonts/2F5A4B_C_0.eot');src: url('webfonts/2F5A4B_C_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2F5A4B_C_0.woff2') format('woff2'),url('webfonts/2F5A4B_C_0.woff') format('woff'),url('webfonts/2F5A4B_C_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NexaThinItalic';src: url('webfonts/2F5A4B_D_0.eot');src: url('webfonts/2F5A4B_D_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2F5A4B_D_0.woff2') format('woff2'),url('webfonts/2F5A4B_D_0.woff') format('woff'),url('webfonts/2F5A4B_D_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NexaXBoldItalic';src: url('webfonts/2F5A4B_E_0.eot');src: url('webfonts/2F5A4B_E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2F5A4B_E_0.woff2') format('woff2'),url('webfonts/2F5A4B_E_0.woff') format('woff'),url('webfonts/2F5A4B_E_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'NexaXBold';src: url('webfonts/2F5A4B_F_0.eot');src: url('webfonts/2F5A4B_F_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2F5A4B_F_0.woff2') format('woff2'),url('webfonts/2F5A4B_F_0.woff') format('woff'),url('webfonts/2F5A4B_F_0.ttf') format('truetype');}
+ 

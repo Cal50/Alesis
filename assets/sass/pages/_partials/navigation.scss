@@ -98,7 +98,9 @@ section#roberge-navigation {
   display: none;
 }
 
-.company-row div{
+.company-row div,
+.support-row div,
+.location-row div {
   text-align: left;
   // border: 3px solid goldenrod;
 }
@@ -270,6 +272,19 @@ input::-webkit-input-placeholder {
   }
 }
 
+
+.locations-flex-div-wrapper {
+  display: flex;
+  justify-content: space-between;
+  // align-item: center;
+  width: 100%;
+  // border: 2px solid purple;
+}
+
+.locations-div {
+  // text-align: left;
+  // border: 2px solid green;
+}
 
 
 

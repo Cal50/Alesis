@@ -492,7 +492,9 @@ section#roberge-navigation ul li a {
   display: none;
 }
 
-.company-row div {
+.company-row div,
+.support-row div,
+.location-row div {
   text-align: left;
 }
 
@@ -643,6 +645,18 @@ input::-webkit-input-placeholder {
   border: 2px solid black;
   border-radius: 3px;
   padding: 5px;
+}
+
+.locations-flex-div-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
 }
 
 /************************************

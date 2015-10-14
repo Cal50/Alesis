@@ -1,0 +1,11 @@
+/****************************************
+  SIDE BY SIDE   SIDE BY SIDE  SIDE BY SIDE
+*****************************************/
+section#side-by-side .side-left-div img,
+section#side-by-side .side-right-div img {
+  height: 1024px;
+}
+
+/* section#side-by-side */
+
+/*# sourceMappingURL=side-by-side.css.map */

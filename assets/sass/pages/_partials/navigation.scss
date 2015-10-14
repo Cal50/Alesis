@@ -4,8 +4,8 @@
 
 section#roberge-navigation {
   // margin-top: 25px;
-  position: absolute;
-  z-index: 1;
+  position: fixed;
+  z-index: 9999;
   width: 100%;
   background: rgba(0,0,0,0.3) !important;
   /*border: 2px solid red;*/
@@ -22,7 +22,7 @@ section#roberge-navigation {
 .megamenu.full-width {
   margin-top: 20px !important;
   // background: $akai-gray-nav !important;
-  background: rgba(255,255,255, 0.5) !important;
+  background: rgba(255,255,255, 1) !important;
 }
 
 .roberge-wrapper {
@@ -44,7 +44,7 @@ section#roberge-navigation {
   align-item: center;
   height: 80px !important;
   text-align: center;
-  background: rgba(255,255,255, 0.5) !important;
+  background: rgba(255,255,255, 1) !important;
   // border: 2px solid red;
 }
 
@@ -91,7 +91,7 @@ section#roberge-navigation {
 .blue > li:hover > a, .blue > li.active > a {
   background: transparent !important;
   color: #2280b8;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #00acec;
 }
 
 .jetmenu .indicator {

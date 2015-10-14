@@ -411,12 +411,16 @@ h1, h2, h3, h4, h5, h6, a, p, span, li {
   max-width: 100%;
 }
 
+.homepage-wrapper {
+  padding: 0 25px;
+}
+
 /*****************************************************************************
    NAVIGATION       NAVIGATION       NAVIGATION    NAVIGATION       NAVIGATION
 ******************************************************************************/
 section#roberge-navigation {
-  position: absolute;
-  z-index: 1;
+  position: fixed;
+  z-index: 9999;
   width: 100%;
   background: rgba(0, 0, 0, 0.3) !important;
   /*border: 2px solid red;*/
@@ -430,7 +434,7 @@ section#roberge-navigation ul li a {
 
 .megamenu.full-width {
   margin-top: 20px !important;
-  background: rgba(255, 255, 255, 0.5) !important;
+  background: white !important;
 }
 
 .roberge-wrapper {
@@ -455,7 +459,7 @@ section#roberge-navigation ul li a {
   align-item: center;
   height: 80px !important;
   text-align: center;
-  background: rgba(255, 255, 255, 0.5) !important;
+  background: white !important;
 }
 
 .roberge-logo-div {
@@ -485,7 +489,7 @@ section#roberge-navigation ul li a {
 .blue > li:hover > a, .blue > li.active > a {
   background: transparent !important;
   color: #2280b8;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #00acec;
 }
 
 .jetmenu .indicator {
@@ -716,6 +720,11 @@ input[type=checkbox] {
 /************************************
    HERO       HERO       HERO
 *************************************/
+section#hero .hero-img-div {
+  padding-top: 80px;
+}
+
+/* section#hero */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /***************************************************
     NAVIGATION   NAVIGATION   NAVIGATION   NAVIGATION 

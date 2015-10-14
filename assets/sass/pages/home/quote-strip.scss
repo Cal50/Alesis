@@ -1,0 +1,24 @@
+/****************************************
+  QUOTE STRIP   QUOTE STRIP  QUOTE STRIP
+*****************************************/
+
+  section#quote-strip {
+    margin-top: 3px;
+    height: 200px;
+    background: black;
+
+    .quote-strip-text {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // border: 2px solid yellow;
+
+      h4 {
+        color: #fff;
+        font-weight: 100;
+        font-size: 2em;
+        letter-spacing: 5px;
+      }
+    } /* quote-strip-text */
+  } /* section#quote-strip */

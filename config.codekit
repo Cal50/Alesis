@@ -46,7 +46,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.95615e+06,
+		"initialSize": 3.09895e+06,
 		"inputAbbreviatedPath": "\/assets\/img\/hero.png",
 		"outputAbbreviatedPath": "\/assets\/img\/hero.png",
 		"outputPathIsOutsideProject": 0,
@@ -82,6 +82,17 @@
 		"initialSize": 1.73543e+06,
 		"inputAbbreviatedPath": "\/assets\/img\/side-right.png",
 		"outputAbbreviatedPath": "\/assets\/img\/side-right.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/Slider.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.17428e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/Slider.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/Slider.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

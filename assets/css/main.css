@@ -826,7 +826,8 @@ section#categories-grid {
   VIDEOS    VIDEOS   VIDEOS    VIDEOS
 *****************************************/
 section#videos {
-  height: 1000px;
+  overflow: hidden;
+  padding: 5% 0;
   background: black;
   /* videos-header */
 }

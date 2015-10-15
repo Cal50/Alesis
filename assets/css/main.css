@@ -914,6 +914,27 @@ section#side-by-side .side-left-content-wrapper .button.side-left-buy {
 *****************************************/
 section#categories-grid {
   overflow: hidden;
+  /* grid-hover-content */
+}
+section#categories-grid .grid-hover-content {
+  padding-top: 40px;
+  border: 5px solid black;
+  height: 244px;
+  /* hover-header */
+  /* hover-description */
+  /* hover-btn */
+}
+section#categories-grid .grid-hover-content .hover-header h1 {
+  margin: 0 !important;
+}
+section#categories-grid .grid-hover-content .hover-description p {
+  font-family: "NexaLight", sans-serif;
+}
+section#categories-grid .grid-hover-content .hover-btn span {
+  padding: 10px 20px;
+  font-family: "NexaLight", sans-serif;
+  border: 2px solid black;
+  border-radius: 3px;
 }
 
 /* section#categories-grid */

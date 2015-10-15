@@ -1,5 +1,16 @@
 $(function() {
 
+// GRID SCRIPTS
+
+  $('.grid-jquery-hover').hide();
+
+  $('.grid-img-1').on('mouseenter', function(){
+    $('.grid-img-1 img').fadeOut('slow');
+    $('.grid-jquery-hover').fadeIn('slow');
+  }).on('mouseleave', function(){
+    console.log('mouse leave');
+  });
+
 // VIDEOS CAROUSEL
 $('.slick-carousel').slick({
     dots: false,

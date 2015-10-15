@@ -1,1 +1,1 @@
-$(function(){$(".slick-carousel").slick({dots:!1,autoplay:!0,autoplaySpeed:7e3,lazyLoad:"ondemand",infinite:!0,arrows:!0,speed:1e3,fade:!0,respondTo:"window",cssEase:"linear"})});
+$(function(){$(".grid-jquery-hover").hide(),$(".grid-img-1").on("mouseenter",function(){$(".grid-img-1 img").fadeOut("slow"),$(".grid-jquery-hover").fadeIn("slow")}).on("mouseleave",function(){console.log("mouse leave")}),$(".slick-carousel").slick({dots:!1,autoplay:!0,autoplaySpeed:7e3,lazyLoad:"ondemand",infinite:!0,arrows:!0,speed:1e3,fade:!0,respondTo:"window",cssEase:"linear"})});

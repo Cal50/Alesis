@@ -426,7 +426,6 @@ section#roberge-navigation {
   z-index: 9999;
   width: 100%;
   background: rgba(0, 0, 0, 0.3) !important;
-  /*border: 2px solid red;*/
 }
 section#roberge-navigation a {
   color: black;
@@ -810,8 +809,17 @@ input[type=checkbox] {
 /************************************
    HERO       HERO       HERO
 *************************************/
+section#hero {
+  border: 1px solid #fff;
+}
 section#hero .hero-img-div {
-  padding-top: 80px;
+  margin-top: 80px;
+  height: 1196px;
+  width: 100%;
+  background: url("../img/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 /* section#hero */

@@ -16,4 +16,51 @@
       background-position: center;
       // border: 5px solid green;
     }
+
+    .hero-content-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      border: 5px solid goldenrod;
+
+      .hero-header {
+
+
+        h2 {
+          color: #fff;
+          font-family: $nexa-light;
+        }
+      } /* hero-header */
+
+      .hero-btn {
+        padding-top: 20px;
+
+        span {
+          color: #fff;
+          font-family: $nexa-light;
+          border: 2px solid #fff;
+          padding: 20px;
+          font-size: 1.3em;
+          background: rgba(0,0,0,0.4);
+        }
+      } /* hero-btn */
+    } /* hero-content-wrapper */
   } /* section#hero */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -811,6 +811,7 @@ input[type=checkbox] {
 *************************************/
 section#hero {
   border: 1px solid #fff;
+  /* hero-content-wrapper */
 }
 section#hero .hero-img-div {
   margin-top: 80px;
@@ -820,6 +821,44 @@ section#hero .hero-img-div {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+section#hero .hero-content-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  border: 5px solid goldenrod;
+  /* hero-header */
+  /* hero-btn */
+}
+section#hero .hero-content-wrapper .hero-header h2 {
+  color: #fff;
+  font-family: "NexaLight", sans-serif;
+}
+section#hero .hero-content-wrapper .hero-btn {
+  padding-top: 20px;
+}
+section#hero .hero-content-wrapper .hero-btn span {
+  color: #fff;
+  font-family: "NexaLight", sans-serif;
+  border: 2px solid #fff;
+  padding: 20px;
+  font-size: 1.3em;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 /* section#hero */

@@ -841,7 +841,6 @@ section#hero .hero-content-wrapper {
       -ms-flex-align: center;
           align-items: center;
   height: 100vh;
-  border: 5px solid goldenrod;
   /* hero-header */
   /* hero-btn */
 }

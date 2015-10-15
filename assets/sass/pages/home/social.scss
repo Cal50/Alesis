@@ -1,0 +1,32 @@
+/****************************************
+  SOCIAL    SOCIAL   SOCIAL    SOCIAL
+*****************************************/
+
+  section#social {
+    margin-top: 3px;
+    height: 100px;
+    background: black;
+
+    ul {
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      // border: 2px solid yellow;
+
+      li {
+        color: #fff;
+        list-style: none;
+        display: inline-block;
+        font-family: $nexa-light;
+        color: #404040;
+        font-size: 1.5em;
+
+        h3 {
+          color: #fff;
+          font-family: $nexa-light;
+          color: #404040;
+        }
+      }
+    } /* UL */
+  } /* section#social */

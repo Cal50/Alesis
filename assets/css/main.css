@@ -827,17 +827,16 @@ section#hero .hero-img-div {
   QUOTE STRIP   QUOTE STRIP  QUOTE STRIP
 *****************************************/
 section#quote-strip {
-  margin-top: 3px;
-  height: 200px;
-  background: black;
-  /* quote-strip-text */
-}
-section#quote-strip .quote-strip-text {
-  height: 100%;
+  height: 300px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -846,11 +845,24 @@ section#quote-strip .quote-strip-text {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 3px;
+  background: black;
+  /* quote-strip-header */
 }
-section#quote-strip .quote-strip-text h4 {
+section#quote-strip .quote-strip-header h4 {
+  text-align: center;
   color: #fff;
   font-size: 2em;
   letter-spacing: 5px;
+  font-family: "NexaLight", sans-serif !important;
+}
+section#quote-strip .quote-strip-text {
+  width: 60%;
+  margin: 0 auto;
+}
+section#quote-strip .quote-strip-text p {
+  text-align: center;
+  color: #fff;
   font-family: "NexaLight", sans-serif !important;
 }
 
@@ -859,6 +871,7 @@ section#quote-strip .quote-strip-text h4 {
   SIDE BY SIDE   SIDE BY SIDE  SIDE BY SIDE
 *****************************************/
 section#side-by-side {
+  margin-top: 4px;
   overflow: hidden;
   /* side-left-content-wrapper */
 }

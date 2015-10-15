@@ -2,7 +2,9 @@ $(function() {
 
 // GRID SCRIPTS
 
-// ROW #1
+// ********
+//ROW #1
+//********
   // GRID #1
   $('.hover-wrapper-1').hide();
   $('.grid-img-1').on('mouseenter', function(){
@@ -43,7 +45,9 @@ $(function() {
     $('.grid-img-4 img').fadeIn('slow');
   });
 
-// ROW #2
+// ********
+//ROW #2
+//********
     // GRID #5
   $('.hover-wrapper-5').hide();
   $('.grid-img-5').on('mouseenter', function(){
@@ -84,7 +88,9 @@ $(function() {
     $('.grid-img-8 img').fadeIn('slow');
   });
 
-// ROW #3
+// ********
+//ROW #3
+//********
     // GRID #9
   $('.hover-wrapper-9').hide();
   $('.grid-img-9').on('mouseenter', function(){

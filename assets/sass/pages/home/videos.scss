@@ -1,0 +1,53 @@
+/****************************************
+  VIDEOS    VIDEOS   VIDEOS    VIDEOS
+*****************************************/
+
+  section#videos {
+    height:1000px;
+    background: black;
+
+    .videos-header {
+      text-align: center;
+
+      h1 {
+        color: #fff;
+        font-family: $nexa-light !important;
+      }
+    } /* videos-header */
+
+    .slick-carousel-wrapper {
+      margin: 0 auto !important;
+      text-align: center !important;
+      // border: 2px solid yellow;
+    }
+
+    .slick-prev {
+      left: 0px !important;
+      z-index: 9999;
+      // border: 5px solid red;
+    }
+
+    .slick-next {
+      right: 0px !important;
+    }
+
+
+    .slick-carousel {
+      // width: 50%;
+      // border: 5px solid red;
+    }
+
+    .slick-carousel,
+    .slick-track,
+    .slick-slide,
+    .slick-list {
+      text-align: center !important;
+      margin: 0 auto !important;
+      // border: 5px solid red;
+      // overflow: hidden !important;
+    }
+
+    .slick-slider {
+      margin-bottom: 0;
+    }
+  } /* section#videos */

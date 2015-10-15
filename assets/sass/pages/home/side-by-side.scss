@@ -3,7 +3,8 @@
 *****************************************/
 
   section#side-by-side {
-
+    overflow: hidden;
+    // border: 5px solid red;
 
     .columns {
       padding: 0 !important;

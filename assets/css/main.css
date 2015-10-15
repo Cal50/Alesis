@@ -398,10 +398,14 @@ th {
 ******************************************************************************/
 body {
   font-family: "Nexa", sans-serif;
+  font-weight: normal !important;
+  font-style: normal !important;
 }
 
 h1, h2, h3, h4, h5, h6, a, p, span, li {
-  font-family: "Nexa", sans-serif !important;
+  font-family: "Nexa", sans-serif;
+  font-weight: normal !important;
+  font-style: normal !important;
 }
 
 .full-width-row {
@@ -760,6 +764,7 @@ section#quote-strip .quote-strip-text h4 {
   SIDE BY SIDE   SIDE BY SIDE  SIDE BY SIDE
 *****************************************/
 section#side-by-side {
+  overflow: hidden;
   /* side-left-content-wrapper */
 }
 section#side-by-side .columns {
@@ -812,7 +817,49 @@ section#side-by-side .side-left-content-wrapper .button.side-left-buy {
 /****************************************
  CATEGORIES GRID   CATEGORIES GRID
 *****************************************/
+section#categories-grid {
+  overflow: hidden;
+}
+
 /* section#categories-grid */
+/****************************************
+  VIDEOS    VIDEOS   VIDEOS    VIDEOS
+*****************************************/
+section#videos {
+  height: 1000px;
+  background: black;
+  /* videos-header */
+}
+section#videos .videos-header {
+  text-align: center;
+}
+section#videos .videos-header h1 {
+  color: #fff;
+  font-family: "NexaLight", sans-serif !important;
+}
+section#videos .slick-carousel-wrapper {
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+section#videos .slick-prev {
+  left: 0px !important;
+  z-index: 9999;
+}
+section#videos .slick-next {
+  right: 0px !important;
+}
+section#videos .slick-carousel,
+section#videos .slick-track,
+section#videos .slick-slide,
+section#videos .slick-list {
+  text-align: center !important;
+  margin: 0 auto !important;
+}
+section#videos .slick-slider {
+  margin-bottom: 0;
+}
+
+/* section#videos */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /***************************************************
     NAVIGATION   NAVIGATION   NAVIGATION   NAVIGATION 

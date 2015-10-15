@@ -899,6 +899,60 @@ section#social ul li h3 {
 }
 
 /* section#social */
+/*********************************************
+   FOOTER     FOOTER       FOOTER    FOOTER
+**********************************************/
+footer {
+  position: relative;
+  height: 500px;
+  padding-top: 3.5%;
+  background: #001d2f;
+  /* footer-header */
+  /* footer-bottom */
+}
+footer .footer-header {
+  padding: 40px;
+}
+footer .footer-header h6 {
+  color: #fff;
+  font-family: "NexaLight", sans-serif;
+  font-size: 1.2em;
+}
+footer .footer-header h1 {
+  color: #fff;
+}
+footer .footer-header .footer-blue-line {
+  margin: 0 auto;
+  width: 60px;
+  border-bottom: 2px solid #00aeef;
+}
+footer .email-input-row {
+  width: 25% !important;
+}
+footer input[type=text] {
+  border-radius: 2px !important;
+  background: #0d293a !important;
+  color: #263f4e !important;
+}
+footer .button {
+  background: #00aeef !important;
+  border-radius: 2px;
+}
+footer .footer-bottom p {
+  color: #1e3847;
+  font-family: "NexaLight", sans-serif;
+  font-size: 1.2em;
+}
+footer .footer-gutter {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 25px;
+  background: #fff;
+  border: 2px solid #fff;
+}
+
+/* FOOTER */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /***************************************************
     NAVIGATION   NAVIGATION   NAVIGATION   NAVIGATION 

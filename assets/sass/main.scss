@@ -11,7 +11,6 @@
 
 // PAGES / PARTIALS
   @import 'pages/_partials/navigation';
-  @import 'pages/_partials/footer';
 
 // HOMEPAGE
   @import 'pages/home/hero';
@@ -20,6 +19,7 @@
   @import 'pages/home/categories-grid';
   @import 'pages/home/videos';
   @import 'pages/home/social';
+  @import 'pages/_partials/footer';
 
 // TABLET MEDIA QUERIES TABLET
   @import 'media-queries/tablet/navigation-tablet';

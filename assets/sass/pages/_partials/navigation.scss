@@ -259,7 +259,10 @@ input::-webkit-input-placeholder {
 }
 
 
-.login-div,
+.login-div {
+  padding: 25px 0px 25px 0;
+}
+
 .signup-div {
   padding: 25px 0px 25px 0;
   // border: 1px solid red;
@@ -268,7 +271,7 @@ input::-webkit-input-placeholder {
     font-weight: 100;
     border: 2px solid black;
     border-radius: 3px;
-    padding: 5px;
+    padding: 5px 25px;
   }
 }
 
@@ -335,6 +338,39 @@ input[type=checkbox] {
   // text-align: left;
   // border: 2px solid green;
 }
+
+// LOGIN
+
+.login-wrapper {
+  margin: 0 auto;
+  width: 80%;
+  // border: 2px solid red;
+
+  .login-email-input-2 {
+    width: 60% !important;
+    margin-right: 40px;
+  }
+
+  .password-login-input {
+    width: 40% !important;
+  }
+
+  .forgot-password-div {
+    text-align: left;
+    padding-left: 20px;
+    // border: 2px solid red;
+
+    p {
+      font-size: 1em;
+    }
+
+    span {
+      color: $light-blue;
+    }
+  } /* forgot-password-div */
+
+} /* login-wrapper */
+
 
 
 

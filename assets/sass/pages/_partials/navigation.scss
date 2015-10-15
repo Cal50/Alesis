@@ -339,7 +339,7 @@ input[type=checkbox] {
   // border: 2px solid green;
 }
 
-// LOGIN
+/*==== LOGIN ====*/
 
 .login-wrapper {
   margin: 0 auto;
@@ -372,7 +372,64 @@ input[type=checkbox] {
 } /* login-wrapper */
 
 
+// SIGNUP
 
+  .nav-signup-btn { // THIS IS THE BUTTON ON THE NAV
+
+    span {
+      font-weight: 100;
+      border: 2px solid black;
+      border-radius: 3px;
+      padding: 5px 25px;
+    }
+  } /* nav-signup-btn */
+
+  .signup-main-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    // border: 2px solid purple;
+  }
+
+  .signup-wrapper-1 {
+    display: flex;
+    align-items: center;
+    // border: 2px solid purple;
+
+    .signup-first-name-input {
+      margin-right: 20px !important;
+    }
+
+    .signup-last-name-input {
+      margin-right: 20px !important;
+    }
+
+    .signup-email-input {
+      margin-right: 20px !important;
+    }
+  } /* signup-wrapper-1 */
+
+  .signup-wrapper-2 {
+    display: flex;
+    align-items: center;
+    // border: 2px solid purple;
+
+    .signup-password-input {
+      margin-right: 20px !important;
+    }
+
+    .signup-password2-input {
+      margin-right: 20px !important;
+    }
+
+    .button.signup-btn { // THIS IS THE BUTTON WITHIN THE SIGNUP FORM
+      width: 150px !important;
+      padding: 10px !important;
+      margin-top: 15px !important;
+      background: #00acec;
+      color: #fff !important;
+      border-radius: 3px;
+    }
+  } /* signup-wrapper-2 */
 
 
 

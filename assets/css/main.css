@@ -844,6 +844,11 @@ section#hero .hero-content-wrapper {
   /* hero-header */
   /* hero-btn */
 }
+section#hero .hero-content-wrapper .hero-content-inner-wrapper {
+  padding: 60px;
+  background: rgba(0, 59, 90, 0.6);
+  border-radius: 5px;
+}
 section#hero .hero-content-wrapper .hero-header h2 {
   color: #fff;
   font-family: "NexaLight", sans-serif;

@@ -919,7 +919,6 @@ section#featured-product .columns {
   padding: 0 !important;
 }
 section#featured-product .side-left-div {
-  margin-left: -15px !important;
   height: 1124px;
   width: 100%;
   background: url("../img/crimson-mesh-kit.png");
@@ -964,8 +963,12 @@ section#featured-product .side-left-content-wrapper .button.side-left-buy {
  CATEGORIES GRID   CATEGORIES GRID
 *****************************************/
 section#categories-grid {
+  margin-top: 3px;
   overflow: hidden;
   /* grid-hover-content */
+}
+section#categories-grid .columns {
+  padding: 0 0 3px 0 !important;
 }
 section#categories-grid .grid-hover-content {
   padding-top: 40px;

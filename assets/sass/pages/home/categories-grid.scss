@@ -3,8 +3,13 @@
 *****************************************/
 
   section#categories-grid {
+    margin-top: 3px;
     overflow: hidden;
     // border: 2px solid gold;
+
+    .columns {
+      padding: 0 0 3px 0!important;
+    }
 
     .grid-hover-content {
       padding-top: 40px;

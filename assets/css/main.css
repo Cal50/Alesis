@@ -966,6 +966,7 @@ section#categories-grid {
   margin-top: 4px;
   overflow: hidden;
   /* grid-hover-content */
+  /* min-width 1025px and max-width 1440px */
 }
 section#categories-grid .columns {
   padding: 0 4px 0 4px !important;
@@ -993,6 +994,17 @@ section#categories-grid .grid-hover-content .hover-btn span {
   font-family: "NexaLight", sans-serif;
   border: 2px solid black;
   border-radius: 3px;
+}
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+  section#categories-grid .grid-images {
+    height: 12.5em !important;
+  }
+  section#categories-grid .grid-hover-content {
+    height: 12.2em !important;
+    display: block !important;
+    padding-top: 20px;
+    border: 5px solid black;
+  }
 }
 
 /* section#categories-grid */

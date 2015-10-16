@@ -53,6 +53,25 @@
     } /* grid-hover-content */
 
 
+    /* min-width 1025px and max-width 1440px */
+      @media only screen and (min-width: 64.063em) and (max-width: 90em) {
+        .grid-images {
+          // padding: 3px;
+          height: 12.5em !important;
+          // border: 5px solid green;
+        }
+
+        .grid-hover-content {
+          height: 12.2em !important;
+          display: block !important;
+          padding-top: 20px;
+          border: 5px solid black;
+          // height: 244px;
+          // width: 100%;
+        }
+      }
+
+
   } /* section#categories-grid */
 
 

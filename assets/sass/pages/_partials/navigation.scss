@@ -176,6 +176,64 @@ section#roberge-navigation {
   SEACH / MAGNIFYING GLASS
 ==========================*/
 
+/*========================
+  SEACH / MAGNIFYING GLASS
+==========================*/
+
+#nav-search {
+  //border: 2px solid red;
+
+  :hover {
+    cursor: pointer;
+  }
+
+  .ion-search {
+    color: black !important;
+  }
+}
+
+
+
+.search-nav-bar {
+  //display: flex;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+
+  .search-form-input {
+    height: 100px;
+  }
+
+  input[type=text] {
+    font-size: 2em !important;
+  }
+
+  .search-input-wrapper {
+    position: relative;
+  }
+
+  .search-close-div {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    z-index: 999;
+    // border: 2px solid red;
+
+    :hover {
+      cursor: pointer !important;
+    }
+
+    i.ion-close {
+      font-size: 1.5em;
+    }
+  } /* search-close-div */
+} /* search-nav-bar */
+
 .ion-search {
   color: black !important;
 }
@@ -349,7 +407,9 @@ input[type=checkbox] {
   // border: 2px solid green;
 }
 
-/*==== LOGIN ====*/
+/*========================
+          LOGIN
+==========================*/
 
 .login-wrapper {
   margin: 0 auto;
@@ -382,7 +442,9 @@ input[type=checkbox] {
 } /* login-wrapper */
 
 
-// SIGNUP
+/*========================
+         SIGN UP
+==========================*/
 
   .nav-signup-btn { // THIS IS THE BUTTON ON THE NAV
 

@@ -557,6 +557,50 @@ section#roberge-navigation ul li a {
 /*========================
   SEACH / MAGNIFYING GLASS
 ==========================*/
+/*========================
+  SEACH / MAGNIFYING GLASS
+==========================*/
+#nav-search :hover {
+  cursor: pointer;
+}
+#nav-search .ion-search {
+  color: black !important;
+}
+
+.search-nav-bar {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  /* search-close-div */
+}
+.search-nav-bar .search-form-input {
+  height: 100px;
+}
+.search-nav-bar input[type=text] {
+  font-size: 2em !important;
+}
+.search-nav-bar .search-input-wrapper {
+  position: relative;
+}
+.search-nav-bar .search-close-div {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 40px;
+  right: 50px;
+  z-index: 999;
+}
+.search-nav-bar .search-close-div :hover {
+  cursor: pointer !important;
+}
+.search-nav-bar .search-close-div i.ion-close {
+  font-size: 1.5em;
+}
+
+/* search-nav-bar */
 .ion-search {
   color: black !important;
 }
@@ -728,7 +772,9 @@ input[type=checkbox] {
   width: 100%;
 }
 
-/*==== LOGIN ====*/
+/*========================
+          LOGIN
+==========================*/
 .login-wrapper {
   margin: 0 auto;
   width: 80%;
@@ -753,6 +799,9 @@ input[type=checkbox] {
 }
 
 /* login-wrapper */
+/*========================
+         SIGN UP
+==========================*/
 .nav-signup-btn span {
   font-weight: 100;
   border: 2px solid black;

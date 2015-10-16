@@ -1,0 +1,67 @@
+/****************************************
+  FEATURED PRODUCT   FEATURED PRODUCT
+*****************************************/
+
+section#featured-product {
+    margin-top: 4px;
+    overflow: hidden;
+    // border: 5px solid red;
+
+    .columns {
+      padding: 0 !important;
+    }
+
+    .side-left-div {
+      margin-left: -15px !important;
+      height: 1124px;
+      width: 100%;
+      background: url('../img/crimson-mesh-kit.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      // border: 2px solid yellow;
+    }
+
+    .side-left-content-wrapper {
+      // margin-right: 15px !important;
+      text-align: center;
+      height: 100%;
+      padding-top: 50px;
+      // border: 2px solid red;
+
+      .side-left-header {
+
+        h2 {
+          font-family: $nexa-bold !important;
+          font-size: 3.5em;
+          margin: 0 !important;
+        }
+      }
+
+      .side-left-sub-header {
+
+        h4 {
+          font-family: $nexa-light !important;
+          font-size: 2em;
+          letter-spacing: 3px;
+          margin-top: -10px !important;
+          margin-bottom: 20px;
+        }
+      }
+
+      .side-left-btns a.button {
+        border: 2px solid black !important;
+        border-radius: 3px;
+      } /* side-left-btns a.button */
+
+      .button.side-left-learn {
+        background-color: transparent !important;
+        color: black !important;
+        margin-right: 20px;
+      }
+      .button.side-left-buy {
+        background-color: black !important;
+        color: #fff !important;
+      }
+    } /* side-left-content-wrapper */
+  } /* section#featured-product */

@@ -414,10 +414,6 @@ h1, h2, h3, h4, h5, h6, a, p, span, li {
   max-width: 100%;
 }
 
-.homepage-wrapper {
-  padding: 0 25px;
-}
-
 /*****************************************************************************
    NAVIGATION       NAVIGATION       NAVIGATION    NAVIGATION       NAVIGATION
 ******************************************************************************/
@@ -846,7 +842,6 @@ section#hero .hero-content-wrapper {
 }
 section#hero .hero-content-wrapper .hero-content-inner-wrapper {
   padding: 60px;
-  background: rgba(0, 59, 90, 0.6);
   border-radius: 5px;
 }
 section#hero .hero-content-wrapper .hero-header h2 {
@@ -889,13 +884,13 @@ section#quote-strip {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 3px;
-  background: black;
+  background: #fff;
   /* quote-strip-header */
 }
 section#quote-strip .quote-strip-header h4 {
   text-align: center;
-  color: #fff;
-  font-size: 2em;
+  color: black;
+  font-size: 2.2em;
   letter-spacing: 5px;
   font-family: "NexaLight", sans-serif !important;
 }
@@ -905,68 +900,65 @@ section#quote-strip .quote-strip-text {
 }
 section#quote-strip .quote-strip-text p {
   text-align: center;
-  color: #fff;
+  color: black;
+  font-size: 1.2em;
   font-family: "NexaLight", sans-serif !important;
 }
 
 /* section#quote-strip */
 /****************************************
-  SIDE BY SIDE   SIDE BY SIDE  SIDE BY SIDE
+  FEATURED PRODUCT   FEATURED PRODUCT
 *****************************************/
-section#side-by-side {
+section#featured-product {
   margin-top: 4px;
   overflow: hidden;
   /* side-left-content-wrapper */
 }
-section#side-by-side .columns {
+section#featured-product .columns {
   padding: 0 !important;
 }
-section#side-by-side .side-left-div {
+section#featured-product .side-left-div {
   margin-left: -15px !important;
   height: 1124px;
   width: 100%;
-  background: url("../img/side-left.png");
+  background: url("../img/crimson-mesh-kit.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-section#side-by-side .side-right-div {
-  margin-left: 15px !important;
-  height: 1124px;
-  background: url("../img/side-right.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-section#side-by-side .side-left-content-wrapper {
+section#featured-product .side-left-content-wrapper {
   text-align: center;
   height: 100%;
-  padding-top: 200px;
+  padding-top: 50px;
   /* side-left-btns a.button */
 }
-section#side-by-side .side-left-content-wrapper .side-left-header h2 {
-  font-weight: 600;
+section#featured-product .side-left-content-wrapper .side-left-header h2 {
+  font-family: "NexaBold", sans-serif !important;
+  font-size: 3.5em;
   margin: 0 !important;
 }
-section#side-by-side .side-left-content-wrapper .side-left-sub-header h4 {
-  font-weight: 100;
+section#featured-product .side-left-content-wrapper .side-left-sub-header h4 {
+  font-family: "NexaLight", sans-serif !important;
+  font-size: 2em;
+  letter-spacing: 3px;
   margin-top: -10px !important;
   margin-bottom: 20px;
 }
-section#side-by-side .side-left-content-wrapper .side-left-btns a.button {
+section#featured-product .side-left-content-wrapper .side-left-btns a.button {
   border: 2px solid black !important;
   border-radius: 3px;
 }
-section#side-by-side .side-left-content-wrapper .button.side-left-learn {
+section#featured-product .side-left-content-wrapper .button.side-left-learn {
   background-color: transparent !important;
   color: black !important;
+  margin-right: 20px;
 }
-section#side-by-side .side-left-content-wrapper .button.side-left-buy {
+section#featured-product .side-left-content-wrapper .button.side-left-buy {
   background-color: black !important;
   color: #fff !important;
 }
 
-/* section#side-by-side */
+/* section#featured-product */
 /****************************************
  CATEGORIES GRID   CATEGORIES GRID
 *****************************************/
@@ -1057,13 +1049,20 @@ section#social ul {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  /* li */
 }
 section#social ul li {
-  color: #fff;
   list-style: none;
   display: inline-block;
-  font-family: "NexaLight", sans-serif;
+  padding-bottom: 2px;
+}
+section#social ul li :hover {
+  padding: 5px 0;
+  border-bottom: 1px solid #00aeef;
+}
+section#social ul li a {
   color: #404040;
+  font-family: "NexaLight", sans-serif;
   font-size: 1.5em;
 }
 section#social ul li h3 {

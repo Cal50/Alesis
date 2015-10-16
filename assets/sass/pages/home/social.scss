@@ -15,18 +15,28 @@
       // border: 2px solid yellow;
 
       li {
-        color: #fff;
+        // color: #fff;
         list-style: none;
         display: inline-block;
-        font-family: $nexa-light;
-        color: #404040;
-        font-size: 1.5em;
+        padding-bottom: 2px;
+
+        :hover {
+          padding: 5px 0;
+          border-bottom: 1px solid $light-blue;
+        }
+
+
+        a {
+          color: #404040;
+          font-family: $nexa-light;
+          font-size: 1.5em;
+        }
 
         h3 {
           color: #fff;
           font-family: $nexa-light;
           color: #404040;
         }
-      }
+      } /* li */
     } /* UL */
   } /* section#social */

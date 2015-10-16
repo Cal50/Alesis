@@ -963,17 +963,21 @@ section#featured-product .side-left-content-wrapper .button.side-left-buy {
  CATEGORIES GRID   CATEGORIES GRID
 *****************************************/
 section#categories-grid {
-  margin-top: 3px;
+  margin-top: 4px;
   overflow: hidden;
   /* grid-hover-content */
 }
 section#categories-grid .columns {
-  padding: 0 0 3px 0 !important;
+  padding: 0 4px 0 4px !important;
+}
+section#categories-grid .grid-images {
+  height: 17em !important;
 }
 section#categories-grid .grid-hover-content {
+  height: 16em !important;
+  display: block !important;
   padding-top: 40px;
   border: 5px solid black;
-  height: 244px;
   /* hover-header */
   /* hover-description */
   /* hover-btn */

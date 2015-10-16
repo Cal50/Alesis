@@ -567,20 +567,31 @@ section#roberge-navigation ul li a {
   color: black !important;
 }
 
+.height-100 {
+  height: 100px !important;
+  font-size: 1.5em !important;
+}
+
+.height-60 {
+  height: 60px !important;
+  font-size: 1em !important;
+}
+
+.search-close-div-100 {
+  top: 35px;
+}
+
+.search-close-div-60 {
+  top: 20px;
+}
+
 .search-nav-bar {
-  height: 100px;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   background: #fff;
   /* search-close-div */
-}
-.search-nav-bar .search-form-input {
-  height: 100px;
-}
-.search-nav-bar input[type=text] {
-  font-size: 2em !important;
 }
 .search-nav-bar .search-input-wrapper {
   position: relative;
@@ -589,7 +600,6 @@ section#roberge-navigation ul li a {
   width: 25px;
   height: 25px;
   position: absolute;
-  top: 40px;
   right: 50px;
   z-index: 999;
 }

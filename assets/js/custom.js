@@ -1,9 +1,26 @@
 $(function() {
 
+  $('.search-nav-bar').hide();
+  $('.search-nav-bar, .search-form-input').addClass('height-100');
+  $('.search-close-div').addClass('search-close-div-100');
+
+  $(window).scroll(function(){
+    if($(document).scrollTop() > 0) {
+      $('.search-nav-bar, .search-form-input').removeClass('height-100');
+      $('.search-nav-bar, .search-form-input').addClass('height-60');
+      $('.search-close-div').addClass('search-close-div-60');
+      $('.search-close-div').removeClass('search-close-div-100');
+    }else {
+      $('.search-nav-bar, .search-form-input').removeClass('height-60');
+      $('.search-nav-bar, .search-form-input').addClass('height-100');
+      $('.search-close-div').removeClass('search-close-div-60');
+      $('.search-close-div').addClass('search-close-div-100');
+    }
+  });
+
 // SHRINKING NAV SCRIPTS
   $('.megamenu.full-width').addClass('margin-top-active');
   $('#jetmenu').data('size','big');
-
 
   $(window).scroll(function(){
     if($(document).scrollTop() > 0)

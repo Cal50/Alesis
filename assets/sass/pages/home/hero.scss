@@ -20,12 +20,13 @@
     .hero-content-wrapper {
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-end;
       align-items: center;
       height: 100vh;
       // border: 5px solid goldenrod;
 
       .hero-content-inner-wrapper {
+        margin-bottom: 5%;
         padding: 60px;
         // background: rgba(0, 59, 90, 0.6);
         border-radius: 5px;

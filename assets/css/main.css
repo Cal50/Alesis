@@ -423,6 +423,7 @@ section#roberge-navigation {
   z-index: 9999;
   width: 100%;
   background: rgba(0, 0, 0, 0.3) !important;
+  border-bottom: 1px solid black;
 }
 section#roberge-navigation a {
   color: black;
@@ -431,8 +432,15 @@ section#roberge-navigation ul li a {
   text-transform: uppercase;
 }
 
-.megamenu.full-width {
+.margin-top-active {
   margin-top: 20px !important;
+}
+
+.margin-top-not-active {
+  margin-top: 0px !important;
+}
+
+.megamenu.full-width {
   background: white !important;
 }
 
@@ -455,8 +463,10 @@ section#roberge-navigation ul li a {
   -webkit-justify-content: space-around;
       -ms-flex-pack: distribute;
           justify-content: space-around;
-  align-item: center;
-  height: 80px !important;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   background: white !important;
 }
@@ -477,7 +487,7 @@ section#roberge-navigation ul li a {
 }
 
 .jetmenu > li > a {
-  padding: 25px 0px 25px 0;
+  padding: 25% 0 !important;
   color: #FFFFFF;
   font-size: 15px;
   letter-spacing: 5px;
@@ -807,7 +817,7 @@ input[type=checkbox] {
    HERO       HERO       HERO
 *************************************/
 section#hero {
-  margin-top: 80px;
+  margin-top: 60px;
   /* hero-content-wrapper */
 }
 section#hero .hero-img-div {
@@ -1076,10 +1086,6 @@ section#social ul li {
   display: inline-block;
   padding-bottom: 2px;
 }
-section#social ul li :hover {
-  padding: 5px 0;
-  border-bottom: 1px solid #00aeef;
-}
 section#social ul li a {
   color: #404040;
   font-family: "NexaLight", sans-serif;
@@ -1089,6 +1095,10 @@ section#social ul li h3 {
   color: #fff;
   font-family: "NexaLight", sans-serif;
   color: #404040;
+}
+section#social ul .social-link:hover {
+  padding: 5px 0;
+  border-bottom: 1px solid #00aeef;
 }
 
 /* section#social */

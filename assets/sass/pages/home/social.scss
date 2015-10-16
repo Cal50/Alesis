@@ -20,12 +20,6 @@
         display: inline-block;
         padding-bottom: 2px;
 
-        :hover {
-          padding: 5px 0;
-          border-bottom: 1px solid $light-blue;
-        }
-
-
         a {
           color: #404040;
           font-family: $nexa-light;
@@ -38,5 +32,10 @@
           color: #404040;
         }
       } /* li */
+
+      .social-link:hover {
+          padding: 5px 0;
+          border-bottom: 1px solid $light-blue;
+        }
     } /* UL */
   } /* section#social */

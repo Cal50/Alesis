@@ -419,6 +419,7 @@ h1, h2, h3, h4, h5, h6, a, p, span, li {
 ******************************************************************************/
 section#roberge-navigation {
   position: fixed;
+  top: 0;
   z-index: 9999;
   width: 100%;
   background: rgba(0, 0, 0, 0.3) !important;
@@ -806,11 +807,10 @@ input[type=checkbox] {
    HERO       HERO       HERO
 *************************************/
 section#hero {
-  border: 1px solid #fff;
+  margin-top: 80px;
   /* hero-content-wrapper */
 }
 section#hero .hero-img-div {
-  margin-top: 80px;
   height: 1196px;
   width: 100%;
   background: url("../img/Slider.jpg");

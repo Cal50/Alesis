@@ -22,6 +22,10 @@
   @import 'pages/home/social';
   @import 'pages/_partials/footer';
 
+// PRODUCT PAGE
+  @import 'pages/product-page/product-hero';
+  @import 'pages/product-page/product-quote-strip';
+
 // TABLET MEDIA QUERIES TABLET
   @import 'media-queries/tablet/navigation-tablet';
   @import 'media-queries/tablet/footer-tablet';

@@ -1215,6 +1215,78 @@ footer .footer-gutter {
 }
 
 /* FOOTER */
+/****************************************
+      PRODUCT HERO     PRODUCT HERO
+*****************************************/
+section#product-hero {
+  height: 60vh;
+  margin-top: 100px;
+  /* product-hero-container */
+}
+section#product-hero .product-hero-container {
+  height: 100%;
+  padding: 20px;
+  background: #f2f3f7;
+}
+section#product-hero .product-hero-container .product-hero-header h1 {
+  margin: 0 !important;
+  color: black;
+  font-family: "NexaLight", sans-serif;
+  font-size: 2.5em !important;
+  text-transform: uppercase;
+}
+section#product-hero .product-hero-container .product-hero-sub-header h4 {
+  color: #8190a6;
+  font-family: "NexaLight", sans-serif;
+  font-size: 1.8em !important;
+}
+
+/* section#product-hero */
+/****************************************
+  PRODUCT QUOTE STRIP   PRODUCT QUOTE STRIP
+*****************************************/
+section#product-quote-strip {
+  height: 30vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3px;
+  background: #fff;
+  /* product-quote-strip-header */
+}
+section#product-quote-strip .product-quote-strip-header h4 {
+  text-align: center;
+  color: black;
+  font-size: 2.2em;
+  letter-spacing: 5px;
+  font-family: "NexaLight", sans-serif !important;
+}
+section#product-quote-strip .product-quote-strip-text {
+  width: 60%;
+  margin: 0 auto;
+}
+section#product-quote-strip .product-quote-strip-text p {
+  text-align: center;
+  color: black;
+  font-size: 1.2em;
+  font-family: "NexaLight", sans-serif !important;
+}
+
+/* section#product-quote-strip */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /***************************************************
     NAVIGATION   NAVIGATION   NAVIGATION   NAVIGATION 

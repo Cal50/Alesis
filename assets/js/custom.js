@@ -1,3 +1,12 @@
+
+// INSTANTIATES FOUNDATION JS
+  $(document).foundation({
+    "magellan-expedition": {
+      fixed_top: 60, // top distance in pixels assigend to the fixed element on scroll
+    }
+  });
+
+// OPENING DOCUMENT.READY FUNCTION
 $(function() {
 
   //TESTING SCRIPTS

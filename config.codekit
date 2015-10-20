@@ -75,6 +75,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/product-page\/down-arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3275,
+		"inputAbbreviatedPath": "\/assets\/img\/product-page\/down-arrow.png",
+		"outputAbbreviatedPath": "\/assets\/img\/product-page\/down-arrow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/product-page\/product-hero.png": {
 		"fileType": 32768,
 		"ignore": 0,

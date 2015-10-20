@@ -9,6 +9,10 @@
       padding: 0 !important;
     }
 
+    /*====================
+      PRODUCT OVERVIEW #1
+      ====================*/
+
     .product-overview-block-1-wrapper {
       height: 50vh;
       background: #eaecf1;
@@ -43,6 +47,47 @@
         } /* block-1-right-img */
       } /* product-overview-block-1-right */
     } /* product-overview-block-1-wrapper */
+
+
+
+    /*====================
+      PRODUCT OVERVIEW #2
+      ====================*/
+
+    .product-overview-block-2-wrapper {
+      height: 50vh;
+      background: #fff;
+
+      .product-overview-block-2-right {
+        padding: 5%;
+        height: 50vh;
+        // border: 2px solid gold;
+
+        .block-2-right-header {
+
+          h2 {
+            font-family: $nexa-light;
+            text-transform: uppercase;
+          }
+        } /* block-2-right-header */
+
+        .block-2-right-paragraph {
+
+        } /* block-2-right-paragraph */
+      } /* product-overview-block-2-right */
+
+      .product-overview-block-2-left {
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // border: 2px solid purple;
+
+        .block-2-left-img {
+
+        } /* block-2-left-img */
+      } /* product-overview-block-2-left */
+    } /* product-overview-block-2-wrapper */
   } /* section#product-overview */
 
 

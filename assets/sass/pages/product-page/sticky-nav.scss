@@ -13,7 +13,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        border-bottom: 2px solid #f2f3f7;
+        border-top: 2px solid #f2f3f7;
         // border: 2px solid red;
       }
 
@@ -29,6 +29,7 @@
       .sub-nav dd.active a, .sub-nav dt.active a, .sub-nav li.active a {
         background: #fff !important;
         color: #999 !important;
+        cursor: pointer;
       }
     } /* sticky-nav-container */
   } /*section#sticky-nav */

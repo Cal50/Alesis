@@ -1312,7 +1312,7 @@ section#sticky-nav .sticky-nav-container .sub-nav {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  border-bottom: 2px solid #f2f3f7;
+  border-top: 2px solid #f2f3f7;
 }
 section#sticky-nav .sticky-nav-container .sticky-nav-product-name {
   -webkit-box-flex: 1;
@@ -1327,6 +1327,7 @@ section#sticky-nav .sticky-nav-container .sticky-nav-product-name h4 {
 section#sticky-nav .sticky-nav-container .sub-nav dd.active a, section#sticky-nav .sticky-nav-container .sub-nav dt.active a, section#sticky-nav .sticky-nav-container .sub-nav li.active a {
   background: #fff !important;
   color: #999 !important;
+  cursor: pointer;
 }
 
 /*section#sticky-nav */
@@ -1334,7 +1335,42 @@ section#sticky-nav .sticky-nav-container .sub-nav dd.active a, section#sticky-na
   PRODUCT OVERVIEW   PRODUCT OVERVIEW
 *****************************************/
 section#product-overview {
-  height: 1500px;
+  /* product-overview-block-1-wrapper */
+}
+section#product-overview .columns {
+  padding: 0 !important;
+}
+section#product-overview .product-overview-block-1-wrapper {
+  height: 50vh;
+  background: #eaecf1;
+  /* product-overview-block-1-left */
+  /* product-overview-block-1-right */
+}
+section#product-overview .product-overview-block-1-wrapper .product-overview-block-1-left {
+  padding: 5%;
+  height: 50vh;
+  /* block-1-left-header */
+  /* block-1-left-paragraph */
+}
+section#product-overview .product-overview-block-1-wrapper .product-overview-block-1-left .block-1-left-header h2 {
+  font-family: "NexaLight", sans-serif;
+  text-transform: uppercase;
+}
+section#product-overview .product-overview-block-1-wrapper .product-overview-block-1-right {
+  height: 50vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* block-1-right-img */
 }
 
 /* section#product-overview */

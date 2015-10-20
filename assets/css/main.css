@@ -1220,7 +1220,8 @@ footer .footer-gutter {
 *****************************************/
 section#product-hero {
   height: 60vh;
-  margin-top: 100px;
+  padding-top: 100px;
+  background: #f2f3f7 !important;
   /* product-hero-container */
 }
 section#product-hero .product-hero-container {
@@ -1322,6 +1323,10 @@ section#sticky-nav .sticky-nav-container .sticky-nav-product-name {
 section#sticky-nav .sticky-nav-container .sticky-nav-product-name h4 {
   text-transform: uppercase;
   font-family: "NexaLight", sans-serif;
+}
+section#sticky-nav .sticky-nav-container .sub-nav dd.active a, section#sticky-nav .sticky-nav-container .sub-nav dt.active a, section#sticky-nav .sticky-nav-container .sub-nav li.active a {
+  background: #fff !important;
+  color: #999 !important;
 }
 
 /*section#sticky-nav */

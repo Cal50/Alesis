@@ -25,5 +25,10 @@
           font-family: $nexa-light;
         }
       }
+
+      .sub-nav dd.active a, .sub-nav dt.active a, .sub-nav li.active a {
+        background: #fff !important;
+        color: #999 !important;
+      }
     } /* sticky-nav-container */
   } /*section#sticky-nav */

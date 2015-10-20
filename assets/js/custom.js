@@ -1,5 +1,11 @@
 $(function() {
 
+  //TESTING SCRIPTS
+
+  //$('#jetmenu').hide();
+
+
+  // SEARCH SCRIPTS
   $('.search-nav-bar').hide();
   $('.search-nav-bar, .search-form-input').addClass('height-100');
   $('.search-close-div').addClass('search-close-div-100');
@@ -18,7 +24,7 @@ $(function() {
     }
   });
 
-// SHRINKING NAV SCRIPTS
+  // SHRINKING NAV SCRIPTS
   $('.megamenu.full-width').addClass('margin-top-active');
   $('#jetmenu').data('size','big');
 

@@ -1,0 +1,29 @@
+/****************************************
+  STICKY NAV   STICKY NAV   STICKY NAV
+*****************************************/
+
+  section#sticky-nav {
+
+    .sticky-nav-container {
+      // border: 2px solid blue;
+
+      .sub-nav {
+        z-index: 99999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-bottom: 2px solid #f2f3f7;
+        // border: 2px solid red;
+      }
+
+      .sticky-nav-product-name {
+        flex-grow: 1;
+
+        h4 {
+          text-transform: uppercase;
+          font-family: $nexa-light;
+        }
+      }
+    } /* sticky-nav-container */
+  } /*section#sticky-nav */

@@ -495,6 +495,40 @@
 
 
   </section>
+      <!--================
+  STICKY NAV
+====================-->
+
+  <section id="sticky-nav">
+
+    <div class="sticky-nav-container">
+
+
+
+      <div data-magellan-expedition="fixed">
+        <dl class="sub-nav">
+          <div class="sticky-nav-product-name">
+            <h4>vx49</h4>
+          </div> <!-- sticky-nav-product-name -->
+          <dd data-magellan-arrival="build"><a href="#build">Overview</a></dd>
+          <dd data-magellan-arrival="js"><a href="#js">Specs</a></dd>
+          <dd data-magellan-arrival="js"><a href="#js">Accessories</a></dd>
+          <dd data-magellan-arrival="js"><a href="#js">Downloads</a></dd>
+          <dd data-magellan-arrival="js"><a href="#js">Support</a></dd>
+          <dd data-magellan-arrival="js"><a href="#js">Find a Dealer</a></dd>
+        </dl>
+      </div> <!-- data-magellan-expedition="fixed" -->
+
+    </div> <!-- sticky-nav-container -->
+
+  </section>
+      <!--================
+    PRODUCT OVERVIEW
+====================-->
+
+  <section id="product-overview">
+
+  </section>
 
 
       <!--================
@@ -568,7 +602,11 @@
       <script src="bower_components/foundation/js/foundation.min.js"></script>
       <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation.min.js"></script> -->
       <script>
-        $(document).foundation();
+        $(document).foundation({
+          "magellan-expedition": {
+            fixed_top: 60, // top distance in pixels assigend to the fixed element on scroll
+          }
+        });
       </script>
 
     <!--==== BOOTSTRAP ====-->

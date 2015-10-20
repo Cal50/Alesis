@@ -88,6 +88,47 @@
         } /* block-2-left-img */
       } /* product-overview-block-2-left */
     } /* product-overview-block-2-wrapper */
+
+
+
+    /*====================
+      PRODUCT OVERVIEW #3
+      ====================*/
+
+    .product-overview-block-3-wrapper {
+      height: 50vh;
+      background: #eaecf1;
+
+      .product-overview-block-3-left {
+        padding: 5%;
+        height: 50vh;
+        // border: 2px solid gold;
+
+        .block-3-left-header {
+
+          h2 {
+            font-family: $nexa-light;
+            text-transform: uppercase;
+          }
+        } /* block-3-left-header */
+
+        .block-3-left-paragraph {
+
+        } /* block-3-left-paragraph */
+      } /* product-overview-block-3-left */
+
+      .product-overview-block-3-right {
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // border: 2px solid purple;
+
+        .block-3-right-img {
+
+        } /* block-3-right-img */
+      } /* product-overview-block-3-right */
+    } /* product-overview-block-3-wrapper */
   } /* section#product-overview */
 
 

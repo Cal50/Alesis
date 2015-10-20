@@ -1351,6 +1351,9 @@ section#product-overview {
 section#product-overview .columns {
   padding: 0 !important;
 }
+section#product-overview h2 {
+  font-size: 2em;
+}
 section#product-overview .product-overview-block-1-wrapper {
   height: 50vh;
   background: #eaecf1;

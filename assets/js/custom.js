@@ -220,4 +220,35 @@ $('.slick-carousel').slick({
     cssEase: 'linear'
   });
 
+// PRODUCT PAGE AUTO-SCROLL SCRIPTS
+  $(function() {
+    $('a.page-scroll').bind('click', function(event) {
+      var $anchor = $(this);
+      $('html, body').stop().animate({
+          scrollTop: $($anchor.attr('href')).offset().top
+      }, 2500, 'easeInOutExpo');
+      event.preventDefault();
+    });
+  });
+
 }); // ENDING OF OPENING $(function)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

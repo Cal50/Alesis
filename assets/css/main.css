@@ -1247,7 +1247,7 @@ section#product-hero .product-hero-container .product-hero-sub-header h4 {
   PRODUCT QUOTE STRIP   PRODUCT QUOTE STRIP
 *****************************************/
 section#product-quote-strip {
-  height: 30vh;
+  height: 40vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;

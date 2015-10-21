@@ -1224,7 +1224,7 @@ footer .footer-gutter {
       PRODUCT HERO     PRODUCT HERO
 *****************************************/
 section#product-hero {
-  height: 60vh;
+  height: 70vh;
   padding-top: 100px;
   background: #f2f3f7 !important;
   /* product-hero-container */
@@ -1252,7 +1252,7 @@ section#product-hero .product-hero-container .product-hero-sub-header h4 {
   PRODUCT QUOTE STRIP   PRODUCT QUOTE STRIP
 *****************************************/
 section#product-quote-strip {
-  height: 40vh;
+  height: 30vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;

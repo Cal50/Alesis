@@ -1401,6 +1401,12 @@ section#product-quote-strip .product-strip-down-arrow img {
 section#sticky-nav {
   /* sticky-nav-container */
 }
+section#sticky-nav [data-magellan-expedition-clone], section#sticky-nav [data-magellan-expedition] {
+  padding: 5px;
+}
+section#sticky-nav .stick-nav-hr {
+  border-top: 2px solid #f2f3f7;
+}
 section#sticky-nav .sticky-nav-container .sub-nav {
   z-index: 99999;
   display: -webkit-box;
@@ -1416,7 +1422,9 @@ section#sticky-nav .sticky-nav-container .sub-nav {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  border-top: 2px solid #f2f3f7;
+}
+section#sticky-nav .sticky-nav-container .sub-nav #accessories {
+  margin-right: 25% !important;
 }
 section#sticky-nav .sticky-nav-container .sticky-nav-product-name {
   -webkit-box-flex: 1;
@@ -1425,6 +1433,7 @@ section#sticky-nav .sticky-nav-container .sticky-nav-product-name {
           flex-grow: 1;
 }
 section#sticky-nav .sticky-nav-container .sticky-nav-product-name h4 {
+  padding-left: 5%;
   text-transform: uppercase;
   font-family: "NexaLight", sans-serif;
 }

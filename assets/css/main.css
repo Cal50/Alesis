@@ -989,6 +989,9 @@ section#feature-block-1 {
   overflow: hidden;
   /* feature-block-1-wrapper */
 }
+section#feature-block-1 .columns {
+  padding: 0;
+}
 section#feature-block-1 .feature-block-1-wrapper {
   position: relative;
   /* feature-block-1-hover-content */
@@ -1057,6 +1060,9 @@ section#feature-block-1 .feature-block-1-wrapper .feature-block-1-hover-content 
 section#feature-block-2 {
   overflow: hidden;
   /* feature-block-2-wrapper */
+}
+section#feature-block-2 .columns {
+  padding: 0;
 }
 section#feature-block-2 .feature-block-2-wrapper {
   position: relative;

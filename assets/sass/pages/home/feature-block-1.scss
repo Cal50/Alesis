@@ -5,6 +5,10 @@
   section#feature-block-1 {
     overflow: hidden;
 
+    .columns {
+      padding: 0;
+    }
+
     .feature-block-1-wrapper {
       position: relative;
       // border: 5px solid blue;

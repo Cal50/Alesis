@@ -271,23 +271,23 @@ $('.slick-carousel').slick({
   $('#product-downloads').hide();
 
   $('#overview').on('click', function(){
-    $('.product-content-jquery').fadeOut(500);
-    $('#product-overview').delay(500).fadeIn(500);
+    $('.product-content-jquery').stop().fadeTo('slow',0.5).hide();
+    $('#product-overview').delay(300).stop().fadeTo('slow',1);
   });
 
   $('#specs').on('click', function(){
-    $('.product-content-jquery').fadeOut(500);
-    $('#product-specs').delay(500).fadeIn(500);
+    $('.product-content-jquery').stop().fadeTo('slow',0.5).hide();
+    $('#product-specs').stop().delay(300).fadeTo('slow',1);
   });
 
   $('#accessories').on('click', function(){
-    $('.product-content-jquery').fadeOut(500);
-    $('#product-accessories').delay(500).fadeIn(500);
+    $('.product-content-jquery').stop().fadeTo('slow',0).hide();
+    $('#product-accessories').delay(300).stop().fadeTo('slow',1);
   });
 
   $('#downloads').on('click', function(){
-    $('.product-content-jquery').fadeOut(500);
-    $('#product-downloads').delay(500).fadeIn(500);
+    $('.product-content-jquery').stop().fadeTo('slow',0).hide();
+    $('#product-downloads').delay(300).stop().fadeTo('slow',1);
   });
 
 

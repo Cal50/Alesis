@@ -411,6 +411,7 @@ h1, h2, h3, h4, h5, h6, a, p, span, li {
   font-family: "Nexa", sans-serif;
   font-weight: normal !important;
   font-style: normal !important;
+  line-height: 1.45;
 }
 
 .full-width-row {
@@ -887,7 +888,7 @@ section#hero {
 section#hero .hero-img-div {
   height: 1196px;
   width: 100%;
-  background: url("../img/Slider.jpg");
+  background: url("../img/Slider_VX49.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -982,57 +983,73 @@ section#quote-strip .quote-strip-text p {
 
 /* section#quote-strip */
 /****************************************
-  FEATURED PRODUCT   FEATURED PRODUCT
+  FEATURE BLOCK #1    FEATURE BLOCK #1
 *****************************************/
-section#featured-product {
-  margin-top: 4px;
-  overflow: hidden;
-  /* side-left-content-wrapper */
+section#feature-block-1 {
+  /* feature-block-1-wrapper */
 }
-section#featured-product .columns {
-  padding: 0 !important;
+section#feature-block-1 .feature-block-1-wrapper {
+  position: relative;
+  border: 5px solid blue;
+  /* feature-block-1-hover-content */
 }
-section#featured-product .side-left-div {
-  height: 1124px;
+section#feature-block-1 .feature-block-1-wrapper .feature-block-1-hover-content {
+  position: absolute;
   width: 100%;
-  background: url("../img/crimson-mesh-kit.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-section#featured-product .side-left-content-wrapper {
-  text-align: center;
   height: 100%;
-  padding-top: 50px;
-  /* side-left-btns a.button */
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 0;
+  background: rgba(0, 0, 0, 0.4);
+  border: 5px solid red;
 }
-section#featured-product .side-left-content-wrapper .side-left-header h2 {
-  font-family: "NexaBold", sans-serif !important;
-  font-size: 3.5em;
-  margin: 0 !important;
+section#feature-block-1 .feature-block-1-wrapper .feature-block-1-hover-content .feature-block-1-hover-header h1 {
+  font-size: 5em;
+  font-family: "NexaBlackItalic", sans-serif;
+  color: #00b9ff;
+  margin: 0;
+  letter-spacing: 2px;
 }
-section#featured-product .side-left-content-wrapper .side-left-sub-header h4 {
-  font-family: "NexaLight", sans-serif !important;
-  font-size: 2em;
-  letter-spacing: 3px;
-  margin-top: -10px !important;
-  margin-bottom: 20px;
+section#feature-block-1 .feature-block-1-wrapper .feature-block-1-hover-content .feature-block-1-hover-sub-header {
+  margin-top: -20px;
 }
-section#featured-product .side-left-content-wrapper .side-left-btns a.button {
-  border: 2px solid black !important;
-  border-radius: 3px;
+section#feature-block-1 .feature-block-1-wrapper .feature-block-1-hover-content .feature-block-1-hover-sub-header h4 {
+  color: #fff;
+  margin: 0;
+  font-family: "NexaBoldItalic", sans-serif;
+  font-size: 1.5em;
 }
-section#featured-product .side-left-content-wrapper .button.side-left-learn {
-  background-color: transparent !important;
-  color: black !important;
-  margin-right: 20px;
+section#feature-block-1 .feature-block-1-wrapper .feature-block-1-hover-content .feature-block-1-hover-btn {
+  margin-top: 40px;
 }
-section#featured-product .side-left-content-wrapper .button.side-left-buy {
-  background-color: black !important;
-  color: #fff !important;
+section#feature-block-1 .feature-block-1-wrapper .feature-block-1-hover-content .feature-block-1-hover-btn span {
+  font-family: "NexaBoldItalic", sans-serif;
+  font-size: 1.2em;
+  padding: 15px 40px;
+  border-radius: 5px;
+  background: #e6e3e2;
 }
 
-/* section#featured-product */
+/* section#feature-block-1 */
+/****************************************
+  FEATURE BLOCK #2    FEATURE BLOCK #2
+*****************************************/
+/* section#feature-block-2 */
 /****************************************
  CATEGORIES GRID   CATEGORIES GRID
 *****************************************/
@@ -1357,7 +1374,11 @@ section#product-overview .columns {
   padding: 0 !important;
 }
 section#product-overview h2 {
-  font-size: 2em;
+  font-size: 2vw;
+}
+section#product-overview p {
+  font-size: 1em;
+  width: 80%;
 }
 section#product-overview .product-overview-block-1-wrapper {
   height: 50vh;
@@ -1457,6 +1478,10 @@ section#product-overview .product-overview-block-3-wrapper .product-overview-blo
 }
 
 /* section#product-overview */
+/****************************************
+    PRODUCT SPECS    PRODUCT SPECS
+*****************************************/
+/* section#product-specs */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /***************************************************
     NAVIGATION   NAVIGATION   NAVIGATION   NAVIGATION 

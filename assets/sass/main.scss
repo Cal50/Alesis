@@ -1,5 +1,10 @@
 // This is the single file output by sass. It is intended to ONLY @import other files.
 
+// FOUNDATION
+  // @import '../../bower_components/foundation/scss/foundation';
+  // @import '../../bower_components/foundation/scss/foundation/functions';
+  // @import '../../bower_components/foundation/scss/foundation/settings';
+
 
 // TOOLS
   @import 'tools/fonts';
@@ -15,7 +20,9 @@
 // HOMEPAGE
   @import 'pages/home/hero';
   @import 'pages/home/quote-strip';
-  @import 'pages/home/featured-product';
+  @import 'pages/home/feature-block-1';
+  @import 'pages/home/feature-block-2';
+  //@import 'pages/home/featured-product';
   // @import 'pages/home/side-by-side';
   @import 'pages/home/categories-grid';
   @import 'pages/home/videos';
@@ -27,6 +34,7 @@
   @import 'pages/product-page/product-quote-strip';
   @import 'pages/product-page/sticky-nav';
   @import 'pages/product-page/product-overview';
+  @import 'pages/product-page/product-specs';
 
 // HOME PAGE TABLET MEDIA QUERIES TABLET
   @import 'media-queries/tablet/navigation-tablet';

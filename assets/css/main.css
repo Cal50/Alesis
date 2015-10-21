@@ -400,6 +400,9 @@ body {
   font-family: "Nexa", sans-serif;
   font-weight: normal !important;
   font-style: normal !important;
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
 }
 
 h1, h2, h3, h4, h5, h6, a, p, span, li {

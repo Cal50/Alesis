@@ -8,7 +8,10 @@
     font-family: $font-primary;
     font-weight: normal !important;
     font-style: normal !important;
-    //font-size: 18px;
+    font-size: 100%;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    //-webkit-text-stroke: .3px #fff;
   }
 
   h1, h2, h3, h4, h5, h6, a, p, span, li {

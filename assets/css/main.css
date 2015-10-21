@@ -1255,9 +1255,8 @@ section#social ul .social-link:hover {
    FOOTER     FOOTER       FOOTER    FOOTER
 **********************************************/
 footer {
-  position: relative;
-  height: 500px;
-  padding-top: 3.5%;
+  height: 40vh;
+  padding-top: 2%;
   background: #e9ebed;
   /* footer-header */
   /* footer-bottom */
@@ -1269,9 +1268,12 @@ footer .footer-header h6 {
   color: black;
   font-family: "NexaLight", sans-serif;
   font-size: 1.2em;
+  margin: 0;
 }
 footer .footer-header h1 {
   color: black;
+  margin: 0;
+  padding-bottom: 20px;
 }
 footer .footer-header .footer-blue-line {
   margin: 0 auto;

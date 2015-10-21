@@ -3,9 +3,9 @@
 **********************************************/
 
   footer {
-    position: relative;
-    height: 500px;
-    padding-top: 3.5%;
+    //position: relative;
+    height: 40vh;
+    padding-top: 2%;
     background: #e9ebed;
     // border: 2px solid yellow;
 
@@ -16,10 +16,13 @@
         color: black;
         font-family: $nexa-light;
         font-size: 1.2em;
+        margin: 0;
       }
 
       h1 {
         color: black;
+        margin: 0;
+        padding-bottom: 20px;
       }
 
       .footer-blue-line {

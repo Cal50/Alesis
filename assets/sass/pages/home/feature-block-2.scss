@@ -58,6 +58,11 @@
             border-radius: 5px;
             color: black;
             background: #e6e3e2;
+
+            &:hover {
+              transition: background 0.5s;
+              background: #fff !important;
+            }
           }
         }
 

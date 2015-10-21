@@ -1044,6 +1044,11 @@ section#feature-block-1 .feature-block-1-wrapper .feature-block-1-hover-content 
   color: black;
   background: #e6e3e2;
 }
+section#feature-block-1 .feature-block-1-wrapper .feature-block-1-hover-content .feature-block-1-hover-btn span:hover {
+  -webkit-transition: background 0.5s;
+          transition: background 0.5s;
+  background: #fff !important;
+}
 
 /* section#feature-block-1 */
 /****************************************
@@ -1107,6 +1112,11 @@ section#feature-block-2 .feature-block-2-wrapper .feature-block-2-hover-content 
   border-radius: 5px;
   color: black;
   background: #e6e3e2;
+}
+section#feature-block-2 .feature-block-2-wrapper .feature-block-2-hover-content .feature-block-2-hover-btn span:hover {
+  -webkit-transition: background 0.5s;
+          transition: background 0.5s;
+  background: #fff !important;
 }
 
 /* section#feature-block-2 */

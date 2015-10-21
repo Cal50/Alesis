@@ -6,20 +6,20 @@
     position: relative;
     height: 500px;
     padding-top: 3.5%;
-    background: #001d2f;
+    background: #e9ebed;
     // border: 2px solid yellow;
 
     .footer-header {
       padding: 40px;
 
       h6 {
-        color: #fff;
+        color: black;
         font-family: $nexa-light;
         font-size: 1.2em;
       }
 
       h1 {
-        color: #fff;
+        color: black;
       }
 
       .footer-blue-line {
@@ -35,19 +35,19 @@
 
     input[type=text] {
       border-radius: 2px !important;
-      background: #0d293a !important;
+      background: #fff !important;
       color: #263f4e !important;
     }
 
     .button {
-      background: $light-blue !important;
+      background: black !important;
       border-radius: 2px;
     }
 
     .footer-bottom {
 
       p {
-        color: #1e3847;
+        color: #9f9f9f;
         font-family: $nexa-light;
         font-size: 1.2em;
       }

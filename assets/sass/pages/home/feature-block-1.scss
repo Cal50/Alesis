@@ -6,7 +6,7 @@
 
     .feature-block-1-wrapper {
       position: relative;
-      border: 5px solid blue;
+      // border: 5px solid blue;
 
       .feature-block-1-img {
 
@@ -22,7 +22,7 @@
         flex-direction: column;
         top: 0;
         background: rgba(0,0,0,0.4);
-        border: 5px solid red;
+        // border: 5px solid red;
 
         .feature-block-1-hover-header {
 
@@ -55,6 +55,7 @@
             font-size: 1.2em;
             padding: 15px 40px;
             border-radius: 5px;
+            color: black;
             background: #e6e3e2;
           }
         }

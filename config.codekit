@@ -8163,7 +8163,7 @@
 		},
 	"\/assets\/templates\/homepage\/categories-grid.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/templates\/homepage\/categories-grid.html",
 		"outputAbbreviatedPath": "No Output Path",

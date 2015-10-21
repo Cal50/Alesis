@@ -986,6 +986,7 @@ section#quote-strip .quote-strip-text p {
   FEATURE BLOCK #1    FEATURE BLOCK #1
 *****************************************/
 section#feature-block-1 {
+  overflow: hidden;
   /* feature-block-1-wrapper */
 }
 section#feature-block-1 .feature-block-1-wrapper {
@@ -1049,6 +1050,7 @@ section#feature-block-1 .feature-block-1-wrapper .feature-block-1-hover-content 
   FEATURE BLOCK #2    FEATURE BLOCK #2
 *****************************************/
 section#feature-block-2 {
+  overflow: hidden;
   /* feature-block-2-wrapper */
 }
 section#feature-block-2 .feature-block-2-wrapper {

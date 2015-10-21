@@ -1,13 +1,3 @@
-// INSTANTIATES FLOW TYPE JS
-  $('body').flowtype({
-     minimum   : 500,
-     maximum   : 2000,
-     minFont   : 10,
-     maxFont   : 16,
-     fontRatio : 30
-  });
-
-
 // INSTANTIATES FOUNDATION JS
   $(document).foundation({
     "magellan-expedition": {
@@ -17,6 +7,15 @@
 
 // OPENING DOCUMENT.READY FUNCTION
 $(function() {
+
+// INSTANTIATES FLOW TYPE JS
+  $('body').flowtype({
+     minimum   : 500,
+     maximum   : 2000,
+     minFont   : 10,
+     maxFont   : 16,
+     fontRatio : 30
+  });
 
   //TESTING SCRIPTS
 
@@ -251,6 +250,10 @@ $('.slick-carousel').slick({
     cssEase: 'linear'
   });
 
+//====================================================
+// PRODUCT PAGE   PRODUCT PAGE   PRODUCT PAGE
+//====================================================
+
 // PRODUCT PAGE AUTO-SCROLL SCRIPTS
   $(function() {
     $('a.page-scroll').bind('click', function(event) {
@@ -261,6 +264,32 @@ $('.slick-carousel').slick({
       event.preventDefault();
     });
   });
+
+// STICKY NAV LINKS SCRIPTS
+  $('#product-specs').hide();
+  $('#product-accessories').hide();
+  $('#product-downloads').hide();
+
+  $('#overview').on('click', function(){
+    $('.product-content-jquery').fadeOut(500);
+    $('#product-overview').delay(500).fadeIn(500);
+  });
+
+  $('#specs').on('click', function(){
+    $('.product-content-jquery').fadeOut(500);
+    $('#product-specs').delay(500).fadeIn(500);
+  });
+
+  $('#accessories').on('click', function(){
+    $('.product-content-jquery').fadeOut(500);
+    $('#product-accessories').delay(500).fadeIn(500);
+  });
+
+  $('#downloads').on('click', function(){
+    $('.product-content-jquery').fadeOut(500);
+    $('#product-downloads').delay(500).fadeIn(500);
+  });
+
 
 }); // ENDING OF OPENING $(function)
 

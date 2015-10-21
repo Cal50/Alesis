@@ -1563,7 +1563,42 @@ section#product-overview .product-overview-block-3-wrapper .product-overview-blo
 /****************************************
     PRODUCT SPECS    PRODUCT SPECS
 *****************************************/
+section#product-specs {
+  height: 50vh;
+  background: red;
+}
+section#product-specs h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
 /* section#product-specs */
+/****************************************
+    PRODUCT ACCESSORIES    PRODUCT ACCESSORIES
+*****************************************/
+section#product-accessories {
+  height: 50vh;
+  background: blue;
+}
+section#product-accessories h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+/* section#product-accessories */
+/****************************************
+    PRODUCT DOWNLOADS    PRODUCT DOWNLOADS
+*****************************************/
+section#product-downloads {
+  height: 50vh;
+  background: purple;
+}
+section#product-downloads h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+/* section#product-DOWNLOADS */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /***************************************************
     NAVIGATION   NAVIGATION   NAVIGATION   NAVIGATION 

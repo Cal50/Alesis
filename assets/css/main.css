@@ -1304,6 +1304,10 @@ footer .button {
 footer .button .ion-arrow-right-c {
   margin-left: -5px;
 }
+footer .button span {
+  margin-left: -25px;
+  font-size: 1.2em;
+}
 footer .footer-bottom p {
   color: #9f9f9f;
   font-family: "NexaLight", sans-serif;
@@ -1424,7 +1428,7 @@ section#sticky-nav .sticky-nav-container .sub-nav {
   width: 100%;
 }
 section#sticky-nav .sticky-nav-container .sub-nav #accessories {
-  margin-right: 25% !important;
+  margin-right: 24% !important;
 }
 section#sticky-nav .sticky-nav-container .sticky-nav-product-name {
   -webkit-box-flex: 1;

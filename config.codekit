@@ -108,6 +108,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/product-page\/overview-ortho-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 624553,
+		"inputAbbreviatedPath": "\/assets\/img\/product-page\/overview-ortho-1.png",
+		"outputAbbreviatedPath": "\/assets\/img\/product-page\/overview-ortho-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/product-page\/product-hero.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -115,6 +126,17 @@
 		"initialSize": 923978,
 		"inputAbbreviatedPath": "\/assets\/img\/product-page\/product-hero.png",
 		"outputAbbreviatedPath": "\/assets\/img\/product-page\/product-hero.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/product-page\/vi49-angle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.66982e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/product-page\/vi49-angle.png",
+		"outputAbbreviatedPath": "\/assets\/img\/product-page\/vi49-angle.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -203,6 +225,17 @@
 		"initialSize": 2.93831e+06,
 		"inputAbbreviatedPath": "\/assets\/img\/Slug_SamplePad_4.png",
 		"outputAbbreviatedPath": "\/assets\/img\/Slug_SamplePad_4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/Slug_Video_JasonSutter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.19839e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/Slug_Video_JasonSutter.png",
+		"outputAbbreviatedPath": "\/assets\/img\/Slug_Video_JasonSutter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8021,6 +8054,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/assets\/sass\/pages\/home\/video-block-1.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/pages\/home\/video-block-1.scss",
+		"outputAbbreviatedPath": "\/assets\/sass\/pages\/css\/video-block-1.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/assets\/sass\/pages\/home\/videos.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -8296,9 +8345,18 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/assets\/templates\/homepage\/videos.html": {
+	"\/assets\/templates\/homepage\/video-block-1.html": {
 		"fileType": 8192,
 		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/templates\/homepage\/video-block-1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/templates\/homepage\/videos.html": {
+		"fileType": 8192,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/templates\/homepage\/videos.html",
 		"outputAbbreviatedPath": "No Output Path",

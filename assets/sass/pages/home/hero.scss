@@ -44,7 +44,7 @@
       } /* hero-header */
 
       .hero-btn {
-        padding-top: 20px;
+        padding-top: 50px;
 
         span {
           color: #fff;
@@ -53,6 +53,12 @@
           padding: 20px;
           font-size: 1.3em;
           background: rgba(0,0,0,0.4);
+
+          &:hover {
+            transition: background 0.3s;
+            background: #fff;
+            color: black;
+          }
         }
       } /* hero-btn */
     } /* hero-content-wrapper */

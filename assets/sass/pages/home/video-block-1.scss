@@ -1,0 +1,74 @@
+/****************************************
+  VIDEO BLOCK #1    VIDEO BLOCK #1
+*****************************************/
+
+  section#video-block-1 {
+    overflow: hidden;
+
+    .columns {
+      padding: 0;
+    }
+
+    .video-block-1-wrapper {
+      position: relative;
+      // border: 5px solid blue;
+
+      .video-block-1-img {
+
+      }
+
+      .video-block-1-hover-content {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        top: 0;
+        background: rgba(0,0,0,0.4);
+        // border: 5px solid red;
+
+        .video-block-1-hover-header {
+
+
+          h1 {
+            font-size: 5em;
+            font-family: $nexa-black-italic;
+            color: $header-blue;
+            margin: 0;
+            letter-spacing: 2px;
+          }
+        }
+
+        .video-block-1-hover-sub-header {
+          margin-top: -20px;
+
+          h4 {
+            color: #fff;
+            margin: 0;
+            font-family: $nexa-bold-italic;
+            font-size: 1.5em;
+          }
+        }
+
+        .video-block-1-hover-btn {
+          margin-top: 40px;
+
+          span {
+            font-family: $nexa-bold-italic;
+            font-size: 1.2em;
+            padding: 15px 40px;
+            border-radius: 5px;
+            color: black;
+            background: #e6e3e2;
+
+            &:hover {
+              transition: background 0.5s;
+              background: #fff !important;
+            }
+          } /* span */
+        } /* video-block-1-hover-btn */
+      } /* video-block-1-hover-content */
+    } /* video-block-1-wrapper */
+  } /* section#video-block-1 */

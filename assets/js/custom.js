@@ -101,6 +101,15 @@ $(function() {
     $('.feature-block-2-hover-content').fadeOut('slow');
   });
 
+  //VIDEO HOVER SCRIPTS
+  $('.video-block-1-hover-content').hide();
+
+  $('#video-block-1').on('mouseenter', function(){
+    $('.video-block-1-hover-content').fadeIn('slow');
+  }).on('mouseleave', function(){
+    $('.video-block-1-hover-content').fadeOut('slow');
+  });
+
 
 
 
@@ -271,12 +280,12 @@ $('.slick-carousel').slick({
   $('#product-downloads').hide();
 
   $('#overview').on('click', function(){
-    $('.product-content-jquery').stop().fadeTo('slow',0.5).hide();
+    $('.product-content-jquery').stop().fadeTo('slow',0).hide();
     $('#product-overview').delay(300).stop().fadeTo('slow',1);
   });
 
   $('#specs').on('click', function(){
-    $('.product-content-jquery').stop().fadeTo('slow',0.5).hide();
+    $('.product-content-jquery').stop().fadeTo('slow',0).hide();
     $('#product-specs').stop().delay(300).fadeTo('slow',1);
   });
 

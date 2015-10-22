@@ -4,6 +4,10 @@
 
   $font-primary: $nexa;
 
+  * {
+    outline: none;
+  }
+
   body {
     font-family: $font-primary;
     font-weight: normal !important;
@@ -34,4 +38,28 @@
     // text-align: center;
     // border: 5px solid red;
   }
+
+  .reveal-modal {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .close-reveal-modal {
+    font-size: 3em !important;
+    color: #fff !important;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -19,7 +19,27 @@ section#roberge-navigation {
   ul li a {
     text-transform: uppercase;
   }
-}
+
+  /*========================
+    FLEX-BOX SIZING CSS
+  ==========================*/
+
+  .jet-menu-item-1,
+  .jet-menu-item-2,
+  .jet-menu-item-3,
+  .jet-menu-item-4,
+  .jet-menu-item-5 {
+    // padding: 0 10px !important;
+  }
+
+  .nav-separator {
+    // flex: 1;
+    // height:10px;
+    // width: 5px;
+    // border: 5px solid red;
+  }
+
+} /* section#roberge-navigation */
 
 .margin-top-active {
   margin-top: 20px !important;
@@ -172,9 +192,7 @@ section#roberge-navigation {
 }
 
 
-/*========================
-  SEACH / MAGNIFYING GLASS
-==========================*/
+
 
 /*========================
   SEACH / MAGNIFYING GLASS

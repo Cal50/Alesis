@@ -430,6 +430,9 @@ section#roberge-navigation {
   width: 100%;
   background: rgba(0, 0, 0, 0.3) !important;
   border-bottom: 1px solid black;
+  /*========================
+    FLEX-BOX SIZING CSS
+  ==========================*/
 }
 section#roberge-navigation a {
   color: black;
@@ -438,6 +441,7 @@ section#roberge-navigation ul li a {
   text-transform: uppercase;
 }
 
+/* section#roberge-navigation */
 .margin-top-active {
   margin-top: 20px !important;
 }
@@ -560,9 +564,6 @@ section#roberge-navigation ul li a {
   border-bottom: 2px solid #d4d7dc;
 }
 
-/*========================
-  SEACH / MAGNIFYING GLASS
-==========================*/
 /*========================
   SEACH / MAGNIFYING GLASS
 ==========================*/
@@ -1194,6 +1195,25 @@ section#videos .videos-header h1 {
 section#videos .slick-carousel-wrapper {
   margin: 0 auto !important;
   text-align: center !important;
+}
+section#videos .slick-next {
+  background: url(../img/right-arrow.png);
+  background-repeat: no-repeat;
+  height: 83px;
+  width: 38px;
+}
+section#videos .slick-next:before {
+  content: '';
+}
+section#videos .slick-prev {
+  background: url(../img/left-arrow.png);
+  background-repeat: no-repeat;
+  height: 63px;
+  width: 38px;
+  left: -40px !important;
+}
+section#videos .slick-prev:before {
+  content: '';
 }
 section#videos .slick-prev {
   left: 0px !important;

@@ -22,6 +22,34 @@
       // border: 2px solid yellow;
     }
 
+    .slick-next {
+      background: url(../img/right-arrow.png);
+      background-repeat: no-repeat;
+      height: 83px;
+      width: 38px;
+      // background-color: rgba(38,38,38,0.4);
+      // background-color: pink;
+      // border: 2px solid red;
+    }
+
+    .slick-next:before {
+      content: '';
+    }
+
+    .slick-prev {
+      background: url(../img/left-arrow.png);
+      background-repeat: no-repeat;
+      height: 63px;
+      width: 38px;
+      left: -40px !important;
+      // background-color: rgba(38,38,38,0.4);
+      // border: 2px solid red;
+    }
+
+    .slick-prev:before {
+      content: '';
+    }
+
     .slick-prev {
       left: 0px !important;
       z-index: 9999;

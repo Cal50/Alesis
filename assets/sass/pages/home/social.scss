@@ -6,9 +6,13 @@
     margin-top: 3px;
     height: 100px;
     background: #fff;
+    // margin: 0 auto;
+    // border: 2px solid red;
 
     ul {
       height: 100%;
+      width: 60%;
+      margin: 0 auto;
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -33,9 +37,10 @@
         }
       } /* li */
 
-      .social-link:hover {
-          padding: 5px 0;
-          border-bottom: 1px solid $light-blue;
-        }
+      .social-link a:hover {
+        // padding: 5px 0;
+        color: $light-blue;
+        // border-bottom: 1px solid $light-blue;
+      }
     } /* UL */
   } /* section#social */

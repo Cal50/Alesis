@@ -17,8 +17,24 @@ section#roberge-navigation {
   }
 
   ul li a {
-    text-transform: uppercase;
+    // text-transform: uppercase;
   }
+
+  .nav-flex-wrap-1 {
+    // border: 2px solid red;
+  }
+
+  #jetmenu {
+    // display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2% !important;
+    // text-align: center;
+    background: rgba(255,255,255, 1) !important;
+    // border: 2px solid red;
+  }
+
 
   /*========================
     FLEX-BOX SIZING CSS
@@ -29,11 +45,24 @@ section#roberge-navigation {
   .jet-menu-item-3,
   .jet-menu-item-4,
   .jet-menu-item-5 {
-    // padding: 0 10px !important;
+    padding: 0 30px !important;
+  }
+
+  .jet-menu-item-1,
+  .jet-menu-item-2,
+  .jet-menu-item-3,
+  .jet-menu-item-4,
+  .jet-menu-item-5,
+  .jet-menu-item-6,
+  .jet-menu-item-7 {
+
+    &:hover {
+      color: rgba(181, 181, 182, 1) !important;
+    }
   }
 
   .nav-separator {
-    // flex: 1;
+    flex: 1;
     // height:10px;
     // width: 5px;
     // border: 5px solid red;
@@ -68,16 +97,6 @@ section#roberge-navigation {
   margin: 0 auto;
 }
 
-#jetmenu {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  // height: 80px !important;
-  text-align: center;
-  background: rgba(255,255,255, 1) !important;
-  // border: 2px solid red;
-}
-
 .roberge-logo-div {
   padding: 11px 0 10px 0;
   // position: absolute;
@@ -104,7 +123,7 @@ section#roberge-navigation {
   padding: 25px 0px 25px 0;
 }
 
-.jetmenu li {
+.jetmenu {
   float: none;
 }
 
@@ -112,7 +131,7 @@ section#roberge-navigation {
   padding: 25% 0 !important;
   color: $white;
   font-size: 15px;
-  letter-spacing: 5px;
+  // letter-spacing: 3px;
   font-weight: 100;
   text-transform: uppercase;
   // padding: 8px 20px;
@@ -121,7 +140,7 @@ section#roberge-navigation {
 .blue > li:hover > a, .blue > li.active > a {
   background: transparent !important;
   color: #2280b8;
-  border-bottom: 1px solid #00acec;
+  // border-bottom: 1px solid #00acec;
 }
 
 .jetmenu .indicator {
@@ -139,14 +158,25 @@ section#roberge-navigation {
 .company-ul {
   text-align: left;
   // border: 3px solid goldenrod;
+
+  li {
+    padding-bottom: 15px !important;
+  }
 }
 
 .products-ul li a,
-.company-ul li a {
-  font-size: 16px !important;
+.company-row a,
+.support-row a,
+.location-row a {
+  padding-left: 15px !important;
+  font-size: 15px !important;
   font-weight: 100 !important;
   // opacity: 1 !important;
   // border: 3px solid red;
+
+  &:hover {
+    color: rgba(181, 181, 182, 1) !important;
+  }
 }
 
 .block-grid-wrapper {
@@ -178,17 +208,21 @@ section#roberge-navigation {
 }
 
 .mega-menu-heading {
-  font-weight: 300;
-  font-size: 20px;
+  font-family: $nexa-bold;
+  font-size: 14px;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  // letter-spacing: 3px;
   color: black !important;
   text-align: left !important;
   margin: 0 !important;
-  padding: 0 !important;
+  padding: 0 0 15px 15px !important;
   margin-bottom: 10px !important;
   border-bottom: 2px solid #d4d7dc;
   // border-bottom: 1px solid $akai-red;
+}
+
+.view-accessories {
+  font-family: $nexa-bold;
 }
 
 
@@ -199,6 +233,8 @@ section#roberge-navigation {
 ==========================*/
 
 #nav-search {
+  padding-left: 20px;
+  border-left: 1px solid black;
   //border: 2px solid red;
 
   :hover {
@@ -485,7 +521,7 @@ input[type=checkbox] {
 
     span {
       font-weight: 100;
-      border: 2px solid black;
+      // border: 1px solid black;
       border-radius: 3px;
       padding: 5px 25px;
     }

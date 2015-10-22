@@ -1,9 +1,9 @@
 // This is the single file output by sass. It is intended to ONLY @import other files.
 
 // FOUNDATION
-  // @import '../../bower_components/foundation/scss/foundation';
-  // @import '../../bower_components/foundation/scss/foundation/functions';
   // @import '../../bower_components/foundation/scss/foundation/settings';
+  // @import '../../bower_components/foundation/scss/foundation/functions';
+  // @import '../../bower_components/foundation/scss/foundation';
 
 
 // TOOLS
@@ -16,6 +16,7 @@
 
 // PAGES / PARTIALS
   @import 'pages/_partials/navigation';
+  @import 'pages/_partials/mobile-nav';
 
 // HOMEPAGE
   @import 'pages/home/hero';

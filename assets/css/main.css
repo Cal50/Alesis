@@ -932,7 +932,10 @@ input[type=checkbox] {
 /*****************************************************************************
    MOBILE NAVIGATION       MOBILE NAVIGATION       MOBILE NAVIGATION
 ******************************************************************************/
-/* section#mobile-nav */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* section#mobile-nav */
+}
+/* END OF MEDIA QUERY */
 /************************************
    HERO       HERO       HERO
 *************************************/

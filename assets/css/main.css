@@ -1312,7 +1312,7 @@ section#categories-grid {
   /* min-width 1025px and max-width 1440px */
 }
 section#categories-grid .columns {
-  padding: 0 4px 0 4px !important;
+  padding: 0 2px 0 2px !important;
 }
 section#categories-grid .grid-images {
   height: 17em !important;

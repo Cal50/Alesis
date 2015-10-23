@@ -933,6 +933,44 @@ input[type=checkbox] {
    MOBILE NAVIGATION       MOBILE NAVIGATION       MOBILE NAVIGATION
 ******************************************************************************/
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  section#mobile-nav {
+    /* mobile-nav-logo-div */
+  }
+  section#mobile-nav .top-bar,
+  section#mobile-nav .topbar.expanded {
+    background: #fff;
+    border-bottom: 1px solid #e9ebed;
+  }
+  section#mobile-nav .top-bar .toggle-topbar.menu-icon a {
+    color: black;
+    font-family: "NexaLight", sans-serif;
+  }
+  section#mobile-nav .top-bar-section ul li,
+  section#mobile-nav .top-bar.expanded .title-area {
+    background: #fff;
+    border-bottom: 1px solid #e9ebed;
+  }
+  section#mobile-nav .top-bar-section ul li a,
+  section#mobile-nav .top-bar.expanded .title-area a {
+    font-family: "NexaLight", sans-serif;
+    color: black;
+    font-size: 1em;
+  }
+  section#mobile-nav .top-bar-section ul li:hover:not(.has-form) > a {
+    background: #fff;
+  }
+  section#mobile-nav .top-bar-section .has-dropdown > a:after {
+    border-radius: 5px;
+    background: #e9ebed;
+  }
+  section#mobile-nav .mobile-nav-logo-div {
+    height: 45px;
+    width: 159px;
+  }
+  section#mobile-nav .mobile-nav-logo-div img {
+    padding-top: 5px;
+  }
+
   /* section#mobile-nav */
 }
 /* END OF MEDIA QUERY */

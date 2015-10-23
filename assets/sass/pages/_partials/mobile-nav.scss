@@ -3,8 +3,56 @@
 ******************************************************************************/
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 
+
+
   section#mobile-nav {
 
+    .top-bar,
+    .topbar.expanded {
+      background: #fff;
+      border-bottom: 1px solid $light-gray;
+    }
+
+    .top-bar .toggle-topbar.menu-icon a {
+      color: black;
+      font-family: $nexa-light;
+    }
+
+    .top-bar-section ul li,
+    .top-bar.expanded .title-area {
+      background: #fff;
+      border-bottom: 1px solid $light-gray;
+
+      a {
+        font-family: $nexa-light;
+        color: black;
+        font-size: 1em;
+      }
+    }
+
+    .top-bar-section ul li:hover:not(.has-form) > a {
+      background: #fff;
+    }
+
+    .top-bar-section .has-dropdown > a:after {
+      // color: black;
+      border-radius: 5px;
+      background: $light-gray;
+    }
+
+    .mobile-nav-logo-div {
+      height: 45px;
+      width: 159px;
+      // border: 1px solid green;
+
+      img {
+        padding-top: 5px;
+      }
+    } /* mobile-nav-logo-div */
+
+
   } /* section#mobile-nav */
+
+
 
 } /* END OF MEDIA QUERY */

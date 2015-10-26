@@ -7982,6 +7982,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/assets\/sass\/pages\/css\/product-features.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/pages\/css\/product-features.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/assets\/sass\/pages\/css\/product-hero.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -8210,6 +8219,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/assets\/sass\/pages\/product-page\/product-features.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/pages\/product-page\/product-features.scss",
+		"outputAbbreviatedPath": "\/assets\/sass\/pages\/css\/product-features.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/assets\/sass\/pages\/product-page\/product-hero.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -8251,22 +8276,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/sass\/pages\/product-page\/product-quote-strip.scss",
 		"outputAbbreviatedPath": "\/assets\/sass\/pages\/css\/product-quote-strip.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/assets\/sass\/pages\/product-page\/product-specs.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/sass\/pages\/product-page\/product-specs.scss",
-		"outputAbbreviatedPath": "\/assets\/sass\/pages\/css\/product-specs.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -8545,11 +8554,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/assets\/templates\/product-page\/product-overview\/product-specs.html": {
+	"\/assets\/templates\/product-page\/product-overview\/product-features.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/templates\/product-page\/product-overview\/product-specs.html",
+		"inputAbbreviatedPath": "\/assets\/templates\/product-page\/product-overview\/product-features.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

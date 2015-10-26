@@ -1809,16 +1809,109 @@ section#product-overview section#product-overview-gallery .product-gallery-wrapp
 /****************************************
     PRODUCT SPECS    PRODUCT SPECS
 *****************************************/
-section#product-specs {
-  height: 50vh;
-  background: red;
+section#product-features {
+  height: 100vh;
+  background: #e9ebed;
+  /* product-features-wrapper */
+  /* product-features-content */
+  /*====================
+    PACKAGING CONTENTS
+  =====================*/
+  /* packaging-contents-wrapper */
+  /* packaging-contents-content */
 }
-section#product-specs h1 {
+section#product-features .product-features-wrapper {
+  height: 50vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+section#product-features .product-features-wrapper .product-features-header {
   text-align: center;
-  font-size: 3em;
+  margin-bottom: 20px;
+}
+section#product-features .product-features-wrapper .product-features-header h2 {
+  text-transform: uppercase;
+  font-family: "NexaLight", sans-serif;
+}
+section#product-features .product-features-content {
+  background: #fff;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 2% 0;
+  text-align: center;
+  /* ul */
+}
+section#product-features .product-features-content ul {
+  list-style: none;
+}
+section#product-features .product-features-content ul li {
+  font-size: 1.3em;
+  font-family: "NexaLight", sans-serif;
+}
+section#product-features .product-features-hr {
+  width: 80%;
+  margin: 0 auto;
+}
+section#product-features .packaging-contents-wrapper {
+  height: 50vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+section#product-features .packaging-contents-wrapper .packaging-contents-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+section#product-features .packaging-contents-wrapper .packaging-contents-header h2 {
+  text-transform: uppercase;
+  font-family: "NexaLight", sans-serif;
+}
+section#product-features .packaging-contents-content {
+  background: #fff;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 2% 0;
+  text-align: center;
+  /* ul */
+}
+section#product-features .packaging-contents-content ul {
+  list-style: none;
+}
+section#product-features .packaging-contents-content ul li {
+  font-size: 1.3em;
+  font-family: "NexaLight", sans-serif;
 }
 
-/* section#product-specs */
+/* section#product-features */
 /****************************************
     PRODUCT ACCESSORIES    PRODUCT ACCESSORIES
 *****************************************/

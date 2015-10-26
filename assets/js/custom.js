@@ -286,7 +286,7 @@ $('.slick-carousel').slick({
 
   $('#specs').on('click', function(){
     $('.product-content-jquery').stop().fadeTo('slow',0).hide();
-    $('#product-specs').stop().delay(300).fadeTo('slow',1);
+    $('#product-features').stop().delay(300).fadeTo('slow',1);
   });
 
   $('#accessories').on('click', function(){

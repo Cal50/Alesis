@@ -1,0 +1,15 @@
+/****************************************
+    PRODUCT SPECS    PRODUCT SPECS
+*****************************************/
+section#product-features {
+  height: 50vh;
+  background: red;
+}
+section#product-features h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+/* section#product-features */
+
+/*# sourceMappingURL=product-features.css.map */

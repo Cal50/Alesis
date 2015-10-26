@@ -1,0 +1,112 @@
+/****************************************
+    PRODUCT SPECS    PRODUCT SPECS
+*****************************************/
+
+  section#product-features {
+    height: 100vh;
+    background: $light-gray;
+
+    .product-features-wrapper {
+      height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      // border: 5px solid red;
+
+      .product-features-header {
+        text-align: center;
+        margin-bottom: 20px;
+
+        h2 {
+          // font-size: 2vw;
+          text-transform: uppercase;
+          font-family: $nexa-light;
+        }
+      }
+    } /* product-features-wrapper */
+
+    .product-features-content {
+      background: #fff;
+      width: 80vw;
+      margin: 0 auto;
+      padding: 2% 0;
+      text-align: center;
+
+      ul {
+        list-style: none;
+
+        li {
+          font-size: 1.3em;
+          font-family: $nexa-light;
+        }
+      } /* ul */
+    } /* product-features-content */
+
+    .product-features-hr {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    /*====================
+      PACKAGING CONTENTS
+    =====================*/
+
+    .packaging-contents-wrapper {
+      height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      // border: 5px solid red;
+
+      .packaging-contents-header {
+        text-align: center;
+        margin-bottom: 20px;
+
+        h2 {
+          // font-size: 2vw;
+          text-transform: uppercase;
+          font-family: $nexa-light;
+        }
+      }
+    } /* packaging-contents-wrapper */
+
+    .packaging-contents-content {
+      background: #fff;
+      width: 80vw;
+      margin: 0 auto;
+      padding: 2% 0;
+      text-align: center;
+
+      ul {
+        list-style: none;
+
+        li {
+          font-size: 1.3em;
+          font-family: $nexa-light;
+        }
+      } /* ul */
+    } /* packaging-contents-content */
+
+  } /* section#product-features */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

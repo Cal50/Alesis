@@ -3,11 +3,219 @@
 *****************************************/
 
   section#product-downloads{
-    height: 50vh;
-    background: purple;
+    height: 100vh;
+    background: $light-gray;
 
-    h1 {
+    .product-updates-wrapper {
+      height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      // border: 5px solid red;
+
+      .product-updates-header {
+        text-align: center;
+        margin-bottom: 20px;
+
+        h2 {
+          // font-size: 2vw;
+          text-transform: uppercase;
+          font-family: $nexa-light;
+        }
+      }
+    } /* product-updates-wrapper */
+
+    .product-updates-content {
+      background: #fff;
+      width: 80vw;
+      margin: 0 auto;
+      padding: 2% 0;
       text-align: center;
-      font-size: 3em;
+
+      .mac-updates-container {
+
+        .mac-updates-header {
+
+          h3 {
+            font-family: $nexa-light;
+          }
+        } /* mac-updates-header */
+
+        .mac-update-box {
+          text-align: left;
+          background: $light-gray;
+          padding: 10px;
+
+          h4 {
+            padding-left: 20px;
+            font-family: $nexa-light;
+
+            span {
+
+              font-family: $nexa-light;
+            }
+          }
+
+          ul {
+            list-style: none;
+
+            li {
+              font-family: $nexa-light;
+            }
+          }
+
+          .mac-download-btn {
+            padding: 20px;
+
+            span {
+              background: #00a8ee;
+              border-radius: 5px;
+              padding: 10px;
+              color: #fff;
+            }
+          }
+        } /* mac-update-box */
+      } /* mac-updates-container */
+
+
+
+      .windows-updates-container {
+
+        .windows-updates-header {
+
+          h3 {
+            font-family: $nexa-light;
+          }
+        } /* windows-updates-header */
+
+        .windows-update-box {
+          text-align: left;
+          background: $light-gray;
+          padding: 10px;
+
+          h4 {
+            padding-left: 20px;
+            font-family: $nexa-light;
+
+            span {
+
+              font-family: $nexa-light;
+            }
+          }
+
+          ul {
+            list-style: none;
+
+            li {
+              font-family: $nexa-light;
+            }
+          }
+
+          .windows-download-btn {
+            padding: 20px;
+
+            span {
+              background: #00a8ee;
+              border-radius: 5px;
+              padding: 10px;
+              color: #fff;
+            }
+          }
+        } /* windows-update-box */
+      } /* windows-updates-container */
+    } /* product-updates-content */
+
+    .product-features-hr {
+      width: 80%;
+      margin: 0 auto;
     }
+
+    /*====================
+      DOCUMENTS CONTENTS
+    =====================*/
+
+    .documents-contents-wrapper {
+      height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      // border: 5px solid red;
+
+      .documents-contents-header {
+        text-align: center;
+        margin-bottom: 20px;
+
+        h2 {
+          // font-size: 2vw;
+          text-transform: uppercase;
+          font-family: $nexa-light;
+        }
+      }
+    } /* documents-contents-wrapper */
+
+    .documents-contents-content {
+      background: #fff;
+      width: 80vw;
+      margin: 0 auto;
+      padding: 2% 0;
+      text-align: center;
+
+      .documents-header,
+      .images-header {
+
+        h3 {
+          font-family: $nexa-light;
+        }
+      } /* documents-header */
+
+      ul {
+        list-style: none;
+
+        li {
+          height: 5vh;
+          width: 20vw;
+          display: relative;
+          display: flex;
+          align-items: center;
+          text-align: left;
+          background: $light-gray;
+          margin-bottom: 2px;
+          // border: 2px solid red;
+
+          span {
+            flex: 1;
+            font-family: $nexa-light;
+            color: black;
+            padding-left: 10px;
+            // padding-right: 30%;
+          }
+
+
+          a {
+            padding: 5px;
+            // background: $light-gray;
+            font-family: $nexa-light;
+          }
+        } /* li */
+      } /* ul */
+    } /* documents-contents-content */
   } /* section#product-DOWNLOADS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1929,12 +1929,198 @@ section#product-accessories h1 {
     PRODUCT DOWNLOADS    PRODUCT DOWNLOADS
 *****************************************/
 section#product-downloads {
-  height: 50vh;
-  background: purple;
+  height: 100vh;
+  background: #e9ebed;
+  /* product-updates-wrapper */
+  /* product-updates-content */
+  /*====================
+    DOCUMENTS CONTENTS
+  =====================*/
+  /* documents-contents-wrapper */
+  /* documents-contents-content */
 }
-section#product-downloads h1 {
+section#product-downloads .product-updates-wrapper {
+  height: 50vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+section#product-downloads .product-updates-wrapper .product-updates-header {
   text-align: center;
-  font-size: 3em;
+  margin-bottom: 20px;
+}
+section#product-downloads .product-updates-wrapper .product-updates-header h2 {
+  text-transform: uppercase;
+  font-family: "NexaLight", sans-serif;
+}
+section#product-downloads .product-updates-content {
+  background: #fff;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 2% 0;
+  text-align: center;
+  /* mac-updates-container */
+  /* windows-updates-container */
+}
+section#product-downloads .product-updates-content .mac-updates-container {
+  /* mac-updates-header */
+  /* mac-update-box */
+}
+section#product-downloads .product-updates-content .mac-updates-container .mac-updates-header h3 {
+  font-family: "NexaLight", sans-serif;
+}
+section#product-downloads .product-updates-content .mac-updates-container .mac-update-box {
+  text-align: left;
+  background: #e9ebed;
+  padding: 10px;
+}
+section#product-downloads .product-updates-content .mac-updates-container .mac-update-box h4 {
+  padding-left: 20px;
+  font-family: "NexaLight", sans-serif;
+}
+section#product-downloads .product-updates-content .mac-updates-container .mac-update-box h4 span {
+  font-family: "NexaLight", sans-serif;
+}
+section#product-downloads .product-updates-content .mac-updates-container .mac-update-box ul {
+  list-style: none;
+}
+section#product-downloads .product-updates-content .mac-updates-container .mac-update-box ul li {
+  font-family: "NexaLight", sans-serif;
+}
+section#product-downloads .product-updates-content .mac-updates-container .mac-update-box .mac-download-btn {
+  padding: 20px;
+}
+section#product-downloads .product-updates-content .mac-updates-container .mac-update-box .mac-download-btn span {
+  background: #00a8ee;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+}
+section#product-downloads .product-updates-content .windows-updates-container {
+  /* windows-updates-header */
+  /* windows-update-box */
+}
+section#product-downloads .product-updates-content .windows-updates-container .windows-updates-header h3 {
+  font-family: "NexaLight", sans-serif;
+}
+section#product-downloads .product-updates-content .windows-updates-container .windows-update-box {
+  text-align: left;
+  background: #e9ebed;
+  padding: 10px;
+}
+section#product-downloads .product-updates-content .windows-updates-container .windows-update-box h4 {
+  padding-left: 20px;
+  font-family: "NexaLight", sans-serif;
+}
+section#product-downloads .product-updates-content .windows-updates-container .windows-update-box h4 span {
+  font-family: "NexaLight", sans-serif;
+}
+section#product-downloads .product-updates-content .windows-updates-container .windows-update-box ul {
+  list-style: none;
+}
+section#product-downloads .product-updates-content .windows-updates-container .windows-update-box ul li {
+  font-family: "NexaLight", sans-serif;
+}
+section#product-downloads .product-updates-content .windows-updates-container .windows-update-box .windows-download-btn {
+  padding: 20px;
+}
+section#product-downloads .product-updates-content .windows-updates-container .windows-update-box .windows-download-btn span {
+  background: #00a8ee;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+}
+section#product-downloads .product-features-hr {
+  width: 80%;
+  margin: 0 auto;
+}
+section#product-downloads .documents-contents-wrapper {
+  height: 50vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+section#product-downloads .documents-contents-wrapper .documents-contents-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+section#product-downloads .documents-contents-wrapper .documents-contents-header h2 {
+  text-transform: uppercase;
+  font-family: "NexaLight", sans-serif;
+}
+section#product-downloads .documents-contents-content {
+  background: #fff;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 2% 0;
+  text-align: center;
+  /* documents-header */
+  /* ul */
+}
+section#product-downloads .documents-contents-content .documents-header h3,
+section#product-downloads .documents-contents-content .images-header h3 {
+  font-family: "NexaLight", sans-serif;
+}
+section#product-downloads .documents-contents-content ul {
+  list-style: none;
+  /* li */
+}
+section#product-downloads .documents-contents-content ul li {
+  height: 5vh;
+  width: 20vw;
+  display: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  background: #e9ebed;
+  margin-bottom: 2px;
+}
+section#product-downloads .documents-contents-content ul li span {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-family: "NexaLight", sans-serif;
+  color: black;
+  padding-left: 10px;
+}
+section#product-downloads .documents-contents-content ul li a {
+  padding: 5px;
+  font-family: "NexaLight", sans-serif;
 }
 
 /* section#product-DOWNLOADS */

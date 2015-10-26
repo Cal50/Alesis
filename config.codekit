@@ -106,6 +106,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/product-page\/overview-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 327531,
+		"inputAbbreviatedPath": "\/assets\/img\/product-page\/overview-2.png",
+		"outputAbbreviatedPath": "\/assets\/img\/product-page\/overview-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/product-page\/overview-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 337879,
+		"inputAbbreviatedPath": "\/assets\/img\/product-page\/overview-3.png",
+		"outputAbbreviatedPath": "\/assets\/img\/product-page\/overview-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/product-page\/overview-half.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -124,6 +146,17 @@
 		"initialSize": 624553,
 		"inputAbbreviatedPath": "\/assets\/img\/product-page\/overview-ortho-1.png",
 		"outputAbbreviatedPath": "\/assets\/img\/product-page\/overview-ortho-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/product-page\/overview-ortho-1_80_percent.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 405778,
+		"inputAbbreviatedPath": "\/assets\/img\/product-page\/overview-ortho-1_80_percent.png",
+		"outputAbbreviatedPath": "\/assets\/img\/product-page\/overview-ortho-1_80_percent.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8481,6 +8514,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/templates\/product-page\/product-overview\/overview-3.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/templates\/product-page\/product-overview\/overview-gallery.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/templates\/product-page\/product-overview\/overview-gallery.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

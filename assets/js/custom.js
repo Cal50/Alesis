@@ -64,7 +64,7 @@ $(function() {
             $('.megamenu.full-width').addClass('margin-top-active');
             $('#jetmenu').data('size','big');
             $('#jetmenu').stop().animate({
-                height:'100px'
+                height:'80px'
             },600);
           }
       }

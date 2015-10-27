@@ -1847,7 +1847,8 @@ section#product-overview section#product-overview-gallery .product-gallery-wrapp
 section#product-features {
   overflow: hidden;
   background: #e9ebed;
-  margin-bottom: 3%;
+  margin-bottom: 3px;
+  padding-top: 2%;
   /* product-features-wrapper */
   /* product-features-content */
   /*====================
@@ -1855,6 +1856,9 @@ section#product-features {
   =====================*/
   /* packaging-contents-wrapper */
   /* packaging-contents-content */
+}
+section#product-features .columns {
+  padding: 0;
 }
 section#product-features .product-features-wrapper {
   display: -webkit-box;
@@ -1877,18 +1881,17 @@ section#product-features .product-features-wrapper {
   padding-bottom: 5%;
 }
 section#product-features .product-features-wrapper .product-features-header {
-  text-align: center;
+  text-align: left;
+  width: 90%;
   padding: 20px 0;
 }
 section#product-features .product-features-wrapper .product-features-header h2 {
+  padding-left: 20px;
   text-transform: uppercase;
   font-family: "NexaLight", sans-serif;
 }
 section#product-features .product-features-content {
-  background: #fff;
   width: 90%;
-  margin: 0 auto;
-  padding: 2%;
   /* ul */
 }
 section#product-features .product-features-content ul {
@@ -1897,7 +1900,8 @@ section#product-features .product-features-content ul {
 section#product-features .product-features-content ul li {
   font-size: 1.2em;
   font-family: "NexaLight", sans-serif;
-  padding-bottom: 15px;
+  padding: 15px 0;
+  border-bottom: 1px solid #c8d0de;
 }
 section#product-features .product-features-hr {
   width: 80%;
@@ -1912,10 +1916,6 @@ section#product-features .packaging-contents-wrapper {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1924,7 +1924,8 @@ section#product-features .packaging-contents-wrapper {
   padding-bottom: 5%;
 }
 section#product-features .packaging-contents-wrapper .packaging-contents-header {
-  text-align: center;
+  text-align: left;
+  width: 90%;
   padding: 20px 0;
 }
 section#product-features .packaging-contents-wrapper .packaging-contents-header h2 {
@@ -1932,19 +1933,18 @@ section#product-features .packaging-contents-wrapper .packaging-contents-header 
   font-family: "NexaLight", sans-serif;
 }
 section#product-features .packaging-contents-content {
-  background: #fff;
-  width: 50%;
-  margin: 0 auto;
-  padding: 2%;
+  width: 90%;
   /* ul */
 }
 section#product-features .packaging-contents-content ul {
   list-style: none;
+  margin: 0;
 }
 section#product-features .packaging-contents-content ul li {
   font-size: 1.2em;
-  line-height: 1.95;
+  padding: 15px 0;
   font-family: "NexaLight", sans-serif;
+  border-bottom: 1px solid #c8d0de;
 }
 
 /* section#product-features */
@@ -1954,7 +1954,8 @@ section#product-features .packaging-contents-content ul li {
 section#product-downloads {
   overflow: hidden;
   background: #e9ebed;
-  margin-bottom: 3%;
+  margin-bottom: 3px;
+  padding-top: 2%;
   /* product-updates-wrapper */
   /* product-updates-content */
   /*====================
@@ -1989,6 +1990,7 @@ section#product-downloads .product-updates-wrapper {
 section#product-downloads .product-updates-wrapper .product-updates-header {
   text-align: center;
   margin-bottom: 20px;
+  padding: 1%;
 }
 section#product-downloads .product-updates-wrapper .product-updates-header h2 {
   text-transform: uppercase;
@@ -2143,6 +2145,7 @@ section#product-downloads .documents-contents-wrapper {
 section#product-downloads .documents-contents-wrapper .documents-contents-header {
   text-align: center;
   margin-bottom: 20px;
+  padding: 1%;
 }
 section#product-downloads .documents-contents-wrapper .documents-contents-header h2 {
   text-transform: uppercase;
@@ -2219,7 +2222,8 @@ section#product-downloads .documents-contents-content .product-images-wrapper ul
 section#product-accessories {
   overflow: hidden;
   background: #e9ebed;
-  margin-bottom: 3%;
+  margin-bottom: 3px;
+  padding-top: 2%;
   /* product-accessories-header */
   /* product-accessory-container */
 }

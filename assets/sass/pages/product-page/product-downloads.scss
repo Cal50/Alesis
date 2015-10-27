@@ -6,7 +6,8 @@
     // height: 100vh;
     overflow: hidden;
     background: $light-gray;
-    margin-bottom: 3%;
+    margin-bottom: 3px;
+    padding-top: 2%;
 
     .columns {
       padding: 0;
@@ -23,6 +24,7 @@
       .product-updates-header {
         text-align: center;
         margin-bottom: 20px;
+        padding: 1%;
 
         h2 {
           // font-size: 2vw;
@@ -184,6 +186,7 @@
       .documents-contents-header {
         text-align: center;
         margin-bottom: 20px;
+        padding: 1%;
 
         h2 {
           // font-size: 2vw;

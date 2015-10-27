@@ -2146,8 +2146,8 @@ section#product-downloads .documents-contents-content {
   /* documents-header */
   /* product-documents-wrapper */
 }
-section#product-downloads .documents-contents-content .documents-header h3,
-section#product-downloads .documents-contents-content .images-header h3 {
+section#product-downloads .documents-contents-content .documents-header h4,
+section#product-downloads .documents-contents-content .images-header h4 {
   font-family: "NexaLight", sans-serif;
 }
 section#product-downloads .documents-contents-content .documents-divider-line {
@@ -2188,12 +2188,14 @@ section#product-downloads .documents-contents-content .product-images-wrapper ul
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  font-size: 1.3em;
   font-family: "NexaLight", sans-serif;
   color: black;
   padding-left: 30px;
 }
 section#product-downloads .documents-contents-content .product-documents-wrapper ul li a,
 section#product-downloads .documents-contents-content .product-images-wrapper ul li a {
+  font-size: 1.2em;
   padding: 5px 10px;
   font-family: "NexaLight", sans-serif;
 }

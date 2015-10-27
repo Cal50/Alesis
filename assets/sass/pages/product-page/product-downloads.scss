@@ -7,6 +7,10 @@
     overflow: hidden;
     background: $light-gray;
 
+    .columns {
+      padding: 0;
+    }
+
     .product-updates-wrapper {
       height: 50vh;
       display: flex;
@@ -35,6 +39,7 @@
       text-align: center;
 
       .mac-updates-container {
+        border-right: 1px solid $light-gray;
 
         .mac-updates-header {
 
@@ -43,40 +48,54 @@
           }
         } /* mac-updates-header */
 
-        .mac-update-box {
-          text-align: left;
-          background: $light-gray;
-          padding: 10px;
+        .mac-update-box-wrapper {
+          width: 100%;
+          // border: 5px solid green;
 
-          h4 {
-            padding-left: 20px;
-            font-family: $nexa-light;
+          .mac-update-box {
+            width: 80%;
+            margin: 0 auto;
+            text-align: left;
+            background: $light-gray;
+            padding: 10px;
 
-            span {
+            .mac-update-box-header {
+              display: flex;
+              align-items: center;
 
-              font-family: $nexa-light;
+              h4 {
+                flex: 1;
+                padding-left: 20px;
+                font-family: $nexa-light;
+
+                span {
+                  font-family: $nexa-light;
+                }
+              }
+            } /* mac-update-box-header */
+
+
+
+            ul {
+              list-style: none;
+
+              li {
+                font-family: $nexa-light;
+              }
             }
-          }
 
-          ul {
-            list-style: none;
+            .mac-download-btn {
+              padding: 20px;
 
-            li {
-              font-family: $nexa-light;
+              span {
+                background: #00a8ee;
+                border-radius: 5px;
+                padding: 10px;
+                color: #fff;
+              }
             }
-          }
-
-          .mac-download-btn {
-            padding: 20px;
-
-            span {
-              background: #00a8ee;
-              border-radius: 5px;
-              padding: 10px;
-              color: #fff;
-            }
-          }
-        } /* mac-update-box */
+          } /* mac-update-box */
+        } /* mac-update-box-wrapper */
       } /* mac-updates-container */
 
 
@@ -90,40 +109,51 @@
           }
         } /* windows-updates-header */
 
-        .windows-update-box {
-          text-align: left;
-          background: $light-gray;
-          padding: 10px;
+        .windows-update-box-wrapper {
+          width: 100%;
 
-          h4 {
-            padding-left: 20px;
-            font-family: $nexa-light;
+          .windows-update-box {
+            width: 80%;
+            margin: 0 auto;
+            text-align: left;
+            background: $light-gray;
+            padding: 10px;
 
-            span {
+            .windows-update-box-header {
+              display: flex;
+              align-items: center;
 
-              font-family: $nexa-light;
+              h4 {
+                flex: 1;
+                padding-left: 20px;
+                font-family: $nexa-light;
+
+                span {
+                  font-family: $nexa-light;
+                }
+              }
+            } /* windows-update-box-header */
+
+            ul {
+              list-style: none;
+
+              li {
+                font-family: $nexa-light;
+              }
             }
-          }
 
-          ul {
-            list-style: none;
+            .windows-download-btn {
+              padding: 20px;
 
-            li {
-              font-family: $nexa-light;
+              span {
+                background: #00a8ee;
+                border-radius: 5px;
+                padding: 10px;
+                color: #fff;
+              }
             }
-          }
-
-          .windows-download-btn {
-            padding: 20px;
-
-            span {
-              background: #00a8ee;
-              border-radius: 5px;
-              padding: 10px;
-              color: #fff;
-            }
-          }
-        } /* windows-update-box */
+          } /* windows-update-box */
+        } /* windows-update-box-wrapper */
       } /* windows-updates-container */
     } /* product-updates-content */
 
@@ -171,36 +201,46 @@
         }
       } /* documents-header */
 
-      ul {
-        list-style: none;
+      .product-documents-wrapper {
+        border-right: 1px solid $light-gray;
+      }
 
-        li {
-          height: 5vh;
-          width: 20vw;
-          display: relative;
-          display: flex;
-          align-items: center;
-          text-align: left;
-          background: $light-gray;
-          margin-bottom: 2px;
-          // border: 2px solid red;
+      .product-documents-wrapper,
+      .product-images-wrapper {
+        width: 100%;
+        // border: 2px solid red;
 
-          span {
-            flex: 1;
-            font-family: $nexa-light;
-            color: black;
-            padding-left: 10px;
-            // padding-right: 30%;
-          }
+        ul {
+          list-style: none;
+
+          li {
+            height: 5vh;
+            width: 80%;
+            display: relative;
+            display: flex;
+            align-items: center;
+            text-align: left;
+            background: $light-gray;
+            margin: 0 auto;
+            // border: 2px solid red;
+
+            span {
+              flex: 1;
+              font-family: $nexa-light;
+              color: black;
+              padding-left: 10px;
+              // padding-right: 30%;
+            }
 
 
-          a {
-            padding: 5px;
-            // background: $light-gray;
-            font-family: $nexa-light;
-          }
-        } /* li */
-      } /* ul */
+            a {
+              padding: 5px;
+              // background: $light-gray;
+              font-family: $nexa-light;
+            }
+          } /* li */
+        } /* ul */
+      } /* product-documents-wrapper */
     } /* documents-contents-content */
   } /* section#product-DOWNLOADS */
 

@@ -1842,6 +1842,7 @@ section#product-overview section#product-overview-gallery .product-gallery-wrapp
 section#product-features {
   overflow: hidden;
   background: #e9ebed;
+  margin-bottom: 3%;
   /* product-features-wrapper */
   /* product-features-content */
   /*====================
@@ -1952,6 +1953,9 @@ section#product-downloads {
   /* documents-contents-wrapper */
   /* documents-contents-content */
 }
+section#product-downloads .columns {
+  padding: 0;
+}
 section#product-downloads .product-updates-wrapper {
   height: 50vh;
   display: -webkit-box;
@@ -1990,34 +1994,56 @@ section#product-downloads .product-updates-content {
   /* windows-updates-container */
 }
 section#product-downloads .product-updates-content .mac-updates-container {
+  border-right: 1px solid #e9ebed;
   /* mac-updates-header */
-  /* mac-update-box */
+  /* mac-update-box-wrapper */
 }
 section#product-downloads .product-updates-content .mac-updates-container .mac-updates-header h3 {
   font-family: "NexaLight", sans-serif;
 }
-section#product-downloads .product-updates-content .mac-updates-container .mac-update-box {
+section#product-downloads .product-updates-content .mac-updates-container .mac-update-box-wrapper {
+  width: 100%;
+  /* mac-update-box */
+}
+section#product-downloads .product-updates-content .mac-updates-container .mac-update-box-wrapper .mac-update-box {
+  width: 80%;
+  margin: 0 auto;
   text-align: left;
   background: #e9ebed;
   padding: 10px;
+  /* mac-update-box-header */
 }
-section#product-downloads .product-updates-content .mac-updates-container .mac-update-box h4 {
+section#product-downloads .product-updates-content .mac-updates-container .mac-update-box-wrapper .mac-update-box .mac-update-box-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+section#product-downloads .product-updates-content .mac-updates-container .mac-update-box-wrapper .mac-update-box .mac-update-box-header h4 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   padding-left: 20px;
   font-family: "NexaLight", sans-serif;
 }
-section#product-downloads .product-updates-content .mac-updates-container .mac-update-box h4 span {
+section#product-downloads .product-updates-content .mac-updates-container .mac-update-box-wrapper .mac-update-box .mac-update-box-header h4 span {
   font-family: "NexaLight", sans-serif;
 }
-section#product-downloads .product-updates-content .mac-updates-container .mac-update-box ul {
+section#product-downloads .product-updates-content .mac-updates-container .mac-update-box-wrapper .mac-update-box ul {
   list-style: none;
 }
-section#product-downloads .product-updates-content .mac-updates-container .mac-update-box ul li {
+section#product-downloads .product-updates-content .mac-updates-container .mac-update-box-wrapper .mac-update-box ul li {
   font-family: "NexaLight", sans-serif;
 }
-section#product-downloads .product-updates-content .mac-updates-container .mac-update-box .mac-download-btn {
+section#product-downloads .product-updates-content .mac-updates-container .mac-update-box-wrapper .mac-update-box .mac-download-btn {
   padding: 20px;
 }
-section#product-downloads .product-updates-content .mac-updates-container .mac-update-box .mac-download-btn span {
+section#product-downloads .product-updates-content .mac-updates-container .mac-update-box-wrapper .mac-update-box .mac-download-btn span {
   background: #00a8ee;
   border-radius: 5px;
   padding: 10px;
@@ -2025,33 +2051,54 @@ section#product-downloads .product-updates-content .mac-updates-container .mac-u
 }
 section#product-downloads .product-updates-content .windows-updates-container {
   /* windows-updates-header */
-  /* windows-update-box */
+  /* windows-update-box-wrapper */
 }
 section#product-downloads .product-updates-content .windows-updates-container .windows-updates-header h3 {
   font-family: "NexaLight", sans-serif;
 }
-section#product-downloads .product-updates-content .windows-updates-container .windows-update-box {
+section#product-downloads .product-updates-content .windows-updates-container .windows-update-box-wrapper {
+  width: 100%;
+  /* windows-update-box */
+}
+section#product-downloads .product-updates-content .windows-updates-container .windows-update-box-wrapper .windows-update-box {
+  width: 80%;
+  margin: 0 auto;
   text-align: left;
   background: #e9ebed;
   padding: 10px;
+  /* windows-update-box-header */
 }
-section#product-downloads .product-updates-content .windows-updates-container .windows-update-box h4 {
+section#product-downloads .product-updates-content .windows-updates-container .windows-update-box-wrapper .windows-update-box .windows-update-box-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+section#product-downloads .product-updates-content .windows-updates-container .windows-update-box-wrapper .windows-update-box .windows-update-box-header h4 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   padding-left: 20px;
   font-family: "NexaLight", sans-serif;
 }
-section#product-downloads .product-updates-content .windows-updates-container .windows-update-box h4 span {
+section#product-downloads .product-updates-content .windows-updates-container .windows-update-box-wrapper .windows-update-box .windows-update-box-header h4 span {
   font-family: "NexaLight", sans-serif;
 }
-section#product-downloads .product-updates-content .windows-updates-container .windows-update-box ul {
+section#product-downloads .product-updates-content .windows-updates-container .windows-update-box-wrapper .windows-update-box ul {
   list-style: none;
 }
-section#product-downloads .product-updates-content .windows-updates-container .windows-update-box ul li {
+section#product-downloads .product-updates-content .windows-updates-container .windows-update-box-wrapper .windows-update-box ul li {
   font-family: "NexaLight", sans-serif;
 }
-section#product-downloads .product-updates-content .windows-updates-container .windows-update-box .windows-download-btn {
+section#product-downloads .product-updates-content .windows-updates-container .windows-update-box-wrapper .windows-update-box .windows-download-btn {
   padding: 20px;
 }
-section#product-downloads .product-updates-content .windows-updates-container .windows-update-box .windows-download-btn span {
+section#product-downloads .product-updates-content .windows-updates-container .windows-update-box-wrapper .windows-update-box .windows-download-btn span {
   background: #00a8ee;
   border-radius: 5px;
   padding: 10px;
@@ -2096,19 +2143,29 @@ section#product-downloads .documents-contents-content {
   padding: 2% 0;
   text-align: center;
   /* documents-header */
-  /* ul */
+  /* product-documents-wrapper */
 }
 section#product-downloads .documents-contents-content .documents-header h3,
 section#product-downloads .documents-contents-content .images-header h3 {
   font-family: "NexaLight", sans-serif;
 }
-section#product-downloads .documents-contents-content ul {
+section#product-downloads .documents-contents-content .product-documents-wrapper {
+  border-right: 1px solid #e9ebed;
+}
+section#product-downloads .documents-contents-content .product-documents-wrapper,
+section#product-downloads .documents-contents-content .product-images-wrapper {
+  width: 100%;
+  /* ul */
+}
+section#product-downloads .documents-contents-content .product-documents-wrapper ul,
+section#product-downloads .documents-contents-content .product-images-wrapper ul {
   list-style: none;
   /* li */
 }
-section#product-downloads .documents-contents-content ul li {
+section#product-downloads .documents-contents-content .product-documents-wrapper ul li,
+section#product-downloads .documents-contents-content .product-images-wrapper ul li {
   height: 5vh;
-  width: 20vw;
+  width: 80%;
   display: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2120,9 +2177,10 @@ section#product-downloads .documents-contents-content ul li {
           align-items: center;
   text-align: left;
   background: #e9ebed;
-  margin-bottom: 2px;
+  margin: 0 auto;
 }
-section#product-downloads .documents-contents-content ul li span {
+section#product-downloads .documents-contents-content .product-documents-wrapper ul li span,
+section#product-downloads .documents-contents-content .product-images-wrapper ul li span {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
       -ms-flex: 1;
@@ -2131,7 +2189,8 @@ section#product-downloads .documents-contents-content ul li span {
   color: black;
   padding-left: 10px;
 }
-section#product-downloads .documents-contents-content ul li a {
+section#product-downloads .documents-contents-content .product-documents-wrapper ul li a,
+section#product-downloads .documents-contents-content .product-images-wrapper ul li a {
   padding: 5px;
   font-family: "NexaLight", sans-serif;
 }

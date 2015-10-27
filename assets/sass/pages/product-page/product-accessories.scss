@@ -3,11 +3,64 @@
 *****************************************/
 
   section#product-accessories {
-    height: 50vh;
-    background: blue;
+    // height: 100vh;
+    overflow: hidden;
+    background: $light-gray;
 
-    h1 {
+    .product-accessories-header {
       text-align: center;
-      font-size: 3em;
-    }
+      padding: 2%;
+
+      h2 {
+        font-family: $nexa-light;
+        text-transform: uppercase;
+      }
+    } /* product-accessories-header */
+
+    .product-accessory-container {
+      background: #fff;
+      text-align: center;
+      width: 70%;
+      padding: 10px;
+      margin: 0 auto;
+      margin-bottom: 5%;
+      // border: 5px solid red;
+
+      h4 {
+        font-family: $nexa-light;
+      }
+
+      .product-accessory-img-div {
+
+        img {
+
+        }
+      } /* product-accessory-img-div */
+
+      .product-accessory-learn-more-div {
+
+        a {
+          color: $light-blue;
+        }
+      } /* product-accessory-learn-more-div */
+    } /* product-accessory-container */
   } /* section#product-accessories */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

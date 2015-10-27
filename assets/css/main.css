@@ -1913,19 +1913,6 @@ section#product-features .packaging-contents-content ul li {
 
 /* section#product-features */
 /****************************************
-    PRODUCT ACCESSORIES    PRODUCT ACCESSORIES
-*****************************************/
-section#product-accessories {
-  height: 50vh;
-  background: blue;
-}
-section#product-accessories h1 {
-  text-align: center;
-  font-size: 3em;
-}
-
-/* section#product-accessories */
-/****************************************
     PRODUCT DOWNLOADS    PRODUCT DOWNLOADS
 *****************************************/
 section#product-downloads {
@@ -2124,6 +2111,41 @@ section#product-downloads .documents-contents-content ul li a {
 }
 
 /* section#product-DOWNLOADS */
+/****************************************
+    PRODUCT ACCESSORIES    PRODUCT ACCESSORIES
+*****************************************/
+section#product-accessories {
+  overflow: hidden;
+  background: #e9ebed;
+  /* product-accessories-header */
+  /* product-accessory-container */
+}
+section#product-accessories .product-accessories-header {
+  text-align: center;
+  padding: 2%;
+}
+section#product-accessories .product-accessories-header h2 {
+  font-family: "NexaLight", sans-serif;
+  text-transform: uppercase;
+}
+section#product-accessories .product-accessory-container {
+  background: #fff;
+  text-align: center;
+  width: 70%;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  /* product-accessory-img-div */
+  /* product-accessory-learn-more-div */
+}
+section#product-accessories .product-accessory-container h4 {
+  font-family: "NexaLight", sans-serif;
+}
+section#product-accessories .product-accessory-container .product-accessory-learn-more-div a {
+  color: #00aeef;
+}
+
+/* section#product-accessories */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /***************************************************
     NAVIGATION   NAVIGATION   NAVIGATION   NAVIGATION 

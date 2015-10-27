@@ -3,7 +3,8 @@
 *****************************************/
 
   section#product-downloads{
-    height: 100vh;
+    // height: 100vh;
+    overflow: hidden;
     background: $light-gray;
 
     .product-updates-wrapper {

@@ -5,6 +5,7 @@
   section#product-overview {
     //height: 1500px;
     overflow: hidden;
+    // border: 5px solid red;
 
     .columns {
       padding: 0 !important;
@@ -26,7 +27,7 @@
     .product-overview-block-1-wrapper {
       height: 60vh;
       width: 100%;
-      background: $light-gray;
+      // background: $light-gray;
       display: flex;
       align-items: center;
       // flex-direction: column;
@@ -79,7 +80,7 @@
       height: 60vh;
       display: flex;
       align-items: center;
-      background: $light-gray;
+      // background: $light-gray;
       // border: 5px solid purple;
 
       .product-overview-block-2-right {
@@ -123,7 +124,7 @@
       height: 60vh;
       display: flex;
       align-items: center;
-      background: $light-gray;
+      // background: $light-gray;
       // border: 5px solid orange;
 
       .product-overview-block-3-left {
@@ -181,6 +182,25 @@
     } /* section#product-overview-gallery */
   } /* section#product-overview */
 
+
+.overview-gradient {
+      background-color: #f7f8f9;
+      /* IE9, iOS 3.2+ */
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBzdG9wLWNvbG9yPSIjZTllYmVkIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjciLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+      background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(233, 235, 237)),color-stop(0.7, rgb(255, 255, 255)));
+      /* Android 2.3 */
+      background-image: -webkit-linear-gradient(top,rgb(233, 235, 237) 0%,rgb(255, 255, 255) 70%);
+      /* IE10+ */
+      background-image: linear-gradient(to bottom,rgb(233, 235, 237) 0%,rgb(255, 255, 255) 70%);
+      background-image: -ms-linear-gradient(top,rgb(233, 235, 237) 0%,rgb(255, 255, 255) 70%);
+    }
+
+    /* IE8- CSS hack */
+    @media \0screen\,screen\9 {
+        .overview-gradient {
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffe9ebed",endColorstr="#ffffffff",GradientType=0);
+        }
+    }
 
 
 

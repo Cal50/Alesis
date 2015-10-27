@@ -1881,6 +1881,7 @@ section#product-features .product-features-wrapper .product-features-header h2 {
 }
 section#product-features .product-features-content {
   background: #fff;
+  width: 90%;
   margin: 0 auto;
   padding: 2%;
   /* ul */
@@ -1926,6 +1927,7 @@ section#product-features .packaging-contents-wrapper .packaging-contents-header 
 }
 section#product-features .packaging-contents-content {
   background: #fff;
+  width: 90%;
   margin: 0 auto;
   padding: 2%;
   /* ul */

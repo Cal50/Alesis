@@ -40,8 +40,10 @@
         list-style: none;
 
         li {
-          font-size: 1.3em;
+          font-size: 1.2em;
+          // line-height: 1.95;
           font-family: $nexa-light;
+          padding-bottom: 15px;
         }
       } /* ul */
     } /* product-features-content */
@@ -78,7 +80,7 @@
 
     .packaging-contents-content {
       background: #fff;
-      width: 90%;
+      width: 50%;
       margin: 0 auto;
       padding: 2%;
       // text-align: center;
@@ -87,7 +89,8 @@
         list-style: none;
 
         li {
-          font-size: 1.3em;
+          font-size: 1.2em;
+          line-height: 1.95;
           font-family: $nexa-light;
         }
       } /* ul */

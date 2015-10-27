@@ -1457,20 +1457,20 @@ section#social ul .social-link a:hover {
    FOOTER     FOOTER       FOOTER    FOOTER
 **********************************************/
 section#footer {
-  height: 40vh;
+  height: 35vh;
   padding-top: 2%;
   background: #e9ebed;
   /* footer-header */
   /* footer-bottom */
 }
 section#footer .footer-header {
-  padding: 40px;
   /* ul */
 }
 section#footer .footer-header h6 {
   color: black;
   font-family: "NexaLight", sans-serif;
   font-size: 1.2em;
+  padding-bottom: 15px;
   margin: 0;
 }
 section#footer .footer-header h1 {
@@ -1480,7 +1480,7 @@ section#footer .footer-header h1 {
 }
 section#footer .footer-header .footer-blue-line {
   margin: 0 auto;
-  width: 60px;
+  width: 31%;
   border-bottom: 2px solid #00aeef;
 }
 section#footer .footer-header ul {
@@ -1493,6 +1493,7 @@ section#footer .footer-header ul li {
 }
 section#footer .footer-header ul .footer-socials {
   width: 50px;
+  margin-right: 7px;
 }
 section#footer .footer-header ul .footer-socials a:hover {
   fill: #00aeef !important;
@@ -1687,9 +1688,11 @@ section#product-overview .columns {
 }
 section#product-overview h2 {
   font-size: 2vw;
+  line-height: 1.2 !important;
 }
 section#product-overview p {
-  font-size: 1em;
+  font-size: 1.1em;
+  line-height: 1.95 !important;
 }
 section#product-overview .product-overview-block-1-wrapper {
   height: 60vh;
@@ -1890,8 +1893,9 @@ section#product-features .product-features-content ul {
   list-style: none;
 }
 section#product-features .product-features-content ul li {
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-family: "NexaLight", sans-serif;
+  padding-bottom: 15px;
 }
 section#product-features .product-features-hr {
   width: 80%;
@@ -1927,7 +1931,7 @@ section#product-features .packaging-contents-wrapper .packaging-contents-header 
 }
 section#product-features .packaging-contents-content {
   background: #fff;
-  width: 90%;
+  width: 50%;
   margin: 0 auto;
   padding: 2%;
   /* ul */
@@ -1936,7 +1940,8 @@ section#product-features .packaging-contents-content ul {
   list-style: none;
 }
 section#product-features .packaging-contents-content ul li {
-  font-size: 1.3em;
+  font-size: 1.2em;
+  line-height: 1.95;
   font-family: "NexaLight", sans-serif;
 }
 

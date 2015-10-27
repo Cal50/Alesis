@@ -4,18 +4,19 @@
 
   section#footer {
     //position: relative;
-    height: 40vh;
+    height: 35vh;
     padding-top: 2%;
     background: #e9ebed;
     // border: 2px solid yellow;
 
     .footer-header {
-      padding: 40px;
+      // padding: 40px;
 
       h6 {
         color: black;
         font-family: $nexa-light;
         font-size: 1.2em;
+        padding-bottom: 15px;
         margin: 0;
       }
 
@@ -27,7 +28,7 @@
 
       .footer-blue-line {
         margin: 0 auto;
-        width: 60px;
+        width: 31%;
         border-bottom: 2px solid $light-blue;
       }
 
@@ -41,8 +42,10 @@
 
         .footer-socials {
           width: 50px;
+          margin-right: 7px;
 
           a {
+
 
             &:hover {
             fill: $light-blue !important;
@@ -53,6 +56,11 @@
         } /* footer-socials */
       } /* ul */
     } /* footer-header */
+
+    .footer-subscribe-wrapper {
+      // padding-top: -100px !important;
+      // border: 2px solid green;
+    }
 
     .email-input-row {
       width: 25% !important;

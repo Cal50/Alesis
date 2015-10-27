@@ -275,7 +275,7 @@ $('.slick-carousel').slick({
   });
 
 // STICKY NAV LINKS SCRIPTS
-  $('#product-specs').hide();
+  $('#product-features').hide();
   $('#product-accessories').hide();
   $('#product-downloads').hide();
 

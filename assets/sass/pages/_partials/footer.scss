@@ -2,7 +2,7 @@
    FOOTER     FOOTER       FOOTER    FOOTER
 **********************************************/
 
-  footer {
+  section#footer {
     //position: relative;
     height: 40vh;
     padding-top: 2%;
@@ -42,10 +42,14 @@
         .footer-socials {
           width: 50px;
 
-          &:hover {
+          a {
+
+            &:hover {
             fill: $light-blue !important;
             // stroke: $light-blue !important;
+            }
           }
+
         } /* footer-socials */
       } /* ul */
     } /* footer-header */

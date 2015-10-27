@@ -1999,7 +1999,7 @@ section#product-downloads .product-updates-content .mac-updates-container {
   /* mac-updates-header */
   /* mac-update-box-wrapper */
 }
-section#product-downloads .product-updates-content .mac-updates-container .mac-updates-header h3 {
+section#product-downloads .product-updates-content .mac-updates-container .mac-updates-header h4 {
   font-family: "NexaLight", sans-serif;
 }
 section#product-downloads .product-updates-content .mac-updates-container .mac-update-box-wrapper {
@@ -2054,7 +2054,7 @@ section#product-downloads .product-updates-content .windows-updates-container {
   /* windows-updates-header */
   /* windows-update-box-wrapper */
 }
-section#product-downloads .product-updates-content .windows-updates-container .windows-updates-header h3 {
+section#product-downloads .product-updates-content .windows-updates-container .windows-updates-header h4 {
   font-family: "NexaLight", sans-serif;
 }
 section#product-downloads .product-updates-content .windows-updates-container .windows-update-box-wrapper {
@@ -2150,23 +2150,25 @@ section#product-downloads .documents-contents-content .documents-header h3,
 section#product-downloads .documents-contents-content .images-header h3 {
   font-family: "NexaLight", sans-serif;
 }
-section#product-downloads .documents-contents-content .product-documents-wrapper {
+section#product-downloads .documents-contents-content .documents-divider-line {
   border-right: 1px solid #e9ebed;
 }
 section#product-downloads .documents-contents-content .product-documents-wrapper,
 section#product-downloads .documents-contents-content .product-images-wrapper {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   /* ul */
 }
 section#product-downloads .documents-contents-content .product-documents-wrapper ul,
 section#product-downloads .documents-contents-content .product-images-wrapper ul {
   list-style: none;
+  margin: 0;
   /* li */
 }
 section#product-downloads .documents-contents-content .product-documents-wrapper ul li,
 section#product-downloads .documents-contents-content .product-images-wrapper ul li {
   height: 5vh;
-  width: 80%;
+  width: 100%;
   display: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2178,7 +2180,7 @@ section#product-downloads .documents-contents-content .product-images-wrapper ul
           align-items: center;
   text-align: left;
   background: #e9ebed;
-  margin: 0 auto;
+  margin-bottom: 3px;
 }
 section#product-downloads .documents-contents-content .product-documents-wrapper ul li span,
 section#product-downloads .documents-contents-content .product-images-wrapper ul li span {
@@ -2188,11 +2190,11 @@ section#product-downloads .documents-contents-content .product-images-wrapper ul
           flex: 1;
   font-family: "NexaLight", sans-serif;
   color: black;
-  padding-left: 10px;
+  padding-left: 30px;
 }
 section#product-downloads .documents-contents-content .product-documents-wrapper ul li a,
 section#product-downloads .documents-contents-content .product-images-wrapper ul li a {
-  padding: 5px;
+  padding: 5px 10px;
   font-family: "NexaLight", sans-serif;
 }
 

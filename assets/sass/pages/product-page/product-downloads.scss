@@ -44,7 +44,7 @@
 
         .mac-updates-header {
 
-          h3 {
+          h4 {
             font-family: $nexa-light;
           }
         } /* mac-updates-header */
@@ -105,7 +105,7 @@
 
         .windows-updates-header {
 
-          h3 {
+          h4 {
             font-family: $nexa-light;
           }
         } /* windows-updates-header */
@@ -202,40 +202,43 @@
         }
       } /* documents-header */
 
-      .product-documents-wrapper {
+      .documents-divider-line {
+        // border: 2px solid red;
         border-right: 1px solid $light-gray;
       }
 
       .product-documents-wrapper,
       .product-images-wrapper {
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
         // border: 2px solid red;
 
         ul {
           list-style: none;
+          margin: 0;
 
           li {
             height: 5vh;
-            width: 80%;
+            width: 100%;
             display: relative;
             display: flex;
             align-items: center;
             text-align: left;
             background: $light-gray;
-            margin: 0 auto;
+            margin-bottom: 3px;
             // border: 2px solid red;
 
             span {
               flex: 1;
               font-family: $nexa-light;
               color: black;
-              padding-left: 10px;
+              padding-left: 30px;
               // padding-right: 30%;
             }
 
 
             a {
-              padding: 5px;
+              padding: 5px 10px;
               // background: $light-gray;
               font-family: $nexa-light;
             }

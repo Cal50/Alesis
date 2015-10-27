@@ -3,21 +3,22 @@
 *****************************************/
 
   section#product-features {
-    // height: 100vh;
+    // height: 80vh;
     overflow: hidden;
     background: $light-gray;
 
     .product-features-wrapper {
-      height: 50vh;
+      // height: 50vh;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
+      padding-bottom: 5%;
       // border: 5px solid red;
 
       .product-features-header {
         text-align: center;
-        margin-bottom: 20px;
+        padding: 20px 0;
 
         h2 {
           // font-size: 2vw;
@@ -29,10 +30,10 @@
 
     .product-features-content {
       background: #fff;
-      width: 80vw;
+      // width: 80vw;
       margin: 0 auto;
-      padding: 2% 0;
-      text-align: center;
+      padding: 2%;
+      // text-align: center;
 
       ul {
         list-style: none;
@@ -54,16 +55,17 @@
     =====================*/
 
     .packaging-contents-wrapper {
-      height: 50vh;
+      // height: 50vh;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
+      padding-bottom: 5%;
       // border: 5px solid red;
 
       .packaging-contents-header {
         text-align: center;
-        margin-bottom: 20px;
+        padding: 20px 0;
 
         h2 {
           // font-size: 2vw;
@@ -75,10 +77,10 @@
 
     .packaging-contents-content {
       background: #fff;
-      width: 80vw;
+      // width: 80vw;
       margin: 0 auto;
-      padding: 2% 0;
-      text-align: center;
+      padding: 2%;
+      // text-align: center;
 
       ul {
         list-style: none;

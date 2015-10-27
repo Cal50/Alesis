@@ -1465,6 +1465,7 @@ footer {
 }
 footer .footer-header {
   padding: 40px;
+  /* ul */
 }
 footer .footer-header h6 {
   color: black;
@@ -1481,6 +1482,20 @@ footer .footer-header .footer-blue-line {
   margin: 0 auto;
   width: 60px;
   border-bottom: 2px solid #00aeef;
+}
+footer .footer-header ul {
+  list-style: none;
+  margin: 0;
+  /* footer-socials */
+}
+footer .footer-header ul li {
+  display: inline-block;
+}
+footer .footer-header ul .footer-socials {
+  width: 50px;
+}
+footer .footer-header ul .footer-socials:hover {
+  fill: #00aeef !important;
 }
 footer .email-input-row {
   width: 25% !important;
@@ -1836,7 +1851,6 @@ section#product-features {
   /* packaging-contents-content */
 }
 section#product-features .product-features-wrapper {
-  height: 50vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1854,10 +1868,11 @@ section#product-features .product-features-wrapper {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-bottom: 5%;
 }
 section#product-features .product-features-wrapper .product-features-header {
   text-align: center;
-  margin-bottom: 20px;
+  padding: 20px 0;
 }
 section#product-features .product-features-wrapper .product-features-header h2 {
   text-transform: uppercase;
@@ -1865,10 +1880,8 @@ section#product-features .product-features-wrapper .product-features-header h2 {
 }
 section#product-features .product-features-content {
   background: #fff;
-  width: 80vw;
   margin: 0 auto;
-  padding: 2% 0;
-  text-align: center;
+  padding: 2%;
   /* ul */
 }
 section#product-features .product-features-content ul {
@@ -1883,7 +1896,6 @@ section#product-features .product-features-hr {
   margin: 0 auto;
 }
 section#product-features .packaging-contents-wrapper {
-  height: 50vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1901,10 +1913,11 @@ section#product-features .packaging-contents-wrapper {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-bottom: 5%;
 }
 section#product-features .packaging-contents-wrapper .packaging-contents-header {
   text-align: center;
-  margin-bottom: 20px;
+  padding: 20px 0;
 }
 section#product-features .packaging-contents-wrapper .packaging-contents-header h2 {
   text-transform: uppercase;
@@ -1912,10 +1925,8 @@ section#product-features .packaging-contents-wrapper .packaging-contents-header 
 }
 section#product-features .packaging-contents-content {
   background: #fff;
-  width: 80vw;
   margin: 0 auto;
-  padding: 2% 0;
-  text-align: center;
+  padding: 2%;
   /* ul */
 }
 section#product-features .packaging-contents-content ul {

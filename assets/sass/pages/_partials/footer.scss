@@ -4,13 +4,13 @@
 
   section#footer {
     //position: relative;
-    height: 35vh;
+    height: 45vh;
     padding-top: 2%;
     background: #e9ebed;
     // border: 2px solid yellow;
 
     .footer-header {
-      // padding: 40px;
+      padding: 2%;
 
       h6 {
         color: black;
@@ -23,13 +23,14 @@
       h1 {
         color: black;
         margin: 0;
-        padding-bottom: 20px;
+        padding-top: 27px;
       }
 
       .footer-blue-line {
         margin: 0 auto;
         width: 31%;
-        border-bottom: 2px solid $light-blue;
+        padding: 15px 0;
+        border-bottom: 2px solid #c8d0de;
       }
 
       ul {

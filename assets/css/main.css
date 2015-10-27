@@ -1457,13 +1457,14 @@ section#social ul .social-link a:hover {
    FOOTER     FOOTER       FOOTER    FOOTER
 **********************************************/
 section#footer {
-  height: 35vh;
+  height: 45vh;
   padding-top: 2%;
   background: #e9ebed;
   /* footer-header */
   /* footer-bottom */
 }
 section#footer .footer-header {
+  padding: 2%;
   /* ul */
 }
 section#footer .footer-header h6 {
@@ -1476,12 +1477,13 @@ section#footer .footer-header h6 {
 section#footer .footer-header h1 {
   color: black;
   margin: 0;
-  padding-bottom: 20px;
+  padding-top: 27px;
 }
 section#footer .footer-header .footer-blue-line {
   margin: 0 auto;
   width: 31%;
-  border-bottom: 2px solid #00aeef;
+  padding: 15px 0;
+  border-bottom: 2px solid #c8d0de;
 }
 section#footer .footer-header ul {
   list-style: none;
@@ -2036,8 +2038,8 @@ section#product-downloads .product-updates-content .mac-updates-container .mac-u
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  padding-left: 20px;
   font-family: "NexaLight", sans-serif;
+  padding-right: 20px;
 }
 section#product-downloads .product-updates-content .mac-updates-container .mac-update-box-wrapper .mac-update-box .mac-update-box-header h4 span {
   font-family: "NexaLight", sans-serif;
@@ -2092,6 +2094,7 @@ section#product-downloads .product-updates-content .windows-updates-container .w
       -ms-flex: 1;
           flex: 1;
   padding-left: 20px;
+  padding-right: 20px;
   font-family: "NexaLight", sans-serif;
 }
 section#product-downloads .product-updates-content .windows-updates-container .windows-update-box-wrapper .windows-update-box .windows-update-box-header h4 span {
@@ -2188,6 +2191,7 @@ section#product-downloads .documents-contents-content .product-images-wrapper ul
   text-align: left;
   background: #e9ebed;
   margin-bottom: 3px;
+  padding-right: 20px;
 }
 section#product-downloads .documents-contents-content .product-documents-wrapper ul li span,
 section#product-downloads .documents-contents-content .product-images-wrapper ul li span {

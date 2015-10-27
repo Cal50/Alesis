@@ -6,12 +6,25 @@
     // height: 100vh;
     overflow: hidden;
     background: $light-gray;
+    margin-bottom: 3%;
+
+    .columns {
+      padding: 0;
+    }
+
+    .accessories-row {
+      max-width: 80%;
+      width: 80%;
+      margin: 0 auto;
+      // border: 5px solid red;
+    }
 
     .product-accessories-header {
       text-align: center;
-      padding: 2%;
+      padding: 1%;
 
       h2 {
+        margin: 0;
         font-family: $nexa-light;
         text-transform: uppercase;
       }
@@ -20,10 +33,10 @@
     .product-accessory-container {
       background: #fff;
       text-align: center;
-      width: 70%;
-      padding: 10px;
-      margin: 0 auto;
-      margin-bottom: 5%;
+      width: 90%;
+      padding: 2%;
+      // margin: 0 auto;
+      margin: 5%;
       // border: 5px solid red;
 
       h4 {

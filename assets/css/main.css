@@ -1945,6 +1945,7 @@ section#product-features .packaging-contents-content ul li {
 section#product-downloads {
   overflow: hidden;
   background: #e9ebed;
+  margin-bottom: 3%;
   /* product-updates-wrapper */
   /* product-updates-content */
   /*====================
@@ -2202,24 +2203,33 @@ section#product-downloads .documents-contents-content .product-images-wrapper ul
 section#product-accessories {
   overflow: hidden;
   background: #e9ebed;
+  margin-bottom: 3%;
   /* product-accessories-header */
   /* product-accessory-container */
 }
+section#product-accessories .columns {
+  padding: 0;
+}
+section#product-accessories .accessories-row {
+  max-width: 80%;
+  width: 80%;
+  margin: 0 auto;
+}
 section#product-accessories .product-accessories-header {
   text-align: center;
-  padding: 2%;
+  padding: 1%;
 }
 section#product-accessories .product-accessories-header h2 {
+  margin: 0;
   font-family: "NexaLight", sans-serif;
   text-transform: uppercase;
 }
 section#product-accessories .product-accessory-container {
   background: #fff;
   text-align: center;
-  width: 70%;
-  padding: 10px;
-  margin: 0 auto;
-  margin-bottom: 5%;
+  width: 90%;
+  padding: 2%;
+  margin: 5%;
   /* product-accessory-img-div */
   /* product-accessory-learn-more-div */
 }

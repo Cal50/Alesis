@@ -1549,7 +1549,6 @@ section#product-hero {
 }
 section#product-hero .product-hero-container {
   height: 100%;
-  padding: 20px;
   background: #f2f3f7;
 }
 section#product-hero .product-hero-container .product-hero-header h1 {
@@ -1563,6 +1562,14 @@ section#product-hero .product-hero-container .product-hero-sub-header h4 {
   color: #8190a6;
   font-family: "NexaLight", sans-serif;
   font-size: 1.8em !important;
+}
+section#product-hero .product-hero-container .product-hero-img {
+  height: 100%;
+  width: 100%;
+  background: url("../img/product-page/vi49-angle.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
 }
 
 /* section#product-hero */
@@ -1668,6 +1675,7 @@ section#sticky-nav .sticky-nav-container .sub-nav dd.active a, section#sticky-na
 *****************************************/
 section#product-overview {
   overflow: hidden;
+  padding: 2% 0;
   /*====================
     PRODUCT OVERVIEW #1
     ====================*/
@@ -1800,7 +1808,6 @@ section#product-overview .product-overview-block-3-wrapper .product-overview-blo
   /* block-3-right-img */
 }
 section#product-overview section#product-overview-gallery {
-  padding: 3% 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1847,8 +1854,8 @@ section#product-overview section#product-overview-gallery .product-gallery-wrapp
 section#product-features {
   overflow: hidden;
   background: #e9ebed;
-  margin-bottom: 3px;
-  padding-top: 2%;
+  margin-bottom: 2%;
+  padding: 2% 0;
   /* product-features-wrapper */
   /* product-features-content */
   /*====================
@@ -1954,8 +1961,8 @@ section#product-features .packaging-contents-content ul li {
 section#product-downloads {
   overflow: hidden;
   background: #e9ebed;
-  margin-bottom: 3px;
-  padding-top: 2%;
+  margin-bottom: 2%;
+  padding: 2% 0;
   /* product-updates-wrapper */
   /* product-updates-content */
   /*====================
@@ -2222,8 +2229,8 @@ section#product-downloads .documents-contents-content .product-images-wrapper ul
 section#product-accessories {
   overflow: hidden;
   background: #e9ebed;
-  margin-bottom: 3px;
-  padding-top: 2%;
+  margin-bottom: 2%;
+  padding: 2% 0;
   /* product-accessories-header */
   /* product-accessory-container */
 }

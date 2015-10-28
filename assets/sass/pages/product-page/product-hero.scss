@@ -10,7 +10,7 @@
 
     .product-hero-container {
       height: 100%;
-      padding: 20px;
+      // padding: 20px;
       background: #f2f3f7;
       // border: 2px solid blue;
 
@@ -35,7 +35,30 @@
       }
 
       .product-hero-img {
+        height: 100%;
+        width: 100%;
+        background: url('../img/product-page/vi49-angle.png');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-attachment: fixed;
 
+        // border: 5px solid green;
       }
     } /* product-hero-container */
   } /* section#product-hero */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -8,20 +8,6 @@
 // OPENING DOCUMENT.READY FUNCTION
 $(function() {
 
-// INSTANTIATES FLOW TYPE JS
-  $('body').flowtype({
-     minimum   : 500,
-     maximum   : 2000,
-     minFont   : 10,
-     maxFont   : 16,
-     fontRatio : 30
-  });
-
-  //TESTING SCRIPTS
-
-  //$('#jetmenu').hide();
-
-
   // SEARCH SCRIPTS
   $('.search-nav-bar').hide();
   $('.search-nav-bar, .search-form-input').addClass('height-100');

@@ -474,12 +474,13 @@
     <div class="product-hero-container">
       <div class="product-hero-header text-center">
         <h1>vi49</h1>
+        <div class="product-hero-sub-header text-center">
+          <h4>Advanced 49-Key USB/MIDI Controller</h4>
+        </div> <!-- product-hero-sub-header -->
       </div> <!-- product-hero-header -->
-      <div class="product-hero-sub-header text-center">
-        <h4>Advanced 49-Key USB/MIDI Controller</h4>
-      </div> <!-- product-hero-sub-header -->
+
       <div class="product-hero-img text-center">
-        <!-- <img src="assets/img/product-page/vi49-angle.png"> -->
+        <img src="assets/img/product-page/vi49-angle.png">
       </div> <!-- product-hero-img -->
     </div> <!-- product-hero-container -->
 
@@ -1156,11 +1157,16 @@
       new WOW().init();
     </script> -->
 
-    <!--==== FLOW TYPE JS ====-->
-      <script src="assets/js/flowtype.js"></script>
+    <!--==== SKROLLR JS ====-->
+      <script src="assets/js/skrollr.min.js"></script>
 
     <!--==== CUSTOM JS ====-->
       <script src="assets/js/custom.js"></script>
+
+    <script>
+      var s = skrollr.init({
+      });
+    </script>
 
     <!--==== GOOGLE ANALYTICS ====-->
       <!-- <script>

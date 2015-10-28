@@ -7,6 +7,7 @@
     height: 70vh;
     padding-top: 100px;
     background: #f2f3f7 !important;
+    // border: 5px solid red;
 
     .product-hero-container {
       height: 100%;
@@ -15,6 +16,7 @@
       // border: 2px solid blue;
 
       .product-hero-header {
+        // border: 2px solid blue;
 
         h1 {
           margin: 0 !important;
@@ -35,12 +37,12 @@
       }
 
       .product-hero-img {
-        height: 100%;
-        width: 100%;
-        background: url('../img/product-page/vi49-angle.png');
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-attachment: fixed;
+        // height: 100%;
+        // width: 100%;
+        // background: url('../img/product-page/vi49-angle.png');
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        // background-attachment: fixed;
 
         // border: 5px solid green;
       }

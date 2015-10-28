@@ -31,6 +31,14 @@
   @import 'pages/home/social';
   @import 'pages/_partials/footer';
 
+// HOME PAGE TABLET MEDIA QUERIES TABLET
+  @import 'media-queries/tablet/navigation-tablet';
+  @import 'media-queries/tablet/footer-tablet';
+
+// HOME PAGE MOBILE MEDIA QUERIES MOBILE
+  @import 'media-queries/mobile/navigation-mobile';
+  @import 'media-queries/mobile/footer-mobile';
+
 // PRODUCT PAGE
   @import 'pages/product-page/product-hero';
   @import 'pages/product-page/product-quote-strip';
@@ -40,14 +48,14 @@
   @import 'pages/product-page/product-downloads';
   @import 'pages/product-page/product-accessories';
 
+// PRODUCT PAGE LAPTOP MEDIA QUERIES LAPTOP
+  @import 'pages/product-page/media-queries/laptop_product-overview';
 
-// HOME PAGE TABLET MEDIA QUERIES TABLET
-  @import 'media-queries/tablet/navigation-tablet';
-  @import 'media-queries/tablet/footer-tablet';
 
-// HOME PAGE MOBILE MEDIA QUERIES MOBILE
-  @import 'media-queries/mobile/navigation-mobile';
-  @import 'media-queries/mobile/footer-mobile';
+
+
+
+
 
 
 

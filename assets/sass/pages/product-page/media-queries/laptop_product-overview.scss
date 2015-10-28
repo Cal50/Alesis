@@ -1,0 +1,74 @@
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+
+/****************************************
+  LAPTOP  PRODUCT OVERVIEW   LAPTOP
+*****************************************/
+
+  section#product-overview {
+
+    /*====================
+      PRODUCT OVERVIEW #1
+      ====================*/
+
+    .product-overview-block-1-wrapper {
+      // height: 60vh;
+      overflow: hidden;
+      padding: 5% 0;
+      width: 100%;
+      // background: $light-gray;
+      display: flex;
+      align-items: center;
+      // flex-direction: column;
+      // border: 5px solid purple;
+
+      .product-overview-block-1-left {
+        padding: 0% 5% 5% 10%;
+        // height: 50vh;
+        // border: 5px solid gold;
+
+        .block-1-left-header {
+
+          h2 {
+            font-family: $nexa-light;
+            text-transform: uppercase;
+          }
+        } /* block-1-left-header */
+
+        .block-1-left-paragraph {
+          // border: 2px solid red;
+        } /* block-1-left-paragraph */
+      } /* product-overview-block-1-left */
+
+      .product-overview-block-1-right {
+        // height: 50vh;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // border: 5px solid green;
+
+        .block-1-right-img {
+          text-align: right;
+          // border: 2px solid red;
+
+          img {
+            // height: 40%;
+            // border: 2px solid yellow;
+          }
+        } /* block-1-right-img */
+      } /* product-overview-block-1-right */
+    } /* product-overview-block-1-wrapper */
+  } /* section#product-overview */
+} /* END OF MEDIA QUERY */
+
+
+
+
+
+
+
+
+
+
+
+
+

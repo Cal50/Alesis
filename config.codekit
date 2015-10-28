@@ -183,6 +183,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/product-page\/vi-ortho.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.17154e+07,
+		"inputAbbreviatedPath": "\/assets\/img\/product-page\/vi-ortho.png",
+		"outputAbbreviatedPath": "\/assets\/img\/product-page\/vi-ortho.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/product-page\/vi-ortho_25.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 544904,
+		"inputAbbreviatedPath": "\/assets\/img\/product-page\/vi-ortho_25.png",
+		"outputAbbreviatedPath": "\/assets\/img\/product-page\/vi-ortho_25.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/product-page\/vi49-angle.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -8202,6 +8224,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/sass\/pages\/home\/videos.scss",
 		"outputAbbreviatedPath": "\/assets\/sass\/pages\/css\/videos.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/sass\/pages\/product-page\/media-queries\/laptop_product-overview.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/pages\/product-page\/media-queries\/laptop_product-overview.scss",
+		"outputAbbreviatedPath": "\/assets\/sass\/pages\/product-page\/css\/laptop_product-overview.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

@@ -1539,6 +1539,34 @@ section#footer .footer-gutter {
 }
 
 /* FOOTER */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /***************************************************
+    NAVIGATION   NAVIGATION   NAVIGATION   NAVIGATION 
+          min-width 641px and max-width 1024px   
+  ****************************************************/
+}
+/* END OF @media query */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /***************************************************
+    FOOTER    FOOTER   FOOTER  FOOTER    FOOTER 
+          min-width 641px and max-width 1024px   
+  ****************************************************/
+}
+/* END OF @media */
+@media only screen and (min-width: 40em) {
+  /***************************************************
+    NAVIGATION   NAVIGATION   NAVIGATION   NAVIGATION 
+                    min-width 640px  
+  ****************************************************/
+}
+/* END OF @media query */
+@media only screen and (min-width: 40em) {
+  /***************************************************
+    FOOTER    FOOTER   FOOTER  FOOTER    FOOTER 
+                  min-width 640px  
+  ****************************************************/
+}
+/* END OF @media */
 /****************************************
       PRODUCT HERO     PRODUCT HERO
 *****************************************/
@@ -1571,7 +1599,7 @@ section#product-hero .product-hero-container .product-hero-sub-header h4 {
   PRODUCT QUOTE STRIP   PRODUCT QUOTE STRIP
 *****************************************/
 section#product-quote-strip {
-  height: 38vh;
+  padding: 2% 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1637,7 +1665,7 @@ section#product-quote-strip .product-quote-strip-text p {
   font-family: "NexaLight", sans-serif !important;
 }
 section#product-quote-strip .product-strip-down-arrow img {
-  width: 3%;
+  width: 50px;
 }
 
 /* section#product-quote-strip */
@@ -2289,33 +2317,48 @@ section#product-accessories .product-accessory-container .product-accessory-lear
 }
 
 /* section#product-accessories */
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /***************************************************
-    NAVIGATION   NAVIGATION   NAVIGATION   NAVIGATION 
-          min-width 641px and max-width 1024px   
-  ****************************************************/
-}
-/* END OF @media query */
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /***************************************************
-    FOOTER    FOOTER   FOOTER  FOOTER    FOOTER 
-          min-width 641px and max-width 1024px   
-  ****************************************************/
-}
-/* END OF @media */
-@media only screen and (min-width: 40em) {
-  /***************************************************
-    NAVIGATION   NAVIGATION   NAVIGATION   NAVIGATION 
-                    min-width 640px  
-  ****************************************************/
-}
-/* END OF @media query */
-@media only screen and (min-width: 40em) {
-  /***************************************************
-    FOOTER    FOOTER   FOOTER  FOOTER    FOOTER 
-                  min-width 640px  
-  ****************************************************/
-}
-/* END OF @media */
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+  /****************************************
+    LAPTOP  PRODUCT OVERVIEW   LAPTOP
+  *****************************************/
+  section#product-overview {
+    /*====================
+      PRODUCT OVERVIEW #1
+      ====================*/
+    /* product-overview-block-1-wrapper */
+  }
+  section#product-overview .product-overview-block-1-wrapper {
+    overflow: hidden;
+    padding: 5% 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* product-overview-block-1-left */
+    /* product-overview-block-1-right */
+  }
+  section#product-overview .product-overview-block-1-wrapper .product-overview-block-1-left {
+    padding: 0% 5% 5% 10%;
+    /* block-1-left-header */
+    /* block-1-left-paragraph */
+  }
+  section#product-overview .product-overview-block-1-wrapper .product-overview-block-1-left .block-1-left-header h2 {
+    font-family: "NexaLight", sans-serif;
+    text-transform: uppercase;
+  }
+  section#product-overview .product-overview-block-1-wrapper .product-overview-block-1-right {
+    /* block-1-right-img */
+  }
+  section#product-overview .product-overview-block-1-wrapper .product-overview-block-1-right .block-1-right-img {
+    text-align: right;
+  }
 
+  /* section#product-overview */
+}
+/* END OF MEDIA QUERY */
 /*# sourceMappingURL=main.css.map */

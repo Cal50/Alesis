@@ -1,0 +1,91 @@
+/****************************************
+  PRODUCT QUOTE STRIP   PRODUCT QUOTE STRIP
+*****************************************/
+
+  section#legacy-quote-strip {
+    // display: none !important;
+    // height: 38vh;
+    padding: 2% 0 3% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    background: #fff;
+    // border: 2px solid green;
+
+    .legacy-quote-strip-header {
+      // border: 2px solid yellow;
+
+      .quote-strip-hr {
+        border: 1px solid black;
+        width: 65%;
+        margin: 0 auto;
+      }
+
+      h1 {
+        text-align: center;
+        color: black;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        margin: 0;
+        font-size: 2.5em;
+        // padding-top: 20px;
+        font-family: $nexa-light !important;
+      }
+
+      h5 {
+        text-align: center;
+        color: black;
+        font-size: 1.5em;
+        letter-spacing: 5px;
+        margin: 0;
+        padding-bottom: 30px;
+        font-family: $nexa-light !important;
+      }
+
+      h4 {
+        text-align: center;
+        color: black;
+        font-size: 2.2em;
+        letter-spacing: 5px;
+        font-family: $nexa-light !important;
+      }
+    } /* legacy-quote-strip-header */
+
+    .legacy-quote-strip-text {
+      width: 60%;
+      margin: 0 auto;
+      padding-top: 20px;
+      // border: 2px solid yellow;
+
+      p {
+        text-align: center;
+        color: black;
+        font-size: 1.2em;
+        padding-bottom: 20px;
+        font-family: $nexa-light !important;
+      }
+    }
+
+    .legacy-strip-down-arrow img {
+      width: 50px;
+      padding-top: 2%;
+    }
+
+    #auto-scroll-tartget {
+      // border: 2px solid red;
+    }
+  } /* section#legacy-quote-strip */
+
+
+
+
+
+
+
+
+
+
+
+

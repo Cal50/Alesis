@@ -1,0 +1,91 @@
+/****************************************
+    PRODUCT ACCESSORIES    PRODUCT ACCESSORIES
+*****************************************/
+
+  section#legacy-accessories {
+    // height: 100vh;
+    overflow: hidden;
+    background: $light-gray;
+    margin-bottom: 3px;
+    padding: 2% 0 6% 0;
+
+    .columns {
+      padding: 0;
+    }
+
+    .accessories-row {
+      max-width: 80%;
+      width: 80%;
+      margin: 0 auto;
+      // border: 5px solid red;
+    }
+
+    ul {
+      // border: 2px solid red;
+
+      li {
+        text-align: center;
+        // border: 2px solid green;
+      }
+    }
+
+    .product-accessories-header {
+      text-align: center;
+      padding: 1%;
+
+      h2 {
+        margin: 0;
+        padding-bottom: 1%;
+        font-family: $nexa-light;
+        text-transform: uppercase;
+      }
+    } /* product-accessories-header */
+
+    .product-accessory-container {
+      background: #fff;
+      text-align: center;
+      width: 100%;
+      padding: 2%;
+      margin: 0 auto;
+      // margin: 5%;
+      // border: 5px solid red;
+
+      h4 {
+        font-family: $nexa-light;
+      }
+
+      .product-accessory-img-div {
+        // border: 1px solid blue;
+
+        img {
+
+        }
+      } /* product-accessory-img-div */
+
+      .product-accessory-learn-more-div {
+
+        a {
+          color: $light-blue;
+        }
+      } /* product-accessory-learn-more-div */
+    } /* product-accessory-container */
+  } /* section#product-accessories */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

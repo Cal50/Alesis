@@ -1,0 +1,279 @@
+/****************************************
+    PRODUCT DOWNLOADS    PRODUCT DOWNLOADS
+*****************************************/
+
+  section#legacy-downloads{
+    // height: 100vh;
+    overflow: hidden;
+    background: $light-gray;
+    margin-bottom: 3px;
+    padding: 2% 0 4% 0;
+
+    .columns {
+      padding: 0;
+    }
+
+    .product-updates-wrapper {
+      height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      // border: 5px solid red;
+
+      .product-updates-header {
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 1%;
+
+        h2 {
+          // font-size: 2vw;
+          text-transform: uppercase;
+          font-family: $nexa-light;
+        }
+      }
+    } /* product-updates-wrapper */
+
+    .product-updates-content {
+      background: #fff;
+      width: 80vw;
+      margin: 0 auto;
+      padding: 2% 0;
+      text-align: center;
+
+      .mac-updates-container {
+        border-right: 1px solid $light-gray;
+
+        .mac-updates-header {
+
+          h4 {
+            font-family: $nexa-light;
+          }
+        } /* mac-updates-header */
+
+        .mac-update-box-wrapper {
+          width: 100%;
+          // border: 5px solid green;
+
+          .mac-update-box {
+            width: 80%;
+            margin: 0 auto;
+            text-align: left;
+            background: $light-gray;
+            padding: 10px;
+
+            .mac-update-box-header {
+              display: flex;
+              align-items: center;
+
+              h4 {
+                flex: 1;
+                padding-left: 20px;
+                font-family: $nexa-light;
+                padding-right: 20px;
+
+                span {
+                  font-family: $nexa-light;
+
+                  h4 {
+
+                  }
+                }
+              }
+            } /* mac-update-box-header */
+
+
+
+            ul {
+              list-style: none;
+
+              li {
+                font-family: $nexa-light;
+              }
+            }
+
+            .mac-download-btn {
+              padding: 20px;
+
+              span {
+                background: #00a8ee;
+                border-radius: 5px;
+                padding: 10px;
+                color: #fff;
+              }
+            }
+          } /* mac-update-box */
+        } /* mac-update-box-wrapper */
+      } /* mac-updates-container */
+
+
+
+      .windows-updates-container {
+
+        .windows-updates-header {
+
+          h4 {
+            font-family: $nexa-light;
+          }
+        } /* windows-updates-header */
+
+        .windows-update-box-wrapper {
+          width: 100%;
+
+          .windows-update-box {
+            width: 80%;
+            margin: 0 auto;
+            text-align: left;
+            background: $light-gray;
+            padding: 10px;
+
+            .windows-update-box-header {
+              display: flex;
+              align-items: center;
+
+              h4 {
+                flex: 1;
+                padding-left: 20px;
+                padding-right: 20px;
+                font-family: $nexa-light;
+
+                span {
+                  font-family: $nexa-light;
+                }
+              }
+            } /* windows-update-box-header */
+
+            ul {
+              list-style: none;
+
+              li {
+                font-family: $nexa-light;
+              }
+            }
+
+            .windows-download-btn {
+              padding: 20px;
+
+              span {
+                background: #00a8ee;
+                border-radius: 5px;
+                padding: 10px;
+                color: #fff;
+              }
+            }
+          } /* windows-update-box */
+        } /* windows-update-box-wrapper */
+      } /* windows-updates-container */
+    } /* product-updates-content */
+
+    .product-features-hr {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    /*====================
+      DOCUMENTS CONTENTS
+    =====================*/
+
+    .documents-contents-wrapper {
+      height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      // border: 5px solid red;
+
+      .documents-contents-header {
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 1%;
+
+        h2 {
+          // font-size: 2vw;
+          text-transform: uppercase;
+          font-family: $nexa-light;
+        }
+      }
+    } /* documents-contents-wrapper */
+
+    .documents-contents-content {
+      background: #fff;
+      width: 80vw;
+      margin: 0 auto;
+      padding: 2% 0;
+      text-align: center;
+      // border: 3px solid blue;
+
+      .documents-header,
+      .images-header {
+
+        h4 {
+          font-family: $nexa-light;
+        }
+      } /* documents-header */
+
+      .documents-divider-line {
+        // border: 2px solid red;
+        border-right: 1px solid $light-gray;
+      }
+
+      .product-documents-wrapper,
+      .product-images-wrapper {
+        width: 80%;
+        margin: 0 auto;
+        // border: 2px solid red;
+
+        ul {
+          list-style: none;
+          margin: 0;
+
+          li {
+            height: 5vh;
+            width: 100%;
+            display: relative;
+            display: flex;
+            align-items: center;
+            text-align: left;
+            background: $light-gray;
+            margin-bottom: 3px;
+            padding-right: 20px;
+            // border: 2px solid red;
+
+            span {
+              flex: 1;
+              font-size: 1.3em;
+              font-family: $nexa-light;
+              color: black;
+              padding-left: 30px;
+              // padding-right: 30%;
+            }
+
+
+            a {
+              font-size: 1.2em;
+              padding: 5px 10px;
+              // background: $light-gray;
+              font-family: $nexa-light;
+            }
+          } /* li */
+        } /* ul */
+      } /* product-documents-wrapper */
+    } /* documents-contents-content */
+  } /* section#product-DOWNLOADS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

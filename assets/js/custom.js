@@ -261,28 +261,28 @@ $('.slick-carousel').slick({
   });
 
 // STICKY NAV LINKS SCRIPTS
-  $('#product-features').hide();
-  $('#product-accessories').hide();
-  $('#product-downloads').hide();
+  $('#legacy-features').hide();
+  $('#legacy-accessories').hide();
+  $('#legacy-downloads').hide();
 
   $('#overview').on('click', function(){
     $('.product-content-jquery').stop().fadeTo('slow',0).hide();
-    $('#product-overview').delay(300).stop().fadeTo('slow',1);
+    $('#legacy-overview').delay(300).stop().fadeTo('slow',1);
   });
 
   $('#specs').on('click', function(){
     $('.product-content-jquery').stop().fadeTo('slow',0).hide();
-    $('#product-features').stop().delay(300).fadeTo('slow',1);
+    $('#legacy-features').stop().delay(300).fadeTo('slow',1);
   });
 
   $('#accessories').on('click', function(){
     $('.product-content-jquery').stop().fadeTo('slow',0).hide();
-    $('#product-accessories').delay(300).stop().fadeTo('slow',1);
+    $('#legacy-accessories').delay(300).stop().fadeTo('slow',1);
   });
 
   $('#downloads').on('click', function(){
     $('.product-content-jquery').stop().fadeTo('slow',0).hide();
-    $('#product-downloads').delay(300).stop().fadeTo('slow',1);
+    $('#legacy-downloads').delay(300).stop().fadeTo('slow',1);
   });
 
 

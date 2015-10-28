@@ -2365,5 +2365,669 @@ section#product-accessories .product-accessory-container .product-accessory-lear
   /* section#product-overview */
 }
 /* END OF MEDIA QUERY */
+/****************************************
+      PRODUCT HERO     PRODUCT HERO
+*****************************************/
+section#legacy-hero {
+  overflow: hidden;
+  padding-top: 80px;
+}
+section#legacy-hero .legacy-hero-img {
+  width: 100%;
+}
+section#legacy-hero .legacy-hero-img img {
+  width: 50%;
+}
+
+/* section#legacy-hero */
+/****************************************
+  PRODUCT QUOTE STRIP   PRODUCT QUOTE STRIP
+*****************************************/
+section#legacy-quote-strip {
+  padding: 2% 0 3% 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3px;
+  background: #fff;
+  /* legacy-quote-strip-header */
+}
+section#legacy-quote-strip .legacy-quote-strip-header .quote-strip-hr {
+  border: 1px solid black;
+  width: 65%;
+  margin: 0 auto;
+}
+section#legacy-quote-strip .legacy-quote-strip-header h1 {
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 0;
+  font-size: 2.5em;
+  font-family: "NexaLight", sans-serif !important;
+}
+section#legacy-quote-strip .legacy-quote-strip-header h5 {
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+  letter-spacing: 5px;
+  margin: 0;
+  padding-bottom: 30px;
+  font-family: "NexaLight", sans-serif !important;
+}
+section#legacy-quote-strip .legacy-quote-strip-header h4 {
+  text-align: center;
+  color: black;
+  font-size: 2.2em;
+  letter-spacing: 5px;
+  font-family: "NexaLight", sans-serif !important;
+}
+section#legacy-quote-strip .legacy-quote-strip-text {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+section#legacy-quote-strip .legacy-quote-strip-text p {
+  text-align: center;
+  color: black;
+  font-size: 1.2em;
+  padding-bottom: 20px;
+  font-family: "NexaLight", sans-serif !important;
+}
+section#legacy-quote-strip .legacy-strip-down-arrow img {
+  width: 50px;
+  padding-top: 2%;
+}
+
+/* section#legacy-quote-strip */
+/****************************************
+  STICKY NAV   STICKY NAV   STICKY NAV
+*****************************************/
+section#sticky-nav {
+  /* sticky-nav-container */
+}
+section#sticky-nav [data-magellan-expedition-clone], section#sticky-nav [data-magellan-expedition] {
+  padding: 5px;
+}
+section#sticky-nav .stick-nav-hr {
+  border-top: 2px solid #f2f3f7;
+}
+section#sticky-nav .sticky-nav-container .sub-nav {
+  z-index: 99999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+section#sticky-nav .sticky-nav-container .sub-nav #accessories {
+  margin-right: 24% !important;
+}
+section#sticky-nav .sticky-nav-container .sticky-nav-product-name {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+section#sticky-nav .sticky-nav-container .sticky-nav-product-name h4 {
+  padding-left: 5%;
+  text-transform: uppercase;
+  font-family: "NexaLight", sans-serif;
+}
+section#sticky-nav .sticky-nav-container .sub-nav dd.active a, section#sticky-nav .sticky-nav-container .sub-nav dt.active a, section#sticky-nav .sticky-nav-container .sub-nav li.active a {
+  background: #fff !important;
+  color: #999 !important;
+  cursor: pointer;
+}
+
+/*section#sticky-nav */
+/****************************************
+  PRODUCT OVERVIEW   PRODUCT OVERVIEW
+*****************************************/
+section#legacy-overview {
+  overflow: hidden;
+  padding: 2% 0;
+  /*====================
+    legacy OVERVIEW #1
+    ====================*/
+  /* legacy-overview-block-1-wrapper */
+  /*=========================
+    PRODUCT OVERVIEW GALLERY
+    =========================*/
+  /* section#legacy-overview-gallery */
+}
+section#legacy-overview .columns {
+  padding: 0 !important;
+}
+section#legacy-overview h2 {
+  font-size: 2vw;
+  line-height: 1.2 !important;
+}
+section#legacy-overview p {
+  font-size: 1.1em;
+  line-height: 1.95 !important;
+}
+section#legacy-overview .legacy-overview-block-1-wrapper {
+  padding: 3% 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* legacy-overview-block-1-left */
+  /* legacy-overview-block-1-right */
+}
+section#legacy-overview .legacy-overview-block-1-wrapper .legacy-overview-block-1-left {
+  padding: 5% 5% 5% 10%;
+  width: 60%;
+  /* block-1-left-header */
+  /* block-1-left-paragraph */
+}
+section#legacy-overview .legacy-overview-block-1-wrapper .legacy-overview-block-1-left .block-1-left-header h2 {
+  font-family: "NexaLight", sans-serif;
+  text-transform: uppercase;
+}
+section#legacy-overview .legacy-overview-block-1-wrapper .legacy-overview-block-1-right {
+  height: 50vh;
+  /* block-1-right-img */
+}
+section#legacy-overview .legacy-overview-block-1-wrapper .legacy-overview-block-1-right .block-1-right-img {
+  text-align: right;
+}
+section#legacy-overview .legacy-overview-block-1-wrapper .legacy-overview-block-1-right .block-1-right-img img {
+  height: 50%;
+}
+section#legacy-overview section#legacy-overview-gallery {
+  padding: 4% 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* legacy-gallery-wrapper */
+}
+section#legacy-overview section#legacy-overview-gallery .legacy-gallery-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+section#legacy-overview section#legacy-overview-gallery .legacy-gallery-wrapper .columns {
+  padding: 0;
+}
+section#legacy-overview section#legacy-overview-gallery .legacy-gallery-wrapper .legacy-gallery {
+  padding: 2px;
+}
+
+/* section#legacy-overview */
+.overview-gradient {
+  background-color: #f9f9fa;
+  /* IE9, iOS 3.2+ */
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBzdG9wLWNvbG9yPSIjZTllYmVkIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjU2Ii8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0, #e9ebed), color-stop(0.56, white));
+  /* Android 2.3 */
+  background-image: -webkit-linear-gradient(top, #e9ebed 0%, white 56%);
+  /* IE10+ */
+  background-image: linear-gradient(to bottom, #e9ebed 0%, white 56%);
+  background-image: -ms-linear-gradient(top, #e9ebed 0%, white 56%);
+}
+
+/* IE8- CSS hack */
+@media \0screen\,screen\9 {
+  .overview-gradient {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffe9ebed",endColorstr="#ffffffff",GradientType=0);
+  }
+}
+/****************************************
+    PRODUCT SPECS    PRODUCT SPECS
+*****************************************/
+section#legacy-features {
+  overflow: hidden;
+  background: #e9ebed;
+  margin-bottom: 3px;
+  padding: 2% 0;
+  /* legacy-features-wrapper */
+  /* legacy-features-content */
+  /*====================
+    PACKAGING CONTENTS
+  =====================*/
+  /* legacy-packaging-contents-wrapper */
+  /* legacy-packaging-contents-content */
+}
+section#legacy-features .columns {
+  padding: 0;
+}
+section#legacy-features .legacy-features-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 5%;
+}
+section#legacy-features .legacy-features-wrapper .legacy-features-header {
+  text-align: left;
+  width: 90%;
+  padding: 20px 0;
+}
+section#legacy-features .legacy-features-wrapper .legacy-features-header h2 {
+  padding-left: 20px;
+  text-transform: uppercase;
+  font-family: "NexaLight", sans-serif;
+}
+section#legacy-features .legacy-features-content {
+  width: 90%;
+  /* ul */
+}
+section#legacy-features .legacy-features-content ul {
+  list-style: none;
+}
+section#legacy-features .legacy-features-content ul li {
+  font-size: 1.2em;
+  font-family: "NexaLight", sans-serif;
+  padding: 15px 0;
+  border-bottom: 1px solid #c8d0de;
+}
+section#legacy-features .legacy-features-hr {
+  width: 80%;
+  margin: 0 auto;
+}
+section#legacy-features .legacy-packaging-contents-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 5%;
+}
+section#legacy-features .legacy-packaging-contents-wrapper .legacy-packaging-contents-header {
+  text-align: left;
+  width: 90%;
+  padding: 20px 0;
+}
+section#legacy-features .legacy-packaging-contents-wrapper .legacy-packaging-contents-header h2 {
+  text-transform: uppercase;
+  font-family: "NexaLight", sans-serif;
+}
+section#legacy-features .legacy-packaging-contents-content {
+  width: 90%;
+  /* ul */
+}
+section#legacy-features .legacy-packaging-contents-content ul {
+  list-style: none;
+  margin: 0;
+}
+section#legacy-features .legacy-packaging-contents-content ul li {
+  font-size: 1.2em;
+  padding: 15px 0;
+  font-family: "NexaLight", sans-serif;
+  border-bottom: 1px solid #c8d0de;
+}
+
+/* section#product-features */
+/****************************************
+    PRODUCT DOWNLOADS    PRODUCT DOWNLOADS
+*****************************************/
+section#legacy-downloads {
+  overflow: hidden;
+  background: #e9ebed;
+  margin-bottom: 3px;
+  padding: 2% 0 4% 0;
+  /* product-updates-wrapper */
+  /* product-updates-content */
+  /*====================
+    DOCUMENTS CONTENTS
+  =====================*/
+  /* documents-contents-wrapper */
+  /* documents-contents-content */
+}
+section#legacy-downloads .columns {
+  padding: 0;
+}
+section#legacy-downloads .product-updates-wrapper {
+  height: 50vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+section#legacy-downloads .product-updates-wrapper .product-updates-header {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 1%;
+}
+section#legacy-downloads .product-updates-wrapper .product-updates-header h2 {
+  text-transform: uppercase;
+  font-family: "NexaLight", sans-serif;
+}
+section#legacy-downloads .product-updates-content {
+  background: #fff;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 2% 0;
+  text-align: center;
+  /* mac-updates-container */
+  /* windows-updates-container */
+}
+section#legacy-downloads .product-updates-content .mac-updates-container {
+  border-right: 1px solid #e9ebed;
+  /* mac-updates-header */
+  /* mac-update-box-wrapper */
+}
+section#legacy-downloads .product-updates-content .mac-updates-container .mac-updates-header h4 {
+  font-family: "NexaLight", sans-serif;
+}
+section#legacy-downloads .product-updates-content .mac-updates-container .mac-update-box-wrapper {
+  width: 100%;
+  /* mac-update-box */
+}
+section#legacy-downloads .product-updates-content .mac-updates-container .mac-update-box-wrapper .mac-update-box {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  background: #e9ebed;
+  padding: 10px;
+  /* mac-update-box-header */
+}
+section#legacy-downloads .product-updates-content .mac-updates-container .mac-update-box-wrapper .mac-update-box .mac-update-box-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+section#legacy-downloads .product-updates-content .mac-updates-container .mac-update-box-wrapper .mac-update-box .mac-update-box-header h4 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-left: 20px;
+  font-family: "NexaLight", sans-serif;
+  padding-right: 20px;
+}
+section#legacy-downloads .product-updates-content .mac-updates-container .mac-update-box-wrapper .mac-update-box .mac-update-box-header h4 span {
+  font-family: "NexaLight", sans-serif;
+}
+section#legacy-downloads .product-updates-content .mac-updates-container .mac-update-box-wrapper .mac-update-box ul {
+  list-style: none;
+}
+section#legacy-downloads .product-updates-content .mac-updates-container .mac-update-box-wrapper .mac-update-box ul li {
+  font-family: "NexaLight", sans-serif;
+}
+section#legacy-downloads .product-updates-content .mac-updates-container .mac-update-box-wrapper .mac-update-box .mac-download-btn {
+  padding: 20px;
+}
+section#legacy-downloads .product-updates-content .mac-updates-container .mac-update-box-wrapper .mac-update-box .mac-download-btn span {
+  background: #00a8ee;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+}
+section#legacy-downloads .product-updates-content .windows-updates-container {
+  /* windows-updates-header */
+  /* windows-update-box-wrapper */
+}
+section#legacy-downloads .product-updates-content .windows-updates-container .windows-updates-header h4 {
+  font-family: "NexaLight", sans-serif;
+}
+section#legacy-downloads .product-updates-content .windows-updates-container .windows-update-box-wrapper {
+  width: 100%;
+  /* windows-update-box */
+}
+section#legacy-downloads .product-updates-content .windows-updates-container .windows-update-box-wrapper .windows-update-box {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  background: #e9ebed;
+  padding: 10px;
+  /* windows-update-box-header */
+}
+section#legacy-downloads .product-updates-content .windows-updates-container .windows-update-box-wrapper .windows-update-box .windows-update-box-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+section#legacy-downloads .product-updates-content .windows-updates-container .windows-update-box-wrapper .windows-update-box .windows-update-box-header h4 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "NexaLight", sans-serif;
+}
+section#legacy-downloads .product-updates-content .windows-updates-container .windows-update-box-wrapper .windows-update-box .windows-update-box-header h4 span {
+  font-family: "NexaLight", sans-serif;
+}
+section#legacy-downloads .product-updates-content .windows-updates-container .windows-update-box-wrapper .windows-update-box ul {
+  list-style: none;
+}
+section#legacy-downloads .product-updates-content .windows-updates-container .windows-update-box-wrapper .windows-update-box ul li {
+  font-family: "NexaLight", sans-serif;
+}
+section#legacy-downloads .product-updates-content .windows-updates-container .windows-update-box-wrapper .windows-update-box .windows-download-btn {
+  padding: 20px;
+}
+section#legacy-downloads .product-updates-content .windows-updates-container .windows-update-box-wrapper .windows-update-box .windows-download-btn span {
+  background: #00a8ee;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+}
+section#legacy-downloads .product-features-hr {
+  width: 80%;
+  margin: 0 auto;
+}
+section#legacy-downloads .documents-contents-wrapper {
+  height: 50vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+section#legacy-downloads .documents-contents-wrapper .documents-contents-header {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 1%;
+}
+section#legacy-downloads .documents-contents-wrapper .documents-contents-header h2 {
+  text-transform: uppercase;
+  font-family: "NexaLight", sans-serif;
+}
+section#legacy-downloads .documents-contents-content {
+  background: #fff;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 2% 0;
+  text-align: center;
+  /* documents-header */
+  /* product-documents-wrapper */
+}
+section#legacy-downloads .documents-contents-content .documents-header h4,
+section#legacy-downloads .documents-contents-content .images-header h4 {
+  font-family: "NexaLight", sans-serif;
+}
+section#legacy-downloads .documents-contents-content .documents-divider-line {
+  border-right: 1px solid #e9ebed;
+}
+section#legacy-downloads .documents-contents-content .product-documents-wrapper,
+section#legacy-downloads .documents-contents-content .product-images-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  /* ul */
+}
+section#legacy-downloads .documents-contents-content .product-documents-wrapper ul,
+section#legacy-downloads .documents-contents-content .product-images-wrapper ul {
+  list-style: none;
+  margin: 0;
+  /* li */
+}
+section#legacy-downloads .documents-contents-content .product-documents-wrapper ul li,
+section#legacy-downloads .documents-contents-content .product-images-wrapper ul li {
+  height: 5vh;
+  width: 100%;
+  display: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  background: #e9ebed;
+  margin-bottom: 3px;
+  padding-right: 20px;
+}
+section#legacy-downloads .documents-contents-content .product-documents-wrapper ul li span,
+section#legacy-downloads .documents-contents-content .product-images-wrapper ul li span {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 1.3em;
+  font-family: "NexaLight", sans-serif;
+  color: black;
+  padding-left: 30px;
+}
+section#legacy-downloads .documents-contents-content .product-documents-wrapper ul li a,
+section#legacy-downloads .documents-contents-content .product-images-wrapper ul li a {
+  font-size: 1.2em;
+  padding: 5px 10px;
+  font-family: "NexaLight", sans-serif;
+}
+
+/* section#product-DOWNLOADS */
+/****************************************
+    PRODUCT ACCESSORIES    PRODUCT ACCESSORIES
+*****************************************/
+section#legacy-accessories {
+  overflow: hidden;
+  background: #e9ebed;
+  margin-bottom: 3px;
+  padding: 2% 0 6% 0;
+  /* product-accessories-header */
+  /* product-accessory-container */
+}
+section#legacy-accessories .columns {
+  padding: 0;
+}
+section#legacy-accessories .accessories-row {
+  max-width: 80%;
+  width: 80%;
+  margin: 0 auto;
+}
+section#legacy-accessories ul li {
+  text-align: center;
+}
+section#legacy-accessories .product-accessories-header {
+  text-align: center;
+  padding: 1%;
+}
+section#legacy-accessories .product-accessories-header h2 {
+  margin: 0;
+  padding-bottom: 1%;
+  font-family: "NexaLight", sans-serif;
+  text-transform: uppercase;
+}
+section#legacy-accessories .product-accessory-container {
+  background: #fff;
+  text-align: center;
+  width: 100%;
+  padding: 2%;
+  margin: 0 auto;
+  /* product-accessory-img-div */
+  /* product-accessory-learn-more-div */
+}
+section#legacy-accessories .product-accessory-container h4 {
+  font-family: "NexaLight", sans-serif;
+}
+section#legacy-accessories .product-accessory-container .product-accessory-learn-more-div a {
+  color: #00aeef;
+}
+
+/* section#product-accessories */
 
 /*# sourceMappingURL=main.css.map */

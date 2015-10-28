@@ -1,0 +1,135 @@
+/****************************************
+    PRODUCT SPECS    PRODUCT SPECS
+*****************************************/
+
+  section#legacy-features {
+    // height: 80vh;
+    overflow: hidden;
+    background: $light-gray;
+    margin-bottom: 3px;
+    padding: 2% 0;
+    // border: 5px solid red;
+
+    .columns {
+      padding: 0;
+    }
+
+    .legacy-features-wrapper {
+      // height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding-bottom: 5%;
+      // border: 5px solid red;
+
+      .legacy-features-header {
+        text-align: left;
+        width: 90%;
+        padding: 20px 0;
+
+        h2 {
+          // font-size: 2vw;
+          padding-left: 20px;
+          text-transform: uppercase;
+          font-family: $nexa-light;
+        }
+      }
+    } /* legacy-features-wrapper */
+
+    .legacy-features-content {
+      // background: #fff;
+      width: 90%;
+      // margin: 0 auto;
+      // padding: 2% 0;
+      // border: 2px solid red;
+
+      ul {
+        list-style: none;
+
+        li {
+          font-size: 1.2em;
+          // line-height: 1.95;
+          font-family: $nexa-light;
+          padding: 15px 0;
+          border-bottom: 1px solid rgba(200, 208, 222, 1);
+        }
+      } /* ul */
+    } /* legacy-features-content */
+
+    .legacy-features-hr {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    /*====================
+      PACKAGING CONTENTS
+    =====================*/
+
+    .legacy-packaging-contents-wrapper {
+      // height: 50vh;
+      display: flex;
+      align-items: center;
+      // justify-content: center;
+      flex-direction: column;
+      padding-bottom: 5%;
+      // border: 5px solid red;
+
+      .legacy-packaging-contents-header {
+        text-align: left;
+        width: 90%;
+        padding: 20px 0;
+
+        h2 {
+          // font-size: 2vw;
+          text-transform: uppercase;
+          font-family: $nexa-light;
+          // background: pink;
+
+        }
+      }
+    } /* legacy-packaging-contents-wrapper */
+
+    .legacy-packaging-contents-content {
+      // background: #fff;
+      width: 90%;
+      // margin: 0 auto;
+      // padding: 2%;
+      // border: 2px solid blue;
+      // text-align: center;
+
+      ul {
+        list-style: none;
+        margin: 0;
+
+        li {
+          font-size: 1.2em;
+          // line-height: 1.95;
+          padding: 15px 0;
+          font-family: $nexa-light;
+          border-bottom: 1px solid rgba(200, 208, 222, 1);
+        }
+      } /* ul */
+    } /* legacy-packaging-contents-content */
+
+  } /* section#product-features */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

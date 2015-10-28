@@ -2291,6 +2291,9 @@ section#product-accessories .accessories-row {
   width: 80%;
   margin: 0 auto;
 }
+section#product-accessories ul li {
+  text-align: center;
+}
 section#product-accessories .product-accessories-header {
   text-align: center;
   padding: 1%;
@@ -2303,9 +2306,9 @@ section#product-accessories .product-accessories-header h2 {
 section#product-accessories .product-accessory-container {
   background: #fff;
   text-align: center;
-  width: 90%;
+  width: 100%;
   padding: 2%;
-  margin: 5%;
+  margin: 0 auto;
   /* product-accessory-img-div */
   /* product-accessory-learn-more-div */
 }
@@ -2361,4 +2364,5 @@ section#product-accessories .product-accessory-container .product-accessory-lear
   /* section#product-overview */
 }
 /* END OF MEDIA QUERY */
+
 /*# sourceMappingURL=main.css.map */

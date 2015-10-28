@@ -1544,7 +1544,7 @@ section#footer .footer-gutter {
 *****************************************/
 section#product-hero {
   overflow: hidden;
-  height: 70vh;
+  height: 60vh;
   padding-top: 100px;
   background: #f2f3f7 !important;
   /* product-hero-container */
@@ -1571,7 +1571,7 @@ section#product-hero .product-hero-container .product-hero-sub-header h4 {
   PRODUCT QUOTE STRIP   PRODUCT QUOTE STRIP
 *****************************************/
 section#product-quote-strip {
-  height: 30vh;
+  height: 38vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1593,6 +1593,30 @@ section#product-quote-strip {
   background: #fff;
   /* product-quote-strip-header */
 }
+section#product-quote-strip .product-quote-strip-header .quote-strip-hr {
+  border: 1px solid black;
+  width: 65%;
+  margin: 0 auto;
+}
+section#product-quote-strip .product-quote-strip-header h1 {
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 0;
+  font-size: 2.5em;
+  padding-top: 20px;
+  font-family: "NexaLight", sans-serif !important;
+}
+section#product-quote-strip .product-quote-strip-header h5 {
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+  letter-spacing: 5px;
+  margin: 0;
+  padding-bottom: 30px;
+  font-family: "NexaLight", sans-serif !important;
+}
 section#product-quote-strip .product-quote-strip-header h4 {
   text-align: center;
   color: black;
@@ -1603,15 +1627,17 @@ section#product-quote-strip .product-quote-strip-header h4 {
 section#product-quote-strip .product-quote-strip-text {
   width: 60%;
   margin: 0 auto;
+  padding-top: 20px;
 }
 section#product-quote-strip .product-quote-strip-text p {
   text-align: center;
   color: black;
   font-size: 1.2em;
+  padding-bottom: 20px;
   font-family: "NexaLight", sans-serif !important;
 }
 section#product-quote-strip .product-strip-down-arrow img {
-  width: 60%;
+  width: 3%;
 }
 
 /* section#product-quote-strip */

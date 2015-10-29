@@ -293,6 +293,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/Slug_Crimson_Mesh_Kit_template.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.73129e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/Slug_Crimson_Mesh_Kit_template.png",
+		"outputAbbreviatedPath": "\/assets\/img\/Slug_Crimson_Mesh_Kit_template.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/Slug_SamplePad_4.png": {
 		"fileType": 32768,
 		"ignore": 0,

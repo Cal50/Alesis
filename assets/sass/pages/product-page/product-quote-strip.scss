@@ -3,8 +3,8 @@
 *****************************************/
 
   section#product-quote-strip {
-    // height: 38vh;
-    // padding: 2% 0;
+    height: 30vh;
+    padding: 1% 0 2% 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,7 +61,7 @@
         text-align: center;
         color: black;
         font-size: 1.2em;
-        padding-bottom: 20px;
+        // padding-bottom: 20px;
         font-family: $nexa-light !important;
       }
     }

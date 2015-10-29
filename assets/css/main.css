@@ -1572,9 +1572,9 @@ section#footer .footer-gutter {
 *****************************************/
 section#product-hero {
   overflow: hidden;
-  height: 60vh;
+  height: 70vh;
   padding-top: 80px;
-  background: url("../img/Slug_SamplePad_4.png");
+  background: url("../img/Slug_Crimson_Mesh_Kit.png");
   background-repeat: no-repeat;
   background-size: cover;
   /* product-hero-container */
@@ -1601,6 +1601,8 @@ section#product-hero .product-hero-container .product-hero-sub-header h4 {
   PRODUCT QUOTE STRIP   PRODUCT QUOTE STRIP
 *****************************************/
 section#product-quote-strip {
+  height: 30vh;
+  padding: 1% 0 2% 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1662,7 +1664,6 @@ section#product-quote-strip .product-quote-strip-text p {
   text-align: center;
   color: black;
   font-size: 1.2em;
-  padding-bottom: 20px;
   font-family: "NexaLight", sans-serif !important;
 }
 section#product-quote-strip .product-strip-down-arrow img {

@@ -1575,6 +1575,9 @@ section#product-hero {
   height: 60vh;
   padding-top: 80px;
   background: #f2f3f7 !important;
+  background: url("../img/Slug_SamplePad_4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   /* product-hero-container */
 }
 section#product-hero .product-hero-container {

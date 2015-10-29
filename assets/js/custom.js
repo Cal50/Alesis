@@ -261,29 +261,56 @@ $('.slick-carousel').slick({
   });
 
 // STICKY NAV LINKS SCRIPTS
-  $('#legacy-features').hide();
-  $('#legacy-accessories').hide();
-  $('#legacy-downloads').hide();
+  $('#product-features').hide();
+  $('#product-accessories').hide();
+  $('#product-downloads').hide();
 
   $('#overview').on('click', function(){
     $('.product-content-jquery').stop().fadeTo('slow',0).hide();
-    $('#legacy-overview').delay(300).stop().fadeTo('slow',1);
+    $('#product-overview').delay(300).stop().fadeTo('slow',1);
   });
 
   $('#specs').on('click', function(){
     $('.product-content-jquery').stop().fadeTo('slow',0).hide();
-    $('#legacy-features').stop().delay(300).fadeTo('slow',1);
+    $('#product-features').stop().delay(300).fadeTo('slow',1);
   });
 
   $('#accessories').on('click', function(){
     $('.product-content-jquery').stop().fadeTo('slow',0).hide();
-    $('#legacy-accessories').delay(300).stop().fadeTo('slow',1);
+    $('#product-accessories').delay(300).stop().fadeTo('slow',1);
   });
 
   $('#downloads').on('click', function(){
     $('.product-content-jquery').stop().fadeTo('slow',0).hide();
-    $('#legacy-downloads').delay(300).stop().fadeTo('slow',1);
+    $('#product-downloads').delay(300).stop().fadeTo('slow',1);
   });
+
+
+
+// STICKY NAV LINKS SCRIPTS
+  // $('#legacy-features').hide();
+  // $('#legacy-accessories').hide();
+  // $('#legacy-downloads').hide();
+
+  // $('#overview').on('click', function(){
+  //   $('.product-content-jquery').stop().fadeTo('slow',0).hide();
+  //   $('#legacy-overview').delay(300).stop().fadeTo('slow',1);
+  // });
+
+  // $('#specs').on('click', function(){
+  //   $('.product-content-jquery').stop().fadeTo('slow',0).hide();
+  //   $('#legacy-features').stop().delay(300).fadeTo('slow',1);
+  // });
+
+  // $('#accessories').on('click', function(){
+  //   $('.product-content-jquery').stop().fadeTo('slow',0).hide();
+  //   $('#legacy-accessories').delay(300).stop().fadeTo('slow',1);
+  // });
+
+  // $('#downloads').on('click', function(){
+  //   $('.product-content-jquery').stop().fadeTo('slow',0).hide();
+  //   $('#legacy-downloads').delay(300).stop().fadeTo('slow',1);
+  // });
 
 
 }); // ENDING OF OPENING $(function)

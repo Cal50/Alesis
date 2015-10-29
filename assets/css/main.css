@@ -1573,7 +1573,7 @@ section#footer .footer-gutter {
 section#product-hero {
   overflow: hidden;
   height: 60vh;
-  padding-top: 100px;
+  padding-top: 80px;
   background: #f2f3f7 !important;
   /* product-hero-container */
 }
@@ -1599,7 +1599,6 @@ section#product-hero .product-hero-container .product-hero-sub-header h4 {
   PRODUCT QUOTE STRIP   PRODUCT QUOTE STRIP
 *****************************************/
 section#product-quote-strip {
-  padding: 2% 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;

@@ -73,6 +73,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/Hero_SamplePad_4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.0823e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/Hero_SamplePad_4.png",
+		"outputAbbreviatedPath": "\/assets\/img\/Hero_SamplePad_4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/left-arrow.png": {
 		"fileType": 32768,
 		"ignore": 0,

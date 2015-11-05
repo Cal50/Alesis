@@ -1,0 +1,74 @@
+/****************************************
+    PRODUCT MEDIA    PRODUCT MEDIA
+*****************************************/
+
+.clearing-blackout {
+  // top: 60px;
+  z-index: 999999;
+}
+
+  section#product-media {
+    background: rgba(234, 236, 240, 1);
+    padding: 2% 0 5% 0;
+    margin-bottom: 3px;
+
+    .product-media-ul {
+      width: auto !important;
+    }
+
+    .product-media-images-header {
+      text-align: center;
+      padding: 5% 0;
+
+      h2 {
+        text-transform: uppercase;
+        font-family: $nexa-light;
+      }
+    }
+
+    .product-media-videos-header {
+      text-align: center;
+      padding: 10% 0 5% 0;
+
+      h2 {
+        text-transform: uppercase;
+        font-family: $nexa-light;
+      }
+    }
+
+    .product-media-videos-wrapper {
+      text-align: center;
+      // border: 5px solid blue;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .product-media-videos-container,
+    .product-media-images-container {
+      text-align: center;
+      padding: 0 10%;
+      // border: 5px solid blue;
+    }
+
+  } /* product-media */
+
+
+
+/****************************************
+    PRODUCT MEDIA    PRODUCT MEDIA
+*****************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+

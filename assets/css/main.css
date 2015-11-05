@@ -2275,6 +2275,53 @@ section#product-downloads .documents-contents-content .product-images-wrapper ul
 
 /* section#product-DOWNLOADS */
 /****************************************
+    PRODUCT MEDIA    PRODUCT MEDIA
+*****************************************/
+.clearing-blackout {
+  z-index: 999999;
+}
+
+section#product-media {
+  background: #eaecf0;
+  padding: 2% 0 5% 0;
+  margin-bottom: 3px;
+}
+section#product-media .product-media-ul {
+  width: auto !important;
+}
+section#product-media .product-media-images-header {
+  text-align: center;
+  padding: 5% 0;
+}
+section#product-media .product-media-images-header h2 {
+  text-transform: uppercase;
+  font-family: "NexaLight", sans-serif;
+}
+section#product-media .product-media-videos-header {
+  text-align: center;
+  padding: 10% 0 5% 0;
+}
+section#product-media .product-media-videos-header h2 {
+  text-transform: uppercase;
+  font-family: "NexaLight", sans-serif;
+}
+section#product-media .product-media-videos-wrapper {
+  text-align: center;
+}
+section#product-media .product-media-videos-wrapper img {
+  width: 100%;
+}
+section#product-media .product-media-videos-container,
+section#product-media .product-media-images-container {
+  text-align: center;
+  padding: 0 10%;
+}
+
+/* product-media */
+/****************************************
+    PRODUCT MEDIA    PRODUCT MEDIA
+*****************************************/
+/****************************************
     PRODUCT ACCESSORIES    PRODUCT ACCESSORIES
 *****************************************/
 section#product-accessories {

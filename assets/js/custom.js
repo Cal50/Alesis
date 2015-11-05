@@ -264,6 +264,7 @@ $('.slick-carousel').slick({
   $('#product-features').hide();
   $('#product-accessories').hide();
   $('#product-downloads').hide();
+  $('#product-media').hide();
 
   $('#overview').on('click', function(){
     $('.product-content-jquery').stop().fadeTo('slow',0).hide();
@@ -283,6 +284,11 @@ $('.slick-carousel').slick({
   $('#downloads').on('click', function(){
     $('.product-content-jquery').stop().fadeTo('slow',0).hide();
     $('#product-downloads').delay(300).stop().fadeTo('slow',1);
+  });
+
+  $('#media').on('click', function(){
+    $('.product-content-jquery').stop().fadeTo('slow',0).hide();
+    $('#product-media').delay(300).stop().fadeTo('slow',1);
   });
 
 
